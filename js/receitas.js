@@ -1,6 +1,8 @@
 /* Receitas extraídas de "Receitas favoritas.docx" e
    "Receitas favoritas — complementos (emagrecimento).docx".
-   Receitas muito parecidas foram mescladas e aparecem como variações. */
+   Receitas muito parecidas foram mescladas e aparecem como variações.
+   Vídeos do playlist do YouTube entram como receita nova ou como variação
+   quando parecida_com aponta para um id já existente. */
 
 const CATEGORIAS = [
   "Pratos principais",
@@ -336,6 +338,65 @@ const RECEITAS = [
       "Adicione o molho, o queijo e o recheio desejado.",
       "Derreta o queijo no fogo ou no forno e sirva a seguir.",
     ],
+    variacoes: [
+      {
+        id: "pao-frigideira-ovo-abobrinha-aveia",
+        titulo: "Pão de frigideira de ovo, abobrinha e aveia",
+        categoria: "Pães e tortas",
+        ingredientes: [
+          {
+            itens: [
+              "2 ovos",
+              "2 colheres (sopa) de cenoura ralada",
+              "2 colheres (sopa) de batatinha ralada",
+              "2 colheres (sopa) de abobrinha ralada",
+              "3 colheres de sopa de aveia",
+              "1 colher de sopa de queijo parmesão",
+              "Pimenta-do-reino a gosto",
+              "Sal a gosto",
+              "1 colher (chá) de fermento em pó",
+            ],
+          },
+        ],
+        preparo: [
+          "Misture todos os ingredientes em uma tigela até obter uma massa homogênea.",
+          "Despeje na frigideira antiaderente (untuada se necessário) e doure dos dois lados até cozinhar por completo.",
+        ],
+        fonte: { texto: "YouTube — PARE DE Comer OVO FRITO!Misture 2 OVOS e ABOBRINHA e Você vai Viciar nessa Delícia PÃO de FRIGIDEIRA", url: "https://www.youtube.com/watch?v=cIJioO7oDLg" },
+        destaque: "Pão de frigideira leve com ovos, abobrinha, cenoura e aveia — pronto em minutos.",
+        dicas: [
+          "Serve bem no café da manhã ou como lanche rápido.",
+        ],
+      },
+      {
+        id: "pao-achatado-cottage-aveia",
+        titulo: "Pão achatado de cottage com farinha de aveia",
+        categoria: "Pães e tortas",
+        ingredientes: [
+          {
+            itens: [
+              "1 xícara de queijo cottage",
+              "1/2 xícara de farinha de aveia (ou farinha de preferência)",
+              "1 ovo",
+              "1/4 xícara de parmesão (Parmigiano Reggiano) — opcional/extra",
+              "Sal a gosto",
+              "Azeite para untar",
+            ],
+          },
+        ],
+        preparo: [
+          "Misture cottage, farinha de aveia, ovo, parmesão (se usar) e sal até formar uma massa.",
+          "Forre uma assadeira com papel manteiga, unte com azeite e espalhe a massa com cerca de 0,5–1 cm de espessura.",
+          "Asse até dourar e ficar crocante (conforme o vídeo, em poucos minutos em forno quente).",
+          "Use para sanduíches, tacos, dips ou lanchar puro.",
+        ],
+        fonte: { texto: "YouTube — How To Make Cottage Cheese Flatbread", url: "https://www.youtube.com/watch?v=Yyzdcpqct50" },
+        destaque: "Flatbread proteico com cottage, ovo e farinha de aveia — pronto em cerca de 10 minutos.",
+        dicas: [
+          "Sem fermento e sem espera de crescimento.",
+        ],
+      },
+    ],
     dicas: [
       "Para uma massa mais crocante, deixe assar por 5 minutos de cada lado na frigideira antes de colocar o recheio.",
     ],
@@ -404,6 +465,43 @@ const RECEITAS = [
         itens: ["+ 40 g de gotas de chocolate (preferencialmente amargo)", "Canela e sal são opcionais aqui"],
         passos: ["Asse na airfryer pré-aquecida a 180 °C por cerca de 10 a 12 minutos."],
         nutricao: { kcal: 160, prot: 4, carb: 26, gord: 5 },
+      },
+      {
+        id: "cookies-aveia-nuts-sem-acucar",
+        titulo: "Cookies de aveia e mix de nuts sem farinha nem açúcar",
+        categoria: "Doces e lanches",
+        ingredientes: [
+          {
+            itens: [
+              "200 g de amendoim",
+              "60 g de avelãs (torrar e descascar)",
+              "30 g de sementes de abóbora",
+              "1 colher de sopa de sementes de girassol",
+              "1 colher de sopa de gergelim",
+              "30 g de cranberries secas (preiselbeeren)",
+              "20 g de passas",
+              "20 g de castanha de caju",
+              "50 g de nozes",
+              "120 g de aveia em flocos",
+              "1 ovo (ou 1 ovo de linhaça, versão vegana)",
+              "30 ml de xarope de bordo",
+              "Para variação de docinhos: 80 g de chocolate amargo sem açúcar (e parte das nuts reservadas para pasta)",
+            ],
+          },
+        ],
+        preparo: [
+          "Torre e prepare as nuts conforme o vídeo; reserve uma parte das nozes para pasta/cobertura.",
+          "Misture amendoim, avelãs, sementes, frutas secas, caju, nozes, aveia, ovo (ou ovo de linhaça) e xarope de bordo.",
+          "Unte moldes ou forme cookies (~8 cm); asse a 180 °C por cerca de 20 minutos.",
+          "Variação docinhos: triture parte das nuts reservadas até virar pasta, misture com chocolate amargo derretido, acomode em forma de silicone e decore; leve a esfriar/geladeira.",
+          "Deixe os cookies esfriarem completamente antes de guardar.",
+        ],
+        fonte: { texto: "YouTube — Kein Zucker! Gesunde Kekse ohne Mehl, Zucker und Gluten! Energiedessert für jeden Tag!", url: "https://www.youtube.com/watch?v=mdPveC7HlFM" },
+        destaque: "Cookies energéticos de aveia e oleaginosas, adoçados com xarope de bordo — sem farinha nem açúcar refinado.",
+        dicas: [
+          "O vídeo mostra cookies e também docinhos de pasta de nuts com chocolate a partir dos mesmos ingredientes.",
+          "Versão vegana: troque o ovo por ovo de linhaça.",
+        ],
       },
     ],
     dicas: [
@@ -722,6 +820,31 @@ const RECEITAS = [
       "Asse em forno pré-aquecido a 180 °C por cerca de 20 minutos.",
       "Retire do forno, polvilhe açúcar de confeiteiro e sirva.",
     ],
+    variacoes: [
+      {
+        id: "cookies-aveia-iogurte-dinamarqueses",
+        titulo: "Cookies dinamarqueses de aveia e iogurte",
+        categoria: "Doces e lanches",
+        ingredientes: [
+          {
+            itens: [
+              "250 g de aveia",
+              "1 xícara de iogurte",
+              "1/2 colher de chá de bicarbonato de sódio",
+              "Raspas de 1 limão",
+              "40 g de manteiga",
+              "2 colheres de sopa de xarope de bordo (maple syrup)",
+            ],
+          },
+        ],
+        preparo: [
+          "Misture a aveia, o iogurte, o bicarbonato, as raspas de limão, a manteiga e o xarope de bordo até formar a massa.",
+          "Modele os cookies e asse por 20 minutos a 180 °C.",
+        ],
+        fonte: { texto: "YouTube — Just oatmeal and yogurt! This Danish oatmeal cookie recipe is delicious", url: "https://www.youtube.com/watch?v=8y3AEMvtq68" },
+        destaque: "Cookies de aveia com iogurte, raspas de limão e xarope de bordo — simples e aromáticos.",
+      },
+    ],
     dicas: ["A receita é inspirada nos biscotti italianos de iogurte."],
     fonte: { texto: "Vídeo original no YouTube", url: "https://www.youtube.com/watch?v=jBdSeMzHmAo" },
     nutricao: { kcal: 190, prot: 3, carb: 25, gord: 9 },
@@ -774,6 +897,97 @@ const RECEITAS = [
       "Cozinhe os legumes no vapor por 6 a 8 minutos, para ficarem crocantes.",
       "Finalize com ervas e sirva.",
     ],
+    variacoes: [
+      {
+        id: "frango-gengibre-alho",
+        titulo: "Frango com gengibre e alho na frigideira",
+        categoria: "Pratos principais",
+        ingredientes: [
+          {
+            titulo: "Marinada do frango",
+            itens: [
+              "2 peitos de frango grandes (600 g)",
+              "1 colher de chá de gengibre fresco ralado",
+              "1 colher de chá de alho ralado ou picado",
+              "1 colher de sopa de molho de soja (shoyu)",
+              "1 colher de sopa de azeite",
+              "1 colher de sopa de mel",
+              "1 colher de sopa de amido de milho",
+              "1/2 colher de chá de sal",
+              "1/3 colher de chá de flocos de pimenta (chili)",
+              "Pimenta-do-reino a gosto",
+            ],
+          },
+          {
+            titulo: "Refogado",
+            itens: [
+              "4 colheres de sopa de azeite",
+              "2 cebolas médias (300 g)",
+              "3 pimentões (de preferência cores diferentes)",
+              "1 colher de chá de gengibre ralado",
+              "1 colher de chá de alho ralado",
+              "1 cubo de caldo de frango",
+              "100 ml de água quente (~1/3 xícara)",
+              "1 colher de sopa de molho de soja",
+              "1 colher de sopa de amido de milho",
+              "Salsinha fresca picada para finalizar",
+            ],
+          },
+          {
+            titulo: "Arroz basmati (acompanhamento)",
+            itens: [
+              "300 g de arroz basmati",
+              "1/2 colher de chá de sal",
+              "1 colher de sopa de azeite ou manteiga",
+              "450 ml de água fria (~2 xícaras)",
+            ],
+          },
+        ],
+        preparo: [
+          "Corte o frango em pedaços, misture com os ingredientes da marinada, cubra e leve à geladeira por pelo menos 30 minutos (ou de um dia para o outro).",
+          "Aqueça 4 colheres de sopa de azeite na frigideira e doure o frango em fogo alto por 4–5 minutos, virando; reserve.",
+          "Na mesma panela, refogue as cebolas por 2 minutos; acrescente gengibre e alho por 1 minuto e depois os pimentões.",
+          "Dissolva o cubo de caldo na água quente; misture shoyu e amido; despeje na panela e cozinhe até engrossar levemente.",
+          "Volte o frango à panela, finalize com salsinha e sirva (com arroz basmati, se desejar).",
+        ],
+        fonte: { texto: "YouTube — The Ginger Garlic Chicken I Make on My Busiest Days! One Pan, Big Flavor", url: "https://www.youtube.com/watch?v=j1EUg_IfTh8" },
+        destaque: "Frango marinado em gengibre, alho, shoyu e mel, refogado com pimentões — pronto em cerca de 20 minutos.",
+        dicas: [
+          "Coxas de frango também funcionam e ficam mais suculentas.",
+          "Sirva com arroz, noodles, quinoa ou wrap.",
+        ],
+      },
+      {
+        id: "frango-mel-alho",
+        titulo: "Frango ao mel e alho",
+        categoria: "Pratos principais",
+        ingredientes: [
+          {
+            itens: [
+              "2 peitos de frango",
+              "Sal a gosto",
+              "Pimenta-do-reino a gosto",
+              "Farinha de trigo (para empanar levemente)",
+              "40 g de manteiga (para fritar o frango)",
+              "3 dentes de alho",
+              "Cebolinha",
+              "20 g de manteiga (para o molho)",
+              "1 colher de sopa de molho de soja light",
+              "1 colher de sopa de vinagre",
+              "5 colheres de sopa de mel",
+            ],
+          },
+        ],
+        preparo: [
+          "Tempere os peitos com sal e pimenta; passe na farinha.",
+          "Frite em ~40 g de manteiga em fogo médio por 4–5 minutos de cada lado; acrescente alho picado e cebolinha, virando conforme necessário.",
+          "Adicione mais ~20 g de manteiga, o alho picado, 1 colher de shoyu light, 1 colher de vinagre e 5 colheres de mel; envolva o frango no molho.",
+          "Finalize com cebolinha e sirva.",
+        ],
+        fonte: { texto: "YouTube — Honey garlic chicken ! Dinner ready in 15 minutes", url: "https://www.youtube.com/watch?v=dRW3VMfNlaY" },
+        destaque: "Peito de frango dourado no molho de mel, alho, shoyu e vinagre — jantar em cerca de 15 minutos.",
+      },
+    ],
     dicas: [
       "Peito de frango sem pele já é magro; evite empanar.",
       "Temperos ácidos (limão, vinagre) aumentam o sabor sem calorias.",
@@ -821,6 +1035,40 @@ const RECEITAS = [
       "Forre a assadeira e acomode o salmão e os aspargos.",
       "Regue com azeite, limão e temperos.",
       "Asse a 200 °C por 12 a 15 minutos.",
+    ],
+    variacoes: [
+      {
+        id: "salmao-creme-espinafre-tomate",
+        titulo: "Salmão ao creme com espinafre e tomate",
+        categoria: "Pratos principais",
+        ingredientes: [
+          {
+            itens: [
+              "Salmão (cortado em pedaços, sem pele)",
+              "Sal e pimenta a gosto",
+              "1 cebola",
+              "2 dentes de alho (mais 2 dentes no molho)",
+              "Azeite",
+              "12 tomates pequenos (cortados ao meio)",
+              "Vinho branco seco",
+              "200 g de espinafre",
+              "300 ml de creme de leite (Sahne)",
+              "2 colheres de sopa de parmesão",
+              "Massa (macarrão) para acompanhar",
+            ],
+          },
+        ],
+        preparo: [
+          "Corte o salmão em pedaços, retire a pele e tempere com sal e pimenta dos dois lados.",
+          "Aqueça azeite na frigideira e sele o peixe 2 minutos de cada lado em fogo alto; reserve.",
+          "Refogue a cebola; adicione vinho branco seco e deixe evaporar; acrescente alho.",
+          "Refogue o espinafre por ~3 minutos; junte os tomates e cozinhe mais ~2 minutos.",
+          "Adicione 300 ml de creme e 2 colheres de sopa de parmesão; volte o peixe à panela e cozinhe ~10 minutos em fogo baixo.",
+          "Sirva com macarrão.",
+        ],
+        fonte: { texto: "YouTube — Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!", url: "https://www.youtube.com/watch?v=eCazTN5-Rsc" },
+        destaque: "Salmão selado em molho cremoso de espinafre, tomate, vinho branco e parmesão.",
+      },
     ],
     dicas: [
       "150 g de salmão por pessoa já basta: peixe gorduroso é calórico.",
@@ -905,6 +1153,44 @@ const RECEITAS = [
       "Escorra bem o atum e o grão-de-bico.",
       "Misture tudo com o limão, o azeite e a mostarda.",
       "Ajuste o sal e sirva gelado.",
+    ],
+    variacoes: [
+      {
+        id: "pasta-atum-abacate",
+        titulo: "Pasta de atum e abacate proteica",
+        categoria: "Pratos principais",
+        ingredientes: [
+          {
+            titulo: "Creme de abacate",
+            itens: [
+              "2 abacates",
+              "1 cebola roxa",
+              "180 g de atum em água (suco próprio)",
+              "2 ovos cozidos",
+              "2 colheres de sopa de suco de limão",
+            ],
+          },
+          {
+            titulo: "Molho",
+            itens: [
+              "1 colher de sopa de iogurte grego",
+              "0,3 colher de chá de pimenta-do-reino moída",
+              "Sal a gosto",
+              "1 colher de chá de suco de limão",
+            ],
+          },
+        ],
+        preparo: [
+          "Prepare o creme misturando abacate, cebola roxa, atum, ovos cozidos e suco de limão.",
+          "Tempere com o molho de iogurte grego, pimenta, sal e mais um pouco de limão.",
+          "Sirva sobre pão tostado (conforme o vídeo).",
+        ],
+        fonte: { texto: "YouTube — High Protein Tuna Avocado Spread for Breakfast | Quick & Easy Breakfast for Work", url: "https://www.youtube.com/watch?v=WAwcloRLMY0" },
+        destaque: "Pasta cremosa de abacate com atum e ovo — alta em proteína, ótima no pão.",
+        dicas: [
+          "Ideal para café da manhã ou lanche para o trabalho.",
+        ],
+      },
     ],
     dicas: [
       "Prefira atum em água, nunca em óleo.",
@@ -1228,6 +1514,39 @@ const RECEITAS = [
         ],
         nutricao: { kcal: 150, prot: 11, carb: 2, gord: 11, fibras: 0 },
       },
+      {
+        id: "salgadinho-batata-doce-parmesao",
+        titulo: "Salgadinho de batata-doce com parmesão e gergelim",
+        categoria: "Biscoitos e crackers",
+        ingredientes: [
+          {
+            itens: [
+              "1 xícara (250 g) de batata-doce cozida e amassada",
+              "1 colher de sopa (13 ml) de azeite de oliva",
+              "1/2 colher de chá (2 g) de sal",
+              "1/4 de xícara (30 g) de mix de farinha sem glúten (ou amido de milho / polvilho doce / farinha de trigo)",
+              "60 g de queijo parmesão ralado",
+              "3 colheres de sopa (24 g) de gergelim",
+            ],
+          },
+        ],
+        preparo: [
+          "Cozinhe a batata-doce até ficar macia, escorra e amasse (ou processe) até virar purê — use 1 xícara / 250 g.",
+          "Em uma tigela, misture a batata-doce, o azeite, o sal e o mix de farinha sem glúten até formar massa que não grude nas mãos.",
+          "Incorpore o parmesão ralado e o gergelim.",
+          "Faça bolinhas de cerca de 14 g, distribua em assadeira forrada com papel manteiga (espaço de ~4 cm) e achate com a base de um copo e um pedaço de papel manteiga (quanto mais fino, mais crocante).",
+          "Asse em forno pré-aquecido a 180 °C por cerca de 30 minutos, até secar e dourar levemente nas bordas.",
+          "Deixe esfriar completamente e guarde em pote hermético.",
+        ],
+        fonte: { texto: "YouTube — SALGADINHO SAUDÁVEL DE BATATA DOCE COM PARMESÃO SEM GLÚTEN | Cook'n Enjoy 1857", url: "https://www.youtube.com/watch?v=FbzjVvVyCEM" },
+        destaque: "Snack crocante de batata-doce, parmesão e gergelim — sem glúten e assado.",
+        dicas: [
+          "Substituições sugeridas no vídeo: só amido de milho, polvilho doce ou farinha de trigo (1/4 xícara).",
+          "Validade: cerca de 7 dias em pote fechado em local seco.",
+        ],
+        nutricao: "~32 kcal por unidade (segundo o site da receita)",
+        rendimento: "cerca de 25 unidades",
+      },
     ],
     dicas: [
       "Quase sem carboidrato; a limitação é a gordura do queijo, então meça cerca de 40 g por lanche.",
@@ -1358,6 +1677,42 @@ const RECEITAS = [
       "Espalhe bem fino em assadeira com papel-manteiga (use outra folha por cima para alisar).",
       "Asse a 160 °C por 35 a 45 minutos; na metade do tempo, corte em quadrados e vire, se puder.",
       "Asse até estar seco e crocante. Esfrie completamente.",
+    ],
+    variacoes: [
+      {
+        id: "crackers-aveia-chia",
+        titulo: "Crackers de aveia e chia",
+        categoria: "Biscoitos e crackers",
+        ingredientes: [
+          {
+            itens: [
+              "1 xícara (90 g) de aveia em flocos triturada em farinha (ou 90 g de farinha de aveia)",
+              "4 colheres de sopa (40 g) de sementes de chia",
+              "3/4 xícara (~180 ml) de água",
+              "1/4 colher de chá de sal",
+              "1/2 colher de chá de fermento em pó (baking powder)",
+              "1 colher de chá de orégano seco (ou outra erva/especiaria)",
+              "Azeite nas mãos para modelar (se a massa grudar)",
+            ],
+          },
+        ],
+        preparo: [
+          "Triture a aveia até virar farinha fina (ou use farinha de aveia pronta).",
+          "Misture a chia com a água, cubra e deixe hidratar por 15–30 minutos.",
+          "Adicione a farinha de aveia, o sal, o fermento e o orégano; misture até formar massa macia e levemente pegajosa (acrescente um pouco mais de farinha se precisar).",
+          "Deixe a massa descansar 10–15 minutos; pré-aqueça o forno a 175 °C (340 °F).",
+          "Divida em ~30 porções (~1/2 colher de sopa cada), forme bolinhas e coloque em assadeira forrada; achate com um copo e pedaço de papel até ~5 mm.",
+          "Asse 15 minutos, vire cada cracker e asse mais 15 minutos até crocantes. Evite assar demais — endurecem ao esfriar. Esfrie completamente.",
+        ],
+        fonte: { texto: "YouTube — Just Oats & Chia Seeds! The Healthiest Snack You’ll Make This Week❗️", url: "https://www.youtube.com/watch?v=7P_4y4j9cWA" },
+        destaque: "Crackers crocantes feitos basicamente com farinha de aveia e chia — leves e temperados com orégano.",
+        dicas: [
+          "Se a massa grudar ao modelar, passe um fio de azeite nas mãos.",
+          "Bom com hummus, tzatziki ou guacamole.",
+        ],
+        nutricao: "Por cracker: ~19 kcal; 0,66 g proteína; 0,69 g gordura; 2,59 g carboidrato; 0,7 g fibra",
+        rendimento: "cerca de 30 crackers",
+      },
     ],
     dicas: [
       "Se amolecer no pote, reaqueça 5 a 8 minutos a 150 °C.",
@@ -1578,5 +1933,271 @@ const RECEITAS = [
       },
       { secao: "Temperos", itens: ["Canela em pó", "Sal"] },
     ],
+  },
+  {
+    id: "docinhos-maca-amendoim-chocolate",
+    titulo: "Docinhos de maçã, amendoim e chocolate sem açúcar",
+    categoria: "Doces e lanches",
+    tags: [
+      "sem açúcar",
+      "3 ingredientes",
+      "doce",
+      "chocolate",
+      "maça",
+    ],
+    icone: "imagens/receita-icon-oat-cookie.jpg",
+    destaque: "Docinhos sem açúcar adicionado, adoçados naturalmente pela maçã e cobertos de chocolate amargo.",
+    ingredientes: [
+      {
+        itens: [
+          "2 maçãs doces",
+          "150 g de amendoim torrado sem sal",
+          "150 g de chocolate amargo",
+          "Canela a gosto (opcional)",
+          "1 colher de chá de manteiga (opcional)",
+        ],
+      },
+    ],
+    preparo: [
+      "Corte as maçãs em pedaços (não precisa descascar) e cozinhe em fogo baixo por cerca de 10 minutos até virar purê; opcionalmente adicione canela e 1 colher de chá de manteiga.",
+      "Triture 150 g de amendoim torrado sem sal até virar migalhas (não bata demais para não virar pasta).",
+      "Junte o purê de maçã ao amendoim e bata até obter uma massa homogênea; leve à geladeira por cerca de 10 minutos.",
+      "Modele bolinhas de cerca de 20 g cada (umedeca as mãos com água se grudar) e leve novamente à geladeira por 10 minutos.",
+      "Derreta 150 g de chocolate amargo e cubra cada bolinha; coloque sobre papel manteiga.",
+      "Leve à geladeira por cerca de 5 minutos para firmar. Alternativa: enrolar em cacau em pó ou gergelim em vez de chocolate.",
+    ],
+    dicas: [
+      "Escolha maçãs doces para não precisar de açúcar.",
+      "Rendimento aproximado: várias bolinhas de ~20 g.",
+    ],
+    nutricao: "Por doce (~20 g): ~64 kcal; 1,7 g proteína; 4,6 g gordura; 4,5 g carboidrato",
+    compras: [],
+    fonte: { texto: "YouTube — No SUGAR! Only 3-Ingredient Dessert You Need To Try!", url: "https://www.youtube.com/watch?v=qwi2Y8isloI" },
+    rendimento: "várias unidades de ~20 g",
+  },
+  {
+    id: "sobremesa-chia-chocolate-agar",
+    titulo: "Sobremesa de chia, linhaça e chocolate com agar-agar",
+    categoria: "Doces e lanches",
+    tags: [
+      "chia",
+      "sem açúcar",
+      "sem lactose",
+      "vegano",
+      "proteico",
+    ],
+    icone: "imagens/receita-icon-oat-cookie.jpg",
+    destaque: "Sobremesa de chocolate pronta em minutos, com chia, linhaça e agar-agar — sem açúcar e sem lactose.",
+    ingredientes: [
+      {
+        itens: [
+          "1/2 xícara (125 ml) de leite de coco",
+          "1/4 xícara (20 g) de cacau em pó",
+          "2 colheres de chá de agar-agar",
+          "1/4 xícara (60 ml) de água",
+          "100 g de chocolate amargo",
+          "1 colher de sopa de sementes de chia",
+          "1 colher de sopa de linhaça dourada e branca",
+        ],
+      },
+    ],
+    preparo: [
+      "Misture o leite de coco, o cacau, o agar-agar, a água e o chocolate amargo (conforme o vídeo) até incorporar.",
+      "Adicione a chia e a linhaça.",
+      "Leve à geladeira por 2 a 3 horas até firmar.",
+    ],
+    dicas: [
+      "Adequada para dietas veganas, sem lactose e sem glúten (conforme descrição do canal).",
+    ],
+    compras: [],
+    fonte: { texto: "YouTube — Ready in 3 minutes! A healthy, protein-rich chia dessert. Sugar-free! Lactose-free!", url: "https://www.youtube.com/watch?v=oFDbeSacXGY" },
+  },
+  {
+    id: "frango-crocante-molho-alho-parmesao",
+    titulo: "Frango crocante ao molho cremoso de alho e parmesão",
+    categoria: "Pratos principais",
+    tags: [
+      "frango",
+      "molho cremoso",
+      "alho",
+      "parmesão",
+      "mussarela",
+    ],
+    icone: "imagens/receita-icon-chicken.jpg",
+    destaque: "Peito de frango empanado leve em molho cremoso de alho, creme e mussarela, com tomate-cereja.",
+    ingredientes: [
+      {
+        itens: [
+          "2 filés de peito de frango",
+          "1 colher de chá de sal",
+          "1/2 colher de chá de pimenta-do-reino",
+          "1 colher de chá de páprica defumada",
+          "2 colheres de sopa de farinha de trigo",
+          "1 colher de sopa de azeite",
+          "1 colher de sopa de manteiga",
+          "50 g de queijo mussarela",
+          "2 dentes de alho",
+          "50 ml de caldo de legumes (~3 colheres de sopa)",
+          "200 ml de creme de leite (~3/4 xícara + 1 colher)",
+          "Tomates-cereja a gosto",
+          "20 g de salsinha",
+        ],
+      },
+    ],
+    preparo: [
+      "Tempere os filés com sal, pimenta e páprica defumada; passe levemente na farinha.",
+      "Doure em azeite e manteiga até ficar dourado e crocante.",
+      "Acrescente alho, caldo de legumes e creme de leite; misture até formar molho cremoso.",
+      "Adicione a mussarela e deixe derreter no molho.",
+      "Finalize com tomates-cereja e salsinha. Sirva quente com massa, purê, arroz ou pão.",
+    ],
+    dicas: [
+      "O título menciona parmesão, mas a lista do vídeo cita mussarela no molho — use o que constar nos ingredientes.",
+    ],
+    compras: [],
+    fonte: { texto: "YouTube — Crispy Chicken in Creamy Garlic Parmesan Sauce 😍 Better Than You Think!", url: "https://www.youtube.com/watch?v=dupbD0MR6Wo" },
+  },
+  {
+    id: "frango-molho-cremoso-cogumelos",
+    titulo: "Frango ao molho cremoso de cogumelos",
+    categoria: "Pratos principais",
+    tags: [
+      "frango",
+      "cogumelos",
+      "molho cremoso",
+      "conforto",
+    ],
+    icone: "imagens/receita-icon-chicken.jpg",
+    destaque: "Filés de frango dourados cobertos com molho cremoso de cogumelos, alho e parmesão.",
+    ingredientes: [
+      {
+        titulo: "Frango",
+        itens: [
+          "560 g (1¼ lb) de peito de frango ou filés",
+          "1/2 colher de chá de sal",
+          "1/4 colher de chá de pimenta",
+          "1/3 xícara (40 g) de farinha",
+          "2 colheres de sopa de azeite",
+        ],
+      },
+      {
+        titulo: "Molho cremoso de cogumelos",
+        itens: [
+          "1 colher de sopa (15 ml) de azeite",
+          "2 colheres de sopa (30 g) de manteiga",
+          "1/2 cebola picada",
+          "300 g de cogumelos",
+          "3 dentes de alho picados",
+          "1 xícara (240 ml) de creme de leite (heavy cream)",
+          "3/4 xícara (180 ml) de caldo de legumes ou frango",
+          "1/4 xícara (30 g) de parmesão ralado (opcional)",
+          "1 colher de chá de raspas de limão",
+          "2 colheres de sopa de salsinha picada",
+        ],
+      },
+      {
+        titulo: "Para servir",
+        itens: [
+          "Arroz",
+          "Vagem (green beans)",
+        ],
+      },
+    ],
+    preparo: [
+      "Se usar peito inteiro, corte ao meio na horizontal para formar filés. Seque, tempere com sal e pimenta e passe levemente na farinha.",
+      "Doure em 2 colheres de azeite em fogo médio-alto por 3–4 minutos de cada lado (até ~75 °C interno); reserve coberto.",
+      "Na mesma panela, baixe o fogo; acrescente 1 colher de azeite e a manteiga. Refogue a cebola 2–3 minutos; adicione os cogumelos e cozinhe 5–7 minutos; acrescente o alho por 30 segundos.",
+      "Opcional: deglaceie com 1/4 xícara de vinho branco e deixe evaporar 1–2 minutos.",
+      "Adicione o caldo e cozinhe 2 minutos; incorpore o creme, o parmesão e pimenta; cozinhe 3–4 minutos até engrossar levemente.",
+      "Volte o frango à panela, banhe com o molho, cozinhe mais 2 minutos, polvilhe salsinha e sirva com arroz e vagem.",
+    ],
+    dicas: [],
+    compras: [],
+    fonte: { texto: "YouTube — Creamy Mushroom Chicken | Chicken with Creamy Mushroom Sauce Recipe", url: "https://www.youtube.com/watch?v=0A3e0V3nw2A" },
+  },
+  {
+    id: "wrap-cottage-dois-ingredientes",
+    titulo: "Wrap / pão achatado de cottage (2 ingredientes)",
+    categoria: "Pães e tortas",
+    tags: [
+      "cottage",
+      "wrap",
+      "proteico",
+      "low carb",
+      "2 ingredientes",
+    ],
+    icone: "imagens/receita-icon-cheese.jpg",
+    destaque: "Wrap ou flatbread low carb só com ovos e queijo cottage — base para sanduíche ou pizza.",
+    ingredientes: [
+      {
+        itens: [
+          "2 ovos grandes",
+          "1 xícara de queijo cottage (integral, light ou zero)",
+          "3/4 colher de chá de alho em pó (temperos a gosto)",
+          "1 colher de chá de tempero italiano (a gosto)",
+          "Orégano para polvilhar (opcional)",
+          "Spray de cozinha / óleo para untar o papel manteiga",
+        ],
+      },
+    ],
+    preparo: [
+      "No liquidificador ou processador, bata os ovos, o cottage e os temperos até ficar homogêneo.",
+      "Forre assadeira com papel manteiga untado; espalhe a mistura no formato desejado (redondo/retangular; mais fino = wrap, mais grosso = flatbread/pizza).",
+      "Asse a 175 °C (350 °F) por 30–35 minutos, até as bordas dourarem; wraps mais finos levam menos tempo.",
+      "Deixe esfriar completamente antes de descolar.",
+      "Para pizza: acrescente molho e coberturas e volte ao forno a ~200 °C (400 °F) por 10–15 minutos.",
+    ],
+    dicas: [
+      "Congela bem.",
+      "Dá para fazer vários wraps de uma vez para a semana.",
+    ],
+    nutricao: "Alto em proteína e baixo em carboidrato (conforme o canal)",
+    compras: [],
+    fonte: { texto: "YouTube — Easy Cottage Cheese Flatbread or Wraps | 2 Ingredients & High Protein", url: "https://www.youtube.com/watch?v=TH9rWEh8okY" },
+  },
+  {
+    id: "peito-pato-mel-vinho-porto",
+    titulo: "Peito de pato laqueado com mel e vinho do Porto",
+    categoria: "Pratos principais",
+    tags: [
+      "pato",
+      "magret",
+      "mel",
+      "vinho do Porto",
+      "abóbora",
+    ],
+    icone: "imagens/receita-icon-chicken.jpg",
+    destaque: "Magret de canard laqueado com redução de mel e vinho do Porto, acompanhado de abóbora grelhada na manteiga.",
+    ingredientes: [
+      {
+        itens: [
+          "4 peitos de pato (magret) — rende cerca de 4 a 6 pessoas",
+          "Vinho do Porto (LBV ou outro) — quantidade para redução (~começar com um pouco e ajustar)",
+          "Cerca de 3 colheres de sopa de mel (ajustar ao gosto)",
+          "Noz-moscada a gosto",
+          "Pimenta-do-reino a gosto",
+          "Sal a gosto",
+          "Raspas de limão e um pouco de suco de limão",
+          "Abóbora para grelhar (acompanhamento)",
+          "Manteiga para pincelar a abóbora",
+        ],
+      },
+    ],
+    preparo: [
+      "Prepare a redução: em uma panela, junte vinho do Porto, mel (~3 colheres de sopa), noz-moscada, suco e raspas de limão (sem a parte branca amarga); reduza até cerca da metade, até ficar mais espesso; reserve.",
+      "Limpe os peitos de pato: retire excesso de gordura das laterais e a pelinha dura que encolhe a carne; faça um xadrez só na capa de gordura, sem cortar a carne.",
+      "Tempere com sal e pimenta-do-reino.",
+      "Aqueça bem uma frigideira; sele primeiro o lado da pele/gordura (drena excesso de gordura se necessário) e depois o outro lado.",
+      "Transfira para travessa, pincele com a redução de mel e Porto e leve ao forno pré-aquecido a 180–200 °C por 8–10 minutos.",
+      "Deixe a carne descansar ~5–15 minutos antes de fatiar (centro rosado).",
+      "Acompanhe com abóbora grelhada pincelada com manteiga e sal.",
+    ],
+    dicas: [
+      "Não passe demais o ponto — peito de pato fica duro se bem passado; o ideal é rosado no centro.",
+      "Quantidades exatas de Porto/mel são ao gosto na redução (transcrição não traz ml precisos).",
+    ],
+    compras: [],
+    fonte: { texto: "YouTube — Peito de pato com mel e Vinho do Porto", url: "https://www.youtube.com/watch?v=BkTFTZw9PSE" },
+    rendimento: "4 a 6 pessoas",
   },
 ];
