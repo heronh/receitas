@@ -68,6 +68,9 @@
 
   const htmlNutricao = (n) => {
     if (!n) return "";
+    if (typeof n === "string") {
+      return `<p class="receita__rendimento"><strong>Nutrição:</strong> ${escapar(n)}</p>`;
+    }
     const campos = [
       [n.kcal, "kcal"],
       [`${n.prot} g`, "prot."],
@@ -97,15 +100,26 @@
       <h3 class="bloco__titulo">Variações</h3>
       <div class="variacoes">
         ${variacoes
-          .map(
-            (v) => `<article class="variacao">
-              <h4 class="variacao__nome">${escapar(v.nome)}</h4>
-              ${v.descricao ? `<p class="variacao__descricao">${escapar(v.descricao)}</p>` : ""}
-              ${htmlLista(v.itens)}
-              ${v.passos?.length ? `<ol class="variacao__passos">${v.passos.map((p) => `<li>${escapar(p)}</li>`).join("")}</ol>` : ""}
+          .map((v) => {
+            const nome = v.titulo || v.nome || "";
+            const descricao = v.descricao || v.destaque;
+            const ingredientes = v.ingredientes?.length
+              ? htmlIngredientes(v.ingredientes)
+              : v.itens?.length
+                ? htmlLista(v.itens)
+                : "";
+            const passos = v.preparo?.length ? v.preparo : v.passos || [];
+            return `<article class="variacao">
+              <h4 class="variacao__nome">${escapar(nome)}</h4>
+              ${descricao ? `<p class="variacao__descricao">${escapar(descricao)}</p>` : ""}
+              ${v.rendimento ? `<p class="receita__rendimento"><strong>Rendimento:</strong> ${escapar(v.rendimento)}</p>` : ""}
+              ${ingredientes}
+              ${passos.length ? `<ol class="variacao__passos">${passos.map((p) => `<li>${escapar(p)}</li>`).join("")}</ol>` : ""}
+              ${v.dicas?.length ? htmlLista(v.dicas, "dicas") : ""}
               ${htmlNutricao(v.nutricao)}
-            </article>`
-          )
+              ${v.fonte ? `<p class="fonte"><a href="${escapar(v.fonte.url)}" target="_blank" rel="noopener">${escapar(v.fonte.texto)}</a></p>` : ""}
+            </article>`;
+          })
           .join("")}
       </div>
     </section>`;
@@ -171,16 +185,15 @@
     ${r.variacoes?.length ? htmlVariacoes(r.variacoes) : ""}
 
     ${
-      r.dicas?.length
+      r.dicas?.length || r.fonte
         ? `<section class="bloco">
-            <h3 class="bloco__titulo">Dicas</h3>
-            ${htmlLista(r.dicas, "dicas")}
+            ${r.dicas?.length ? `<h3 class="bloco__titulo">Dicas</h3>${htmlLista(r.dicas, "dicas")}` : ""}
             ${r.fonte ? `<p class="fonte"><a href="${escapar(r.fonte.url)}" target="_blank" rel="noopener">${escapar(r.fonte.texto)}</a></p>` : ""}
           </section>`
         : ""
     }
 
-    ${htmlCompras(r)}
+    ${r.compras?.length ? htmlCompras(r) : ""}
   </article>`;
 
   const htmlCard = (r, numero) => `<li data-card="${r.id}">
@@ -218,7 +231,16 @@
           r.categoria,
           ...r.tags,
           ...r.ingredientes.flatMap((g) => g.itens),
-          ...(r.variacoes || []).flatMap((v) => [v.nome, ...v.itens]),
+          ...(r.variacoes || []).flatMap((v) => [
+            v.nome,
+            v.titulo,
+            v.descricao,
+            v.destaque,
+            ...(v.itens || []),
+            ...((v.ingredientes || []).flatMap((g) => [g.titulo, ...(g.itens || [])])),
+            ...(v.passos || []),
+            ...(v.preparo || []),
+          ]),
         ].join(" ")
       ),
     ])
