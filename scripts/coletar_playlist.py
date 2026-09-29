@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Coleta a playlist pública de receitas do YouTube sem baixar os vídeos.
+"""Coleta uma playlist pública do YouTube sem baixar os vídeos.
 
-Gera:
-- data/playlist.json: índice normalizado de vídeos e metadados disponíveis
-- data/youtube/<video_id>.*.vtt: legendas manuais/automáticas quando disponíveis
+Saídas:
+- data/playlist.json: inventário normalizado da playlist
+- data/coleta-relatorio.json: tentativas, versão do yt-dlp e erros
+- data/youtube/<video_id>.*.vtt: legendas disponíveis (pt/en)
 
-Requer: yt-dlp no PATH.
+A coleta é conservadora: se não conseguir enumerar a playlist, NÃO cria um
+playlist.json vazio que possa ser confundido com sucesso.
 """
 
 from __future__ import annotations
@@ -16,36 +18,135 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-PLAYLIST_URL = "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ"
+PLAYLIST_ID = "PLQMMYgYzynIQ"
+PLAYLIST_URL = f"https://www.youtube.com/playlist?list={PLAYLIST_ID}"
 OUT_DIR = Path("data")
 SUB_DIR = OUT_DIR / "youtube"
 PLAYLIST_JSON = OUT_DIR / "playlist.json"
+REPORT_JSON = OUT_DIR / "coleta-relatorio.json"
 
 
-def run(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(args, text=True, capture_output=True, check=check)
+def now() -> str:
+    return datetime.now(timezone.utc).isoformat()
 
 
-def yt_json(url: str, flat: bool = False) -> dict:
-    cmd = ["yt-dlp", "--skip-download", "--no-warnings", "--dump-single-json"]
-    if flat:
-        cmd.append("--flat-playlist")
-    cmd.append(url)
-    proc = run(cmd)
-    return json.loads(proc.stdout)
+def run(args: list[str]) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(args, text=True, capture_output=True)
 
 
-def clean_value(value):
-    if value in (None, "", [], {}):
-        return None
-    return value
+def compact_error(proc: subprocess.CompletedProcess[str]) -> str:
+    text = (proc.stderr or proc.stdout or "").strip()
+    return text[-5000:]
+
+
+def try_json(label: str, args: list[str], attempts: list[dict]) -> dict | None:
+    proc = run(args)
+    attempt = {
+        "label": label,
+        "command": args,
+        "returncode": proc.returncode,
+    }
+    if proc.returncode == 0:
+        try:
+            payload = json.loads(proc.stdout)
+            attempt["ok"] = True
+            attempts.append(attempt)
+            return payload
+        except json.JSONDecodeError as exc:
+            attempt["ok"] = False
+            attempt["error"] = f"JSON inválido: {exc}"
+    else:
+        attempt["ok"] = False
+        attempt["error"] = compact_error(proc)
+    attempts.append(attempt)
+    return None
+
+
+def collect_playlist(attempts: list[dict]) -> dict | None:
+    base = ["yt-dlp", "--skip-download", "--no-warnings", "--flat-playlist", "--dump-single-json"]
+
+    strategies = [
+        ("playlist-default", base + [PLAYLIST_URL]),
+        (
+            "playlist-sem-authcheck",
+            base
+            + ["--extractor-args", "youtubetab:skip=authcheck"]
+            + [PLAYLIST_URL],
+        ),
+    ]
+
+    for label, cmd in strategies:
+        data = try_json(label, cmd, attempts)
+        if data and (data.get("entries") or []):
+            return data
+    return None
+
+
+def collect_video(url: str, attempts: list[dict], video_id: str) -> dict:
+    base = ["yt-dlp", "--skip-download", "--no-warnings", "--dump-single-json"]
+    strategies = [
+        (
+            "android",
+            base
+            + ["--extractor-args", "youtube:player_client=android"]
+            + [url],
+        ),
+        (
+            "web-embedded",
+            base
+            + ["--extractor-args", "youtube:player_client=default,web_embedded"]
+            + [url],
+        ),
+        ("default", base + [url]),
+    ]
+
+    local_attempts: list[dict] = []
+    for label, cmd in strategies:
+        data = try_json(f"video-{video_id}-{label}", cmd, local_attempts)
+        if data:
+            attempts.extend(local_attempts)
+            return data
+    attempts.extend(local_attempts)
+    return {}
+
+
+def clean(value):
+    return None if value in (None, "", [], {}) else value
+
+
+def write_report(report: dict) -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    REPORT_JSON.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     SUB_DIR.mkdir(parents=True, exist_ok=True)
 
-    playlist = yt_json(PLAYLIST_URL, flat=True)
+    version = run(["yt-dlp", "--version"])
+    attempts: list[dict] = []
+    report = {
+        "started_at": now(),
+        "playlist_id": PLAYLIST_ID,
+        "playlist_url": PLAYLIST_URL,
+        "yt_dlp_version": (version.stdout or "").strip() or None,
+        "status": "running",
+        "attempts": attempts,
+    }
+    write_report(report)
+
+    playlist = collect_playlist(attempts)
+    if not playlist:
+        report["status"] = "failed"
+        report["finished_at"] = now()
+        report["error"] = "Não foi possível enumerar nenhum vídeo da playlist."
+        write_report(report)
+        print(report["error"], file=sys.stderr)
+        return 2
+
     entries = playlist.get("entries") or []
     videos: list[dict] = []
 
@@ -56,33 +157,23 @@ def main() -> int:
 
         url = f"https://www.youtube.com/watch?v={video_id}"
         print(f"[{position}/{len(entries)}] {video_id} - {entry.get('title', '')}", flush=True)
-
-        details = {}
-        error = None
-        try:
-            details = yt_json(url)
-        except Exception as exc:
-            error = str(exc)
+        details = collect_video(url, attempts, video_id)
 
         item = {
             "position": position,
             "id": video_id,
-            "title": clean_value(details.get("title") or entry.get("title")),
+            "title": clean(details.get("title") or entry.get("title")),
             "url": url,
-            "description": clean_value(details.get("description")),
-            "channel": clean_value(details.get("channel") or entry.get("channel")),
-            "channel_id": clean_value(details.get("channel_id") or entry.get("channel_id")),
-            "duration": clean_value(details.get("duration") or entry.get("duration")),
-            "upload_date": clean_value(details.get("upload_date")),
-            "thumbnail": clean_value(details.get("thumbnail") or entry.get("thumbnail")),
-            "availability": clean_value(details.get("availability") or entry.get("availability")),
+            "description": clean(details.get("description")),
+            "channel": clean(details.get("channel") or entry.get("channel")),
+            "channel_id": clean(details.get("channel_id") or entry.get("channel_id")),
+            "duration": clean(details.get("duration") or entry.get("duration")),
+            "upload_date": clean(details.get("upload_date")),
+            "thumbnail": clean(details.get("thumbnail") or entry.get("thumbnail")),
+            "availability": clean(details.get("availability") or entry.get("availability")),
         }
-        if error:
-            item["metadata_error"] = error
-
         videos.append({k: v for k, v in item.items() if v is not None})
 
-        # Tenta obter legendas manuais/automáticas, sem falhar a coleta se não houver.
         sub_cmd = [
             "yt-dlp",
             "--skip-download",
@@ -93,21 +184,23 @@ def main() -> int:
             "pt.*,en.*",
             "--sub-format",
             "vtt",
+            "--extractor-args",
+            "youtube:player_client=android",
             "-o",
             str(SUB_DIR / "%(id)s.%(language)s.%(ext)s"),
             url,
         ]
-        run(sub_cmd, check=False)
+        run(sub_cmd)
 
     payload = {
         "playlist": {
-            "id": playlist.get("id") or "PLQMMYgYzynIQ",
+            "id": playlist.get("id") or PLAYLIST_ID,
             "title": playlist.get("title") or "Receitas",
             "url": PLAYLIST_URL,
-            "channel": clean_value(playlist.get("channel")),
+            "channel": clean(playlist.get("channel")),
             "video_count": len(videos),
         },
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now(),
         "videos": videos,
     }
 
@@ -115,6 +208,12 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+    report["status"] = "success"
+    report["finished_at"] = now()
+    report["video_count"] = len(videos)
+    write_report(report)
+
     print(f"Gerado {PLAYLIST_JSON} com {len(videos)} vídeos.")
     return 0
 
