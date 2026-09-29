@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f7f3ec">
-  <meta name="description" content="Minhas receitas favoritas com lista de compras.">
+  <meta name="description" content="As 20 receitas da playlist Receitas: ingredientes, compras, preparo, nutrição por porção e dicas de conservação.">
   <title>Minhas Receitas Favoritas</title>
   <link rel="icon" href="imagens/receita-icon-herbs.jpg">
   <link rel="stylesheet" href="css/styles.css">
@@ -24,7 +24,22 @@
   </header>
 
   <main>
+    <section class="apresentacao" aria-labelledby="titulo-playlist">
+      <div>
+        <p class="apresentacao__sobretitulo">Da playlist para a cozinha</p>
+        <h2 id="titulo-playlist">20 vídeos, 20 receitas</h2>
+        <p>Escolha no índice, filtre por categoria ou busque um ingrediente. Cada receita tem sua própria lista de compras.</p>
+      </div>
+      <a class="botao" href="https://www.youtube.com/playlist?list=PLQMMYgYzynIQ" target="_blank" rel="noopener noreferrer">Abrir playlist ↗</a>
+    </section>
+    <details class="sobre-fontes">
+      <summary>Sobre as medidas, a nutrição e as fontes</summary>
+      <p>Ingredientes consultados nas descrições dos vídeos e nas páginas dos próprios autores em 29/09/2026. Medidas, rendimentos e tempos que faltavam estão identificados como estimativas. Algumas fichas são adaptações sugeridas, ainda não testadas na cozinha; a origem aparece em cada receita.</p>
+      <p>Os valores nutricionais são por porção. Quando não informados pelo autor, são estimados com a <a href="https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf" target="_blank" rel="noopener noreferrer">tabela TACO da Unicamp</a> e aproximações para os ingredientes não contemplados. As marcas e o rendimento final podem alterar os números.</p>
+      <p>O filtro “Sem glúten” pressupõe aveia e outros ingredientes certificados, além de cuidados para evitar contaminação cruzada. Confira os rótulos. Mel, xarope e chocolate podem acrescentar açúcar mesmo quando o título do vídeo diz o contrário.</p>
+    </details>
     <section class="indice" id="indice" aria-label="Índice de receitas">
+      <h2 class="indice__titulo">Índice de receitas</h2>
       <ul class="indice__lista" id="indice-lista"></ul>
       <p class="vazio" id="vazio" hidden>Nenhuma receita encontrada.</p>
     </section>
@@ -33,7 +48,8 @@
   </main>
 
   <footer class="rodape">
-    <p>Valores nutricionais aproximados, por porção.</p>
+    <p>Conservação: geladeira a até 4 °C e congelador a −18 °C. Refrigere alimentos perecíveis em até 2 horas; em calor acima de 32 °C, em até 1 hora. Os prazos de congelamento são sugestões de qualidade. Descongele na geladeira.</p>
+    <p>Orientações gerais: <a href="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety" target="_blank" rel="noopener noreferrer">conservação de alimentos</a> e <a href="https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures" target="_blank" rel="noopener noreferrer">temperaturas de cozimento</a>.</p>
   </footer>
 
   <a href="#topo" class="voltar" id="voltar" aria-label="Voltar ao índice" hidden>
