@@ -34,9 +34,18 @@ const server = http.createServer((req, res) => {
   page.on('response', r => { if (r.status() >= 400) errors.push(`${r.status()}: ${r.url()}`); });
   try {
     await page.goto(url);
-    assert.equal(await page.locator('[data-receita]').count(), 20);
-    assert.equal(await page.locator('[data-card]').count(), 20);
-    assert.equal(await page.locator('#contagem').innerText(), '20 receitas');
+    assert.equal(await page.locator('[data-receita]').count(), 22);
+    assert.equal(await page.locator('[data-card]').count(), 22);
+    assert.equal(await page.locator('#contagem').innerText(), '22 receitas');
+    await page.locator('.card[href="#aveia-assada-maca"]').click();
+    await page.locator('#aveia-assada-maca .variacao__nome').waitFor();
+    assert.equal(await page.locator('#aveia-assada-maca .variacao__nome').innerText(), 'Cookies de aveia, maçã e canela');
+    assert.equal(await page.locator('a[href="https://www.youtube.com/watch?v=FxgVCAD6KyE"]').count(), 1);
+    await page.locator('#bolo-aveia-cacau-banana h2').waitFor();
+    await page.locator('#pao-aveia-iogurte-grego h2').waitFor();
+    await page.getByRole('button', { name: 'Recentes', exact: true }).click();
+    assert.equal(await page.locator('[data-card]:visible').count(), 5);
+    await page.getByRole('button', { name: 'Todas', exact: true }).click();
     const anchors = await page.locator('.card').evaluateAll(nodes => nodes.map(n => n.getAttribute('href')));
     for (const anchor of anchors) {
       await page.locator(`.card[href="${anchor}"]`).click();
@@ -56,11 +65,11 @@ const server = http.createServer((req, res) => {
     await page.evaluate(() => { location.hash = '#wrap-cottage-ovos'; });
     await page.waitForFunction(() => !document.querySelector('#wrap-cottage-ovos').hidden);
     assert.equal(await page.locator('#busca').inputValue(), '');
-    assert.equal(await page.locator('[data-receita]:visible').count(), 20);
+    assert.equal(await page.locator('[data-receita]:visible').count(), 22);
     await page.getByRole('button', { name: 'Vegana', exact: true }).click();
     assert.equal(await page.locator('[data-card]:visible').count(), 4);
     await page.getByRole('button', { name: 'Todas', exact: true }).click();
-    const compras = page.locator('[data-compras="pao-linhaca-chia"]');
+    const compras = page.locator('[data-compras="pao-linhaca"]');
     const first = compras.locator('input[type=checkbox]').first();
     const marked = await first.getAttribute('data-item');
     await first.check();
@@ -77,21 +86,21 @@ const server = http.createServer((req, res) => {
     await compras.getByRole('button', { name: 'Compartilhar', exact: true }).click();
     copied = await page.evaluate(() => navigator.clipboard.readText());
     assert.ok(copied.includes(marked), 'compartilhar deve copiar a lista quando não há Web Share');
-    await page.evaluate(() => { localStorage.setItem('receitas:compras:v1', '{"pao-linhaca-chia":42}'); location.hash = '#%E0%A4%A'; });
+    await page.evaluate(() => { localStorage.setItem('receitas:compras:v1', '{"pao-linhaca":42}'); location.hash = '#%E0%A4%A'; });
     await page.reload();
-    assert.equal(await page.locator('[data-receita]').count(), 20);
+    assert.equal(await page.locator('[data-receita]').count(), 22);
     const ids = await page.locator('[id]').evaluateAll(nodes => nodes.map(n => n.id));
     assert.equal(new Set(ids).size, ids.length, 'IDs duplicados');
     await page.evaluate(() => { history.replaceState(null, '', '/'); scrollTo(0, 0); });
     await page.screenshot({ path: path.join(output, 'desktop.png') });
-    await page.locator('.card[href="#pao-linhaca-chia"]').click();
+    await page.locator('.card[href="#pao-linhaca"]').click();
     await page.screenshot({ path: path.join(output, 'receita-desktop.png') });
     for (const width of [320, 390, 768]) {
       await page.setViewportSize({ width, height: 844 });
       await page.evaluate(() => scrollTo(0, 0));
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `overflow em ${width}px`);
       await page.screenshot({ path: path.join(output, `largura-${width}.png`) });
-      await page.locator('.card[href="#pao-linhaca-chia"]').click();
+      await page.locator('.card[href="#pao-linhaca"]').click();
       await page.screenshot({ path: path.join(output, `receita-${width}.png`) });
       assert.ok(await page.evaluate(() => [...document.images].every(i => !i.complete || i.naturalWidth > 0)), 'imagem quebrada');
     }
@@ -103,7 +112,7 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Tab');
     assert.equal(await page.evaluate(() => document.activeElement.textContent), 'Todas');
     assert.deepEqual(errors, []);
-    console.log('PASS: 20 âncoras; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
+    console.log('PASS: 22 âncoras; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
     console.log(`Capturas: ${output}`);
   } finally {
     await browser.close();
