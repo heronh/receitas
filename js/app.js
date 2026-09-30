@@ -2,7 +2,7 @@
   "use strict";
 
   const CHAVE_STORAGE = "receitas:compras:v1";
-  const TAGS_FILTRO = ["Emagrecimento", "Low-carb", "Sem glúten", "Vegana"];
+  const TAGS_FILTRO = ["Sem glúten", "Vegana"];
 
   const $ = (sel, raiz = document) => raiz.querySelector(sel);
 
@@ -37,7 +37,11 @@
 
   const lerMarcacoes = () => {
     try {
-      return JSON.parse(localStorage.getItem(CHAVE_STORAGE)) || {};
+      const dados = JSON.parse(localStorage.getItem(CHAVE_STORAGE));
+      if (!dados || typeof dados !== "object" || Array.isArray(dados)) return {};
+      return Object.fromEntries(Object.entries(dados)
+        .filter(([, itens]) => Array.isArray(itens))
+        .map(([id, itens]) => [id, itens.filter(i => typeof i === "string")]));
     } catch {
       return {};
     }
@@ -71,13 +75,14 @@
     if (typeof n === "string") {
       return `<p class="receita__rendimento"><strong>Nutrição:</strong> ${escapar(n)}</p>`;
     }
+    const numero = (v) => Number(v).toLocaleString("pt-BR", { maximumFractionDigits: 2 });
     const campos = [
-      [n.kcal, "kcal"],
-      [`${n.prot} g`, "prot."],
-      [`${n.carb} g`, "carb."],
-      [`${n.gord} g`, "gord."],
+      [numero(n.kcal), "kcal"],
+      [`${numero(n.prot)} g`, "proteínas"],
+      [`${numero(n.carb)} g`, "carboidratos"],
+      [`${numero(n.gord)} g`, "gorduras"],
     ];
-    if (n.fibras !== undefined) campos.push([`${n.fibras} g`, "fibras"]);
+    if (n.fibras !== undefined) campos.push([`${numero(n.fibras)} g`, "fibras"]);
     const classe = campos.length === 5 ? "nutricao nutricao--5" : "nutricao";
     return `<ul class="${classe}" aria-label="Informação nutricional por porção">${campos
       .map(([valor, rotulo]) => `<li><strong>${escapar(valor)}</strong><span>${rotulo}</span></li>`)
@@ -169,8 +174,21 @@
     </header>
 
     <p class="receita__destaque">${escapar(r.destaque)}</p>
+    <div class="receita__fontes">
+      <a class="botao botao--video" href="${escapar(r.fonte.url)}" target="_blank" rel="noopener noreferrer">▶ Vídeo da receita · ${escapar(r.fonte.duracao)}</a>
+      <span>${escapar(r.fonte.canal)}</span>
+      ${r.fonteComplementar ? `<a href="${escapar(r.fonteComplementar.url)}" target="_blank" rel="noopener noreferrer">${escapar(r.fonteComplementar.texto)} ↗</a>` : ""}
+    </div>
     ${r.rendimento ? `<p class="receita__rendimento"><strong>Rendimento:</strong> ${escapar(r.rendimento)}</p>` : ""}
-    ${htmlNutricao(r.nutricao)}
+    ${r.tempo ? `<p class="receita__rendimento"><strong>Tempo:</strong> ${escapar(r.tempo)}</p>` : ""}
+    <p class="receita__origem"><strong>Sobre esta receita:</strong> ${escapar(r.proveniencia.nota)}</p>
+
+    <section class="bloco" aria-labelledby="nutricao-${r.id}">
+      <h3 class="bloco__titulo" id="nutricao-${r.id}">Nutrição por porção <span class="selo">${r.nutricao.origem === "autor" ? "Informada pelo autor" : "Estimativa"}</span></h3>
+      <p class="receita__rendimento"><strong>Porção:</strong> ${escapar(r.porcao)}</p>
+      ${htmlNutricao(r.nutricao)}
+      <p class="receita__nota">${escapar(r.nutricao.nota)}</p>
+    </section>
 
     <section class="bloco">
       <h3 class="bloco__titulo">Ingredientes</h3>
@@ -184,14 +202,17 @@
 
     ${r.variacoes?.length ? htmlVariacoes(r.variacoes) : ""}
 
-    ${
-      r.dicas?.length || r.fonte
-        ? `<section class="bloco">
-            ${r.dicas?.length ? `<h3 class="bloco__titulo">Dicas</h3>${htmlLista(r.dicas, "dicas")}` : ""}
-            ${r.fonte ? `<p class="fonte"><a href="${escapar(r.fonte.url)}" target="_blank" rel="noopener">${escapar(r.fonte.texto)}</a></p>` : ""}
-          </section>`
-        : ""
-    }
+    <section class="bloco">
+      <h3 class="bloco__titulo">Dicas de preparo</h3>
+      ${htmlLista(r.dicas, "dicas")}
+    </section>
+    <section class="bloco">
+      <h3 class="bloco__titulo">Como guardar</h3>
+      <dl class="conservacao">
+        <div><dt>Geladeira / armazenamento</dt><dd>${escapar(r.conservacao.geladeira)}</dd></div>
+        <div><dt>Congelador</dt><dd>${escapar(r.conservacao.congelador)}</dd></div>
+      </dl>
+    </section>
 
     ${r.compras?.length ? htmlCompras(r) : ""}
   </article>`;
@@ -201,7 +222,7 @@
       <div class="icone"><img src="${r.icone}" alt="" width="96" height="96"></div>
       <div class="card__texto">
         <span class="card__num">${numero} · ${escapar(r.categoria)}</span>
-        <h2 class="card__titulo">${escapar(r.titulo)}</h2>
+        <h3 class="card__titulo">${escapar(r.titulo)}</h3>
         <p class="card__destaque">${escapar(r.destaque)}</p>
       </div>
     </a>
@@ -285,7 +306,7 @@
   };
 
   const textoDaLista = (receita, somentePendentes) => {
-    const linhas = [`Lista de compras: ${receita.titulo}`];
+    const linhas = [`Lista de compras: ${receita.titulo}`, `Rendimento: ${receita.rendimento}`];
     receita.compras.forEach((s) => {
       const itens = s.itens.filter((i) => !somentePendentes || !itemMarcado(receita.id, i));
       if (!itens.length) return;
@@ -406,10 +427,22 @@
   window.addEventListener("scroll", atualizarVoltar, { passive: true });
   atualizarVoltar();
 
-  if (location.hash) {
-    const alvo = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-    if (alvo) alvo.scrollIntoView();
-  }
+  const abrirAncora = () => {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    if (receitaPorId.has(id)) {
+      const r = receitaPorId.get(id);
+      if (!combina(r)) {
+        estado.filtro = null;
+        estado.termo = "";
+        el.busca.value = "";
+        aplicarFiltros();
+      }
+      document.getElementById(id).scrollIntoView();
+    }
+  };
+  abrirAncora();
+  window.addEventListener("hashchange", abrirAncora);
 
   el.voltar.addEventListener("click", (e) => {
     e.preventDefault();
