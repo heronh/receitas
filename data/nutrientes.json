@@ -159,6 +159,18 @@
       "fonte": "https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf",
       "referencia": "TACO, alimento 222"
     },
+    "banana": {
+      "nome": "Banana, nanica, crua",
+      "por100g": {
+        "kcal": 92.0,
+        "prot": 1.4,
+        "carb": 23.8,
+        "gord": 0.1,
+        "fibras": 1.9
+      },
+      "fonte": "https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf",
+      "referencia": "TACO, alimento 179"
+    },
     "azeite": {
       "nome": "Azeite, de oliva, extra virgem",
       "por100g": {
@@ -316,6 +328,18 @@
       },
       "fonte": "https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf",
       "referencia": "TACO, alimento 507"
+    },
+    "leite": {
+      "nome": "Leite de vaca integral",
+      "por100g": {
+        "kcal": 61.0,
+        "prot": 3.2,
+        "carb": 4.5,
+        "gord": 3.3,
+        "fibras": 0
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial. Na TACO 4ª edição o alimento 458 (leite de vaca integral) não publica energia nem macronutrientes. Valores genéricos de leite integral fluido; substituir pelo rótulo."
     },
     "leite_coco": {
       "nome": "Leite, de coco",

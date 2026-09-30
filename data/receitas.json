@@ -128,7 +128,65 @@
       "nozes": 30,
       "linhaca": 10
     },
-    "notaNutricional": ""
+    "notaNutricional": "",
+    "variacoes": [
+      {
+        "id": "cookies-aveia-maca-canela",
+        "videoId": "FxgVCAD6KyE",
+        "titulo": "Cookies de aveia, maçã e canela",
+        "descricao": "Outro vídeo da playlist, com aveia moída, maçã, canela e ovo. A cobertura de limão é opcional e leva açúcar. Porção estimada: 2 biscoitos.",
+        "rendimento": "Cerca de 8 biscoitos; 4 porções (estimativa; o vídeo não informa quantos saem)",
+        "porcoes": 4,
+        "porcao": "2 biscoitos",
+        "ingredientes": [
+          {
+            "titulo": "Hortifrúti",
+            "itens": [
+              "2 maçãs, sem miolo (aprox. 300 g; estimativa)"
+            ]
+          },
+          {
+            "titulo": "Mercearia e ovo",
+            "itens": [
+              "1/2 xícara de aveia em flocos, moída em farinha (aprox. 40 g; conversão estimada)",
+              "1 colher de chá de canela",
+              "1 ovo"
+            ]
+          },
+          {
+            "titulo": "Cobertura opcional",
+            "itens": [
+              "Suco de 1/2 limão",
+              "3 colheres de sopa de açúcar de confeiteiro"
+            ]
+          }
+        ],
+        "preparo": [
+          "Moa a aveia até obter uma farinha e misture com a canela.",
+          "Rale ou pique as maçãs sem o miolo e incorpore o ovo até a massa unir.",
+          "Modele os biscoitos sobre papel para forno e asse a 180 °C por 20–25 minutos, até firmar. Deixe esfriar.",
+          "Se quiser a cobertura, misture o suco de limão com o açúcar de confeiteiro e espalhe só depois que os biscoitos esfriarem."
+        ],
+        "dicas": [
+          "A descrição não usa farinha de trigo nem manteiga; a liga fica por conta do ovo e da umidade da maçã.",
+          "A cobertura leva açúcar. Sem ela, a massa descrita não inclui açúcar adicionado. O título do vídeo não vira alegação de “sem açúcar”.",
+          "O vídeo serve os cookies com chá de folhas de framboesa e um pedaço de maçã. Esse acompanhamento não entra na ficha nem na nutrição."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=FxgVCAD6KyE",
+          "texto": "Assistir ao vídeo original",
+          "canal": "wie man alles kocht",
+          "tituloOriginal": "Oatmeal Cookies with Apples and Cinnamon: Easy, No Flour, No Butter",
+          "duracao": "2:35"
+        },
+        "baseNutricional": {
+          "maca": 300,
+          "aveia": 40,
+          "ovo": 50
+        },
+        "notaNutricional": "Meia xícara de aveia contada como 40 g e as maçãs como 300 g sem miolo; as duas conversões são estimadas. Canela e a cobertura opcional não entram. O vídeo não informa o rendimento; a divisão em 8 biscoitos é estimativa."
+      }
+    ]
   },
   {
     "id": "bombons-maca-amendoim",
@@ -686,6 +744,151 @@
       "azeite": 4.5
     },
     "notaNutricional": ""
+  },
+  {
+    "id": "pao-aveia-iogurte-grego",
+    "videoId": "b2xbwfPU4IQ",
+    "titulo": "Pão de aveia com iogurte grego",
+    "categoria": "Recentes",
+    "categoriaBase": "Pães e wraps",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-seeds.jpg",
+    "destaque": "Pão de aveia moída, iogurte grego, ovos e sementes, sem farinha de trigo nem fermento biológico. A descrição não lista açúcar.",
+    "porcoes": 10,
+    "porcao": "1 fatia (1/10 do pão; a descrição também estima 1/12)",
+    "rendimento": "1 pão, em 10 fatias (a descrição indica 10 a 12 fatias)",
+    "tempo": "45–50 minutos de forno + 30–60 minutos de resfriamento",
+    "ingredientes": [
+      {
+        "titulo": "Laticínios e ovos",
+        "itens": [
+          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
+          "2 ovos"
+        ]
+      },
+      {
+        "titulo": "Sementes e mercearia",
+        "itens": [
+          "160 g de aveia em flocos (1 e 1/2 xícara)",
+          "30 g de linhaça (1/4 de xícara)",
+          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
+          "2 colheres de sopa de gergelim (cerca de 20 g)",
+          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
+          "1 colher de chá de sal",
+          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)",
+          "Água: 130 ml"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata o iogurte grego com os ovos até ficar liso. Moa a aveia e a linhaça.",
+      "Se quiser, toste levemente as sementes de abóbora e o gergelim. Misture-os à farinha de aveia e à linhaça, com o fermento e o sal.",
+      "Junte a água, o azeite e a mistura de iogurte e ovos. Mexa até obter uma massa espessa e uniforme.",
+      "Despeje em uma forma de pão forrada com papel para forno, ou untada. Alise a superfície.",
+      "Asse em forno preaquecido a 180 °C por 45–50 minutos. Um palito no centro deve sair limpo. Espere esfriar na forma, de 30 a 60 minutos, antes de fatiar."
+    ],
+    "dicas": [
+      "O título fala em diabetes e em pão sem açúcar. A ficha não transforma isso em recomendação: a descrição simplesmente não lista açúcar.",
+      "As sementes podem ir inteiras, se preferir crocância, ou moídas, como a descrição também permite.",
+      "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
+    ],
+    "conservacao": {
+      "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
+      "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, medidas, forno, resfriamento e armazenamento vêm da descrição. O peso das sementes de abóbora usa o meio da faixa de 20–25 g. O azeite foi convertido a 26 g. A nutrição usa 10 fatias."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Fantastische Rezepte",
+      "tituloOriginal": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
+      "duracao": "4:57"
+    },
+    "baseNutricional": {
+      "iogurte": 130,
+      "ovo": 100,
+      "aveia": 160,
+      "linhaca": 30,
+      "semente_abobora": 22,
+      "gergelim": 20,
+      "azeite": 26
+    },
+    "notaNutricional": "Iogurte grego aproximado pelo iogurte natural da TACO, o que pode subestimar a proteína. Sementes de abóbora: 22 g, meio da faixa de 20–25 g. Azeite: 26 g. Água, sal e fermento não entram. Porção de 1/10; a descrição também cita 1/12."
+  },
+  {
+    "id": "bolo-aveia-cacau-banana",
+    "videoId": "AfhwWdJX7Lg",
+    "titulo": "Bolo de aveia, cacau e banana",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-banana.jpg",
+    "destaque": "Bolo de aveia hidratada em leite quente, com banana, cacau e amendoim. A descrição não inclui açúcar.",
+    "porcoes": 8,
+    "porcao": "1 pedaço (1/8 do bolo; rendimento estimado)",
+    "rendimento": "1 bolo em 8 pedaços (estimativa; a descrição não informa o rendimento)",
+    "tempo": "10 minutos de hidratação + 40 minutos de forno",
+    "ingredientes": [
+      {
+        "titulo": "Hortifrúti",
+        "itens": [
+          "2 bananas (aprox. 200 g sem casca; estimativa)"
+        ]
+      },
+      {
+        "titulo": "Mercearia",
+        "itens": [
+          "120 g de aveia em flocos",
+          "45 g de cacau em pó (4 colheres de sopa)",
+          "1 colher de sopa de fermento em pó",
+          "40 g de amendoim"
+        ]
+      },
+      {
+        "titulo": "Líquidos e ovos",
+        "itens": [
+          "250 ml de leite quente",
+          "2 ovos"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture a aveia com o leite quente e deixe hidratar por 10 minutos.",
+      "Amasse as bananas e incorpore à aveia. Junte os ovos, o cacau, o fermento e o amendoim até a massa ficar homogênea.",
+      "Transfira para uma forma e asse a 180 °C por 40 minutos. Deixe amornar antes de cortar."
+    ],
+    "dicas": [
+      "A descrição pede 1 colher de sopa de fermento em pó. A ficha mantém essa medida.",
+      "Não há açúcar na lista. Bananas mais maduras deixam o bolo mais doce; isso não é uma alegação de alimento “sem açúcar”.",
+      "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
+      "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
+    },
+    "proveniencia": {
+      "nota": "Aveia, leite, tempo de hidratação, bananas, ovos, cacau, fermento, amendoim e forno vêm da descrição. O peso das bananas, o tipo de leite e a divisão em 8 pedaços são estimativas. A conservação não está no vídeo."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Przepisy Mimi",
+      "tituloOriginal": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
+      "duracao": "6:35"
+    },
+    "baseNutricional": {
+      "aveia": 120,
+      "leite": 250,
+      "banana": 200,
+      "ovo": 100,
+      "cacau": 45,
+      "amendoim": 40
+    },
+    "notaNutricional": "Bananas estimadas em 200 g sem casca. 250 ml de leite integral contados como 250 g; a descrição não especifica o tipo de leite. Fermento não entra. O rendimento de 8 pedaços é estimativa."
   },
   {
     "id": "biscoitos-aveia-iogurte",
