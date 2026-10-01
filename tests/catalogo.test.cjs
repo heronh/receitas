@@ -7,25 +7,34 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'js/receitas.js'), 'utf8') + '\nthis.catalogo = RECEITAS;', context);
 const receitas = JSON.parse(JSON.stringify(context.catalogo));
-const videos = ['zM8yab1Uy4U', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'dupbD0MR6Wo', 'Yyzdcpqct50', 'b2xbwfPU4IQ', 'AfhwWdJX7Lg', '8y3AEMvtq68', '0A3e0V3nw2A', 'mdPveC7HlFM', 'TH9rWEh8okY', 'VX-dMV-HZQQ', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'RueGO-RTfZI'];
+const playlistOrder = ['zM8yab1Uy4U', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'dupbD0MR6Wo', 'Yyzdcpqct50', 'b2xbwfPU4IQ', 'AfhwWdJX7Lg', '8y3AEMvtq68', '0A3e0V3nw2A', 'mdPveC7HlFM', 'TH9rWEh8okY', 'VX-dMV-HZQQ', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
+const recentesIds = ['hamburguer-quinoa', 'pao-linhaca', 'aveia-assada-maca', 'pao-aveia-iogurte-grego', 'bolo-aveia-cacau-banana'];
 
-test('uma ficha por vídeo, na ordem da playlist, com a variação de aveia e maçã', () => {
-  assert.equal(receitas.length, 22);
-  assert.deepEqual(receitas.map(r => new URL(r.fonte.url).searchParams.get('v')), videos);
-  assert.equal(new Set(receitas.map(r => r.id)).size, 22);
-  assert.ok(receitas.every(r => !r.variacoes?.length || r.id === 'aveia-assada-maca'));
-  const variacao = receitas.find(r => r.id === 'aveia-assada-maca').variacoes[0];
-  assert.equal(variacao.id, 'cookies-aveia-maca-canela');
-  assert.equal(variacao.videoId, 'FxgVCAD6KyE');
-  assert.equal(variacao.fonte.url, 'https://www.youtube.com/watch?v=FxgVCAD6KyE');
-  assert.ok(variacao.ingredientes.length && variacao.preparo.length >= 3 && variacao.nutricao?.origem === 'estimativa');
-  assert.ok(!receitas.some(r => r.videoId === 'oLjTJSwSHR8' || r.fonte.url.includes('oLjTJSwSHR8')));
+test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ricota', () => {
+  assert.equal(receitas.length, 23);
+  assert.equal(new Set(receitas.map(r => r.id)).size, 23);
+  assert.deepEqual(new Set(receitas.map(r => r.videoId)), new Set(playlistOrder));
   const recentes = receitas.filter(r => r.categoria === 'Recentes');
+  const outros = receitas.filter(r => r.categoria !== 'Recentes');
+  const recentesVideoIds = new Set(recentes.map(r => r.videoId));
+  assert.deepEqual(recentes.map(r => r.id), recentesIds);
+  assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo'].includes(r.id)));
+  const variacaoAveia = receitas.find(r => r.id === 'aveia-assada-maca').variacoes[0];
+  assert.equal(variacaoAveia.id, 'cookies-aveia-maca-canela');
+  assert.equal(variacaoAveia.videoId, 'FxgVCAD6KyE');
+  assert.equal(variacaoAveia.fonte.url, 'https://www.youtube.com/watch?v=FxgVCAD6KyE');
+  assert.ok(variacaoAveia.ingredientes.length && variacaoAveia.preparo.length >= 3 && variacaoAveia.nutricao?.origem === 'estimativa');
+  const variacaoRicota = receitas.find(r => r.id === 'pao-ricota-ovo').variacoes[0];
+  assert.equal(variacaoRicota.id, 'pao-ricota-ovo-recheado');
+  assert.equal(variacaoRicota.videoId, 'DDzNylsClC4');
+  assert.equal(variacaoRicota.fonte.url, 'https://www.youtube.com/watch?v=DDzNylsClC4');
+  assert.ok(variacaoRicota.ingredientes.length && variacaoRicota.preparo.length >= 3 && variacaoRicota.nutricao?.origem === 'estimativa');
+  assert.ok(!receitas.some(r => r.videoId === 'oLjTJSwSHR8' || r.fonte.url.includes('oLjTJSwSHR8')));
   assert.ok(recentes.length <= 5);
   assert.ok(recentes.every(r => r.categoriaBase));
-  for (const id of ['pao-aveia-iogurte-grego', 'bolo-aveia-cacau-banana']) {
-    assert.equal(receitas.find(r => r.id === id).categoria, 'Recentes');
-  }
+  assert.equal(receitas.find(r => r.id === 'pao-ricota-ovo').categoria, 'Pães e wraps');
+  assert.ok(!receitas.find(r => r.id === 'pao-ricota-ovo').categoriaBase);
 });
 
 test('cada ficha permite cozinhar e comprar, com porção e origem das informações', () => {

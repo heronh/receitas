@@ -4,6 +4,111 @@ const CATEGORIAS = ["Recentes", "Pratos principais", "Entradas e pastas", "Pães
 
 const RECEITAS = [
   {
+    "id": "hamburguer-quinoa",
+    "videoId": "H1od62HtUDM",
+    "titulo": "Hambúrguer de quinoa",
+    "categoria": "Recentes",
+    "categoriaBase": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-salad.jpg",
+    "destaque": "Hambúrguer de quinoa cozida com aveia, cebola, cenoura e ovo. Descansa, modela, passa pelo congelador e doura na frigideira.",
+    "porcoes": 4,
+    "porcao": "1 hambúrguer grande (ou 1,5 pequenos)",
+    "rendimento": "6 hambúrgueres pequenos ou 4 grandes",
+    "tempo": "Cerca de 50 minutos incluindo descanso e congelador (estimativa)",
+    "ingredientes": [
+      {
+        "titulo": "Base",
+        "itens": [
+          "1 xícara (150 g) de quinoa cozida",
+          "1/4 xícara (30 g) de farinha de aveia (pode ser aveia em flocos)",
+          "1/4 xícara (20 g) de aveia em flocos",
+          "1 ovo"
+        ]
+      },
+      {
+        "titulo": "Hortifrúti e temperos",
+        "itens": [
+          "1/2 cebola pequena ralada",
+          "2 colheres de sopa de cenoura ralada",
+          "Cebolinha a gosto",
+          "Gergelim preto a gosto",
+          "Páprica doce a gosto",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto"
+        ]
+      },
+      {
+        "titulo": "Para a frigideira",
+        "itens": [
+          "Azeite para untar a frigideira"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture todos os ingredientes em uma tigela e deixe descansar por 10 minutos.",
+      "Modele os hambúrgueres e leve ao congelador por cerca de 30 minutos.",
+      "Regue um fio de azeite na frigideira e doure o hambúrguer em fogo baixo.",
+      "Vire e doure o outro lado. Sirva em seguida."
+    ],
+    "dicas": [
+      "O canal pede para pesar os ingredientes; xícara medida de 240 ml.",
+      "Congelar antes de fritar ajuda a manter o formato na frigideira."
+    ],
+    "conservacao": {
+      "geladeira": "Até 2 dias na geladeira.",
+      "congelador": "Até 20 dias; congele espalhados e depois empilhe com plástico ou papel manteiga entre eles."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, preparo, rendimento e conservação vieram da descrição do vídeo. Tempero 'a gosto' e azeite da frigideira sem quantidade fixa."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=H1od62HtUDM",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Mamãe Vida Saudável",
+      "tituloOriginal": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
+      "duracao": "3:36"
+    },
+    "compras": [
+      {
+        "secao": "Base",
+        "itens": [
+          "1 xícara (150 g) de quinoa cozida",
+          "1/4 xícara (30 g) de farinha de aveia (pode ser aveia em flocos)",
+          "1/4 xícara (20 g) de aveia em flocos",
+          "1 ovo"
+        ]
+      },
+      {
+        "secao": "Hortifrúti e temperos",
+        "itens": [
+          "1/2 cebola pequena ralada",
+          "2 colheres de sopa de cenoura ralada",
+          "Cebolinha a gosto",
+          "Gergelim preto a gosto",
+          "Páprica doce a gosto",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto"
+        ]
+      },
+      {
+        "secao": "Para a frigideira",
+        "itens": [
+          "Azeite para untar a frigideira"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 125,
+      "prot": 5.5,
+      "carb": 16.5,
+      "gord": 4.0,
+      "fibras": 2.2,
+      "nota": "Estimativa manual por porção (4 grandes) a partir das medidas da descrição; quinoa fora da tabela local.",
+      "origem": "autor"
+    }
+  },
+  {
     "id": "pao-linhaca",
     "videoId": "zM8yab1Uy4U",
     "titulo": "Pão de linhaça e chia",
@@ -232,6 +337,195 @@ const RECEITAS = [
       "fibras": 3.1,
       "origem": "estimativa",
       "nota": "Estimativa pelos ingredientes e pela porção indicada. Marcas, umidade e tamanho final alteram os valores; opcionais não incluídos."
+    }
+  },
+  {
+    "id": "pao-aveia-iogurte-grego",
+    "videoId": "b2xbwfPU4IQ",
+    "titulo": "Pão de aveia com iogurte grego",
+    "categoria": "Recentes",
+    "categoriaBase": "Pães e wraps",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-seeds.jpg",
+    "destaque": "Pão de aveia moída, iogurte grego, ovos e sementes, sem farinha de trigo nem fermento biológico. A descrição não lista açúcar.",
+    "porcoes": 10,
+    "porcao": "1 fatia (1/10 do pão; a descrição também estima 1/12)",
+    "rendimento": "1 pão, em 10 fatias (a descrição indica 10 a 12 fatias)",
+    "tempo": "45–50 minutos de forno + 30–60 minutos de resfriamento",
+    "ingredientes": [
+      {
+        "titulo": "Laticínios e ovos",
+        "itens": [
+          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
+          "2 ovos"
+        ]
+      },
+      {
+        "titulo": "Sementes e mercearia",
+        "itens": [
+          "160 g de aveia em flocos (1 e 1/2 xícara)",
+          "30 g de linhaça (1/4 de xícara)",
+          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
+          "2 colheres de sopa de gergelim (cerca de 20 g)",
+          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
+          "1 colher de chá de sal",
+          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)",
+          "Água: 130 ml"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata o iogurte grego com os ovos até ficar liso. Moa a aveia e a linhaça.",
+      "Se quiser, toste levemente as sementes de abóbora e o gergelim. Misture-os à farinha de aveia e à linhaça, com o fermento e o sal.",
+      "Junte a água, o azeite e a mistura de iogurte e ovos. Mexa até obter uma massa espessa e uniforme.",
+      "Despeje em uma forma de pão forrada com papel para forno, ou untada. Alise a superfície.",
+      "Asse em forno preaquecido a 180 °C por 45–50 minutos. Um palito no centro deve sair limpo. Espere esfriar na forma, de 30 a 60 minutos, antes de fatiar."
+    ],
+    "dicas": [
+      "O título fala em diabetes e em pão sem açúcar. A ficha não transforma isso em recomendação: a descrição simplesmente não lista açúcar.",
+      "As sementes podem ir inteiras, se preferir crocância, ou moídas, como a descrição também permite.",
+      "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
+    ],
+    "conservacao": {
+      "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
+      "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, medidas, forno, resfriamento e armazenamento vêm da descrição. O peso das sementes de abóbora usa o meio da faixa de 20–25 g. O azeite foi convertido a 26 g. A nutrição usa 10 fatias."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Fantastische Rezepte",
+      "tituloOriginal": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
+      "duracao": "4:57"
+    },
+    "compras": [
+      {
+        "secao": "Laticínios e ovos",
+        "itens": [
+          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
+          "2 ovos"
+        ]
+      },
+      {
+        "secao": "Sementes e mercearia",
+        "itens": [
+          "160 g de aveia em flocos (1 e 1/2 xícara)",
+          "30 g de linhaça (1/4 de xícara)",
+          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
+          "2 colheres de sopa de gergelim (cerca de 20 g)",
+          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
+          "1 colher de chá de sal",
+          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 145,
+      "prot": 5.6,
+      "carb": 13.0,
+      "gord": 8.3,
+      "fibras": 2.8,
+      "origem": "estimativa",
+      "nota": "Iogurte grego aproximado pelo iogurte natural da TACO, o que pode subestimar a proteína. Sementes de abóbora: 22 g, meio da faixa de 20–25 g. Azeite: 26 g. Água, sal e fermento não entram. Porção de 1/10; a descrição também cita 1/12."
+    }
+  },
+  {
+    "id": "bolo-aveia-cacau-banana",
+    "videoId": "AfhwWdJX7Lg",
+    "titulo": "Bolo de aveia, cacau e banana",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-banana.jpg",
+    "destaque": "Bolo de aveia hidratada em leite quente, com banana, cacau e amendoim. A descrição não inclui açúcar.",
+    "porcoes": 8,
+    "porcao": "1 pedaço (1/8 do bolo; rendimento estimado)",
+    "rendimento": "1 bolo em 8 pedaços (estimativa; a descrição não informa o rendimento)",
+    "tempo": "10 minutos de hidratação + 40 minutos de forno",
+    "ingredientes": [
+      {
+        "titulo": "Hortifrúti",
+        "itens": [
+          "2 bananas (aprox. 200 g sem casca; estimativa)"
+        ]
+      },
+      {
+        "titulo": "Mercearia",
+        "itens": [
+          "120 g de aveia em flocos",
+          "45 g de cacau em pó (4 colheres de sopa)",
+          "1 colher de sopa de fermento em pó",
+          "40 g de amendoim"
+        ]
+      },
+      {
+        "titulo": "Líquidos e ovos",
+        "itens": [
+          "250 ml de leite quente",
+          "2 ovos"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture a aveia com o leite quente e deixe hidratar por 10 minutos.",
+      "Amasse as bananas e incorpore à aveia. Junte os ovos, o cacau, o fermento e o amendoim até a massa ficar homogênea.",
+      "Transfira para uma forma e asse a 180 °C por 40 minutos. Deixe amornar antes de cortar."
+    ],
+    "dicas": [
+      "A descrição pede 1 colher de sopa de fermento em pó. A ficha mantém essa medida.",
+      "Não há açúcar na lista. Bananas mais maduras deixam o bolo mais doce; isso não é uma alegação de alimento “sem açúcar”.",
+      "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
+      "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
+    },
+    "proveniencia": {
+      "nota": "Aveia, leite, tempo de hidratação, bananas, ovos, cacau, fermento, amendoim e forno vêm da descrição. O peso das bananas, o tipo de leite e a divisão em 8 pedaços são estimativas. A conservação não está no vídeo."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Przepisy Mimi",
+      "tituloOriginal": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
+      "duracao": "6:35"
+    },
+    "compras": [
+      {
+        "secao": "Hortifrúti",
+        "itens": [
+          "2 bananas (aprox. 200 g sem casca; estimativa)"
+        ]
+      },
+      {
+        "secao": "Mercearia",
+        "itens": [
+          "120 g de aveia em flocos",
+          "45 g de cacau em pó (4 colheres de sopa)",
+          "1 colher de sopa de fermento em pó",
+          "40 g de amendoim"
+        ]
+      },
+      {
+        "secao": "Líquidos e ovos",
+        "itens": [
+          "250 ml de leite quente",
+          "2 ovos"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 160,
+      "prot": 7.3,
+      "carb": 21.7,
+      "gord": 6.9,
+      "fibras": 4.3,
+      "origem": "estimativa",
+      "nota": "Bananas estimadas em 200 g sem casca. 250 ml de leite integral contados como 250 g; a descrição não especifica o tipo de leite. Fermento não entra. O rendimento de 8 pedaços é estimativa."
     }
   },
   {
@@ -954,195 +1248,6 @@ const RECEITAS = [
     }
   },
   {
-    "id": "pao-aveia-iogurte-grego",
-    "videoId": "b2xbwfPU4IQ",
-    "titulo": "Pão de aveia com iogurte grego",
-    "categoria": "Recentes",
-    "categoriaBase": "Pães e wraps",
-    "tags": [
-      "Sem glúten"
-    ],
-    "icone": "imagens/receita-icon-seeds.jpg",
-    "destaque": "Pão de aveia moída, iogurte grego, ovos e sementes, sem farinha de trigo nem fermento biológico. A descrição não lista açúcar.",
-    "porcoes": 10,
-    "porcao": "1 fatia (1/10 do pão; a descrição também estima 1/12)",
-    "rendimento": "1 pão, em 10 fatias (a descrição indica 10 a 12 fatias)",
-    "tempo": "45–50 minutos de forno + 30–60 minutos de resfriamento",
-    "ingredientes": [
-      {
-        "titulo": "Laticínios e ovos",
-        "itens": [
-          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
-          "2 ovos"
-        ]
-      },
-      {
-        "titulo": "Sementes e mercearia",
-        "itens": [
-          "160 g de aveia em flocos (1 e 1/2 xícara)",
-          "30 g de linhaça (1/4 de xícara)",
-          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
-          "2 colheres de sopa de gergelim (cerca de 20 g)",
-          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
-          "1 colher de chá de sal",
-          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)",
-          "Água: 130 ml"
-        ]
-      }
-    ],
-    "preparo": [
-      "Bata o iogurte grego com os ovos até ficar liso. Moa a aveia e a linhaça.",
-      "Se quiser, toste levemente as sementes de abóbora e o gergelim. Misture-os à farinha de aveia e à linhaça, com o fermento e o sal.",
-      "Junte a água, o azeite e a mistura de iogurte e ovos. Mexa até obter uma massa espessa e uniforme.",
-      "Despeje em uma forma de pão forrada com papel para forno, ou untada. Alise a superfície.",
-      "Asse em forno preaquecido a 180 °C por 45–50 minutos. Um palito no centro deve sair limpo. Espere esfriar na forma, de 30 a 60 minutos, antes de fatiar."
-    ],
-    "dicas": [
-      "O título fala em diabetes e em pão sem açúcar. A ficha não transforma isso em recomendação: a descrição simplesmente não lista açúcar.",
-      "As sementes podem ir inteiras, se preferir crocância, ou moídas, como a descrição também permite.",
-      "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
-    ],
-    "conservacao": {
-      "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
-      "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
-    },
-    "proveniencia": {
-      "nota": "Ingredientes, medidas, forno, resfriamento e armazenamento vêm da descrição. O peso das sementes de abóbora usa o meio da faixa de 20–25 g. O azeite foi convertido a 26 g. A nutrição usa 10 fatias."
-    },
-    "fonte": {
-      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
-      "texto": "Assistir ao vídeo original",
-      "canal": "Fantastische Rezepte",
-      "tituloOriginal": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
-      "duracao": "4:57"
-    },
-    "compras": [
-      {
-        "secao": "Laticínios e ovos",
-        "itens": [
-          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
-          "2 ovos"
-        ]
-      },
-      {
-        "secao": "Sementes e mercearia",
-        "itens": [
-          "160 g de aveia em flocos (1 e 1/2 xícara)",
-          "30 g de linhaça (1/4 de xícara)",
-          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
-          "2 colheres de sopa de gergelim (cerca de 20 g)",
-          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
-          "1 colher de chá de sal",
-          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)"
-        ]
-      }
-    ],
-    "nutricao": {
-      "kcal": 145,
-      "prot": 5.6,
-      "carb": 13.0,
-      "gord": 8.3,
-      "fibras": 2.8,
-      "origem": "estimativa",
-      "nota": "Iogurte grego aproximado pelo iogurte natural da TACO, o que pode subestimar a proteína. Sementes de abóbora: 22 g, meio da faixa de 20–25 g. Azeite: 26 g. Água, sal e fermento não entram. Porção de 1/10; a descrição também cita 1/12."
-    }
-  },
-  {
-    "id": "bolo-aveia-cacau-banana",
-    "videoId": "AfhwWdJX7Lg",
-    "titulo": "Bolo de aveia, cacau e banana",
-    "categoria": "Recentes",
-    "categoriaBase": "Doces e lanches",
-    "tags": [],
-    "icone": "imagens/receita-icon-banana.jpg",
-    "destaque": "Bolo de aveia hidratada em leite quente, com banana, cacau e amendoim. A descrição não inclui açúcar.",
-    "porcoes": 8,
-    "porcao": "1 pedaço (1/8 do bolo; rendimento estimado)",
-    "rendimento": "1 bolo em 8 pedaços (estimativa; a descrição não informa o rendimento)",
-    "tempo": "10 minutos de hidratação + 40 minutos de forno",
-    "ingredientes": [
-      {
-        "titulo": "Hortifrúti",
-        "itens": [
-          "2 bananas (aprox. 200 g sem casca; estimativa)"
-        ]
-      },
-      {
-        "titulo": "Mercearia",
-        "itens": [
-          "120 g de aveia em flocos",
-          "45 g de cacau em pó (4 colheres de sopa)",
-          "1 colher de sopa de fermento em pó",
-          "40 g de amendoim"
-        ]
-      },
-      {
-        "titulo": "Líquidos e ovos",
-        "itens": [
-          "250 ml de leite quente",
-          "2 ovos"
-        ]
-      }
-    ],
-    "preparo": [
-      "Misture a aveia com o leite quente e deixe hidratar por 10 minutos.",
-      "Amasse as bananas e incorpore à aveia. Junte os ovos, o cacau, o fermento e o amendoim até a massa ficar homogênea.",
-      "Transfira para uma forma e asse a 180 °C por 40 minutos. Deixe amornar antes de cortar."
-    ],
-    "dicas": [
-      "A descrição pede 1 colher de sopa de fermento em pó. A ficha mantém essa medida.",
-      "Não há açúcar na lista. Bananas mais maduras deixam o bolo mais doce; isso não é uma alegação de alimento “sem açúcar”.",
-      "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
-    ],
-    "conservacao": {
-      "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
-      "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
-    },
-    "proveniencia": {
-      "nota": "Aveia, leite, tempo de hidratação, bananas, ovos, cacau, fermento, amendoim e forno vêm da descrição. O peso das bananas, o tipo de leite e a divisão em 8 pedaços são estimativas. A conservação não está no vídeo."
-    },
-    "fonte": {
-      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
-      "texto": "Assistir ao vídeo original",
-      "canal": "Przepisy Mimi",
-      "tituloOriginal": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
-      "duracao": "6:35"
-    },
-    "compras": [
-      {
-        "secao": "Hortifrúti",
-        "itens": [
-          "2 bananas (aprox. 200 g sem casca; estimativa)"
-        ]
-      },
-      {
-        "secao": "Mercearia",
-        "itens": [
-          "120 g de aveia em flocos",
-          "45 g de cacau em pó (4 colheres de sopa)",
-          "1 colher de sopa de fermento em pó",
-          "40 g de amendoim"
-        ]
-      },
-      {
-        "secao": "Líquidos e ovos",
-        "itens": [
-          "250 ml de leite quente",
-          "2 ovos"
-        ]
-      }
-    ],
-    "nutricao": {
-      "kcal": 160,
-      "prot": 7.3,
-      "carb": 21.7,
-      "gord": 6.9,
-      "fibras": 4.3,
-      "origem": "estimativa",
-      "nota": "Bananas estimadas em 200 g sem casca. 250 ml de leite integral contados como 250 g; a descrição não especifica o tipo de leite. Fermento não entra. O rendimento de 8 pedaços é estimativa."
-    }
-  },
-  {
     "id": "biscoitos-aveia-iogurte",
     "videoId": "8y3AEMvtq68",
     "titulo": "Biscoitos de aveia, iogurte e limão",
@@ -1614,8 +1719,7 @@ const RECEITAS = [
     "id": "pao-ricota-ovo",
     "videoId": "KmiFvWdx01M",
     "titulo": "Pão de frigideira de ovo e ricota",
-    "categoria": "Recentes",
-    "categoriaBase": "Pães e wraps",
+    "categoria": "Pães e wraps",
     "tags": [
       "Sem glúten"
     ],
@@ -1664,6 +1768,60 @@ const RECEITAS = [
       "tituloOriginal": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES -  Delícia Fácil e Rápido",
       "duracao": "2:30"
     },
+    "variacoes": [
+      {
+        "id": "pao-ricota-ovo-recheado",
+        "videoId": "DDzNylsClC4",
+        "titulo": "Pão de frigideira de ovo e ricota (3 ovos)",
+        "descricao": "Mesma base de ovos e ricota, com 3 ovos para 150 g de ricota e recheio opcional de mussarela, azeitona e orégano. Sem farinha.",
+        "rendimento": "Cerca de 2–3 discos (estimativa; o vídeo não informa)",
+        "porcoes": 2,
+        "porcao": "1 disco",
+        "ingredientes": [
+          {
+            "titulo": "Laticínios e ovos",
+            "itens": [
+              "3 ovos",
+              "150 g de ricota"
+            ]
+          },
+          {
+            "titulo": "Recheio opcional",
+            "itens": [
+              "Mussarela em cubinhos a gosto",
+              "Azeitonas picadas a gosto",
+              "Orégano a gosto"
+            ]
+          }
+        ],
+        "preparo": [
+          "Amasse bem a ricota e misture com os ovos até obter uma massa homogênea.",
+          "Se usar recheio, reserve mussarela, azeitona e orégano para colocar no centro de cada disco.",
+          "Aqueça uma frigideira antiaderente em fogo baixo, unte levemente se precisar e despeje parte da massa em disco fino.",
+          "Tampe e cozinhe até a base firmar; vire com cuidado e doure o outro lado. Repita com o restante."
+        ],
+        "dicas": [
+          "A descrição confirma 3 ovos e 150 g de ricota; o método na frigideira e o rendimento são estimativa editorial (sem legendas úteis).",
+          "Recheio opcional: coloque no meio antes de fechar ou virar, para não vazar."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=DDzNylsClC4",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Receitas Low Carb para Diabéticos",
+          "tituloOriginal": "SÓ 2 INGREDIENTES, SEM NENHUMA FARINHA, Substitua o PÃO no Café da Manhã!",
+          "duracao": "2:48"
+        },
+        "nutricao": {
+          "kcal": 210,
+          "prot": 19.2,
+          "carb": 4.0,
+          "gord": 12.8,
+          "fibras": 0.0,
+          "origem": "estimativa",
+          "nota": "Estimativa só com 3 ovos (≈150 g) e 150 g de ricota; recheio opcional não incluído. Método e rendimento são estimativa editorial."
+        }
+      }
+    ],
     "compras": [
       {
         "secao": "Laticínios e ovos",
