@@ -542,7 +542,58 @@
     "fonteComplementar": {
       "url": "https://cooknenjoy.com/salgadinho-saudavel",
       "texto": "Receita escrita pelo autor"
-    }
+    },
+    "variacoes": [
+      {
+        "id": "biscoito-batata-doce-sem-ovos",
+        "videoId": "RAaxxbvzCUg",
+        "titulo": "Biscoito de batata-doce sem leite, ovos ou trigo",
+        "descricao": "Discos finos de batata-doce cozida no vapor com farinha de arroz, gergelim e óleo de coco. A narração confirma ausência de leite, ovos e trigo.",
+        "rendimento": "Cerca de 20–25 unidades finas; 5 porções (estimativa)",
+        "porcoes": 5,
+        "porcao": "4–5 biscoitos",
+        "ingredientes": [
+          {
+            "titulo": "Hortifrúti",
+            "itens": [
+              "250 g de batata-doce cozida no vapor e amassada (estimativa; o vídeo não informa quantidade)"
+            ]
+          },
+          {
+            "titulo": "Mercearia",
+            "itens": [
+              "30 g de farinha de arroz (estimativa; o vídeo não informa quantidade)",
+              "2 colheres de sopa de óleo de coco (aprox. 26 g; estimativa)",
+              "24 g de gergelim (estimativa)",
+              "Sal a gosto"
+            ]
+          }
+        ],
+        "preparo": [
+          "Misture a batata-doce amassada com farinha de arroz, gergelim, óleo de coco e sal até formar uma massa modelável.",
+          "Modele bolinhas, cubra com papel manteiga e achate com o fundo de um copo até ficar bem fino — a espessura garante crocância.",
+          "Asse a 180 °C por cerca de 30 minutos, até secar e dourar. Deixe esfriar antes de servir."
+        ],
+        "dicas": [
+          "A narração confirma batata-doce no vapor, farinha de arroz, gergelim, óleo de coco e sal; não há leite nem ovos. As medidas são estimativa editorial.",
+          "Discos finos e uniformes assam mais rápido e ficam mais crocantes."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=RAaxxbvzCUg",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Susi Derosa",
+          "tituloOriginal": "Biscoito Saudável Batata Doce #semleite #semovos #semtrigo",
+          "duracao": "1:30"
+        },
+        "baseNutricional": {
+          "batata_doce": 250,
+          "farinha_arroz": 30,
+          "azeite": 26,
+          "gergelim": 24
+        },
+        "notaNutricional": "Óleo de coco aproximado pelo azeite da TACO. Medidas não informadas no vídeo; proporções estimadas com base no salgadinho de parmesão."
+      }
+    ]
   },
   {
     "id": "pudim-chocolate-chia",

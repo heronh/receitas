@@ -19,7 +19,7 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   const recentesVideoIds = new Set(recentes.map(r => r.videoId));
   assert.deepEqual(recentes.map(r => r.id), recentesIds);
   assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
-  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo'].includes(r.id)));
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo', 'salgadinho-batata-doce'].includes(r.id)));
   const variacaoAveia = receitas.find(r => r.id === 'aveia-assada-maca').variacoes[0];
   assert.equal(variacaoAveia.id, 'cookies-aveia-maca-canela');
   assert.equal(variacaoAveia.videoId, 'FxgVCAD6KyE');
@@ -30,7 +30,13 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   assert.equal(variacaoRicota.videoId, 'DDzNylsClC4');
   assert.equal(variacaoRicota.fonte.url, 'https://www.youtube.com/watch?v=DDzNylsClC4');
   assert.ok(variacaoRicota.ingredientes.length && variacaoRicota.preparo.length >= 3 && variacaoRicota.nutricao?.origem === 'estimativa');
+  const variacaoBatata = receitas.find(r => r.id === 'salgadinho-batata-doce').variacoes[0];
+  assert.equal(variacaoBatata.id, 'biscoito-batata-doce-sem-ovos');
+  assert.equal(variacaoBatata.videoId, 'RAaxxbvzCUg');
+  assert.equal(variacaoBatata.fonte.url, 'https://www.youtube.com/watch?v=RAaxxbvzCUg');
+  assert.ok(variacaoBatata.ingredientes.length && variacaoBatata.preparo.length >= 3 && variacaoBatata.nutricao?.origem === 'estimativa');
   assert.ok(!receitas.some(r => r.videoId === 'oLjTJSwSHR8' || r.fonte.url.includes('oLjTJSwSHR8')));
+  assert.ok(!receitas.some(r => r.videoId === 'qviffFXr_sg' || r.fonte.url.includes('qviffFXr_sg')));
   assert.ok(recentes.length <= 5);
   assert.ok(recentes.every(r => r.categoriaBase));
   assert.equal(receitas.find(r => r.id === 'pao-ricota-ovo').categoria, 'Pães e wraps');

@@ -1,10 +1,29 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-09-29",
+  "consultadoEm": "2026-10-02",
   "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte.",
   "videos": [
     {
       "posicao": 1,
+      "id": "FxgVCAD6KyE",
+      "titulo": "Oatmeal Cookies with Apples and Cinnamon: Easy, No Flour, No Butter",
+      "canal": "wie man alles kocht",
+      "url": "https://www.youtube.com/watch?v=FxgVCAD6KyE",
+      "duracao": "2:35",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 2,
+      "id": "qviffFXr_sg",
+      "titulo": "A protein dessert! In 5 minutes! NO sugar! NO gluten!",
+      "canal": null,
+      "url": "https://www.youtube.com/watch?v=qviffFXr_sg",
+      "duracao": null,
+      "descricaoConsultada": false,
+      "nota": "oEmbed 401; ingredientes parciais na página embed; preparo não confirmado — receita não ingerida"
+    },
+    {
+      "posicao": 3,
       "id": "zM8yab1Uy4U",
       "titulo": "PÃO DE LINHAÇA QUASE TODOS OS DIAS! SAUDÁVEL FÁCIL E FOFINHO! sem glúten!",
       "canal": "Virando a mesa",
@@ -13,7 +32,17 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 2,
+      "posicao": 4,
+      "id": "oLjTJSwSHR8",
+      "titulo": "These Cinnamon Oat Cookies Are Seriously Addictive",
+      "canal": "Mommy's Recipes",
+      "url": "https://www.youtube.com/watch?v=oLjTJSwSHR8",
+      "duracao": null,
+      "descricaoConsultada": false,
+      "nota": "Sem ingredientes na descrição; não reprocessar"
+    },
+    {
+      "posicao": 5,
       "id": "j25LoMkeFWo",
       "titulo": "Just Oatmeal and apple! Incredibly delicious & HEALTHY! No Sugar! No flour!",
       "canal": "Przepisy Mimi",
@@ -22,7 +51,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 3,
+      "posicao": 6,
       "id": "qwi2Y8isloI",
       "titulo": "No SUGAR! Only 3-Ingredient Dessert You Need To Try!",
       "canal": "Olya Pins",
@@ -31,7 +60,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 4,
+      "posicao": 7,
       "id": "FbzjVvVyCEM",
       "titulo": "SALGADINHO SAUDÁVEL DE BATATA DOCE COM PARMESÃO SEM GLÚTEN | Cook'n Enjoy 1857",
       "canal": "Cook'n Enjoy",
@@ -40,7 +69,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 5,
+      "posicao": 8,
       "id": "oFDbeSacXGY",
       "titulo": "Ready in 3 minutes! A healthy, protein-rich chia dessert. Sugar-free! Lactose-free!",
       "canal": "Schnelle Rezepte",
@@ -49,16 +78,25 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 6,
+      "posicao": 9,
+      "id": "RAaxxbvzCUg",
+      "titulo": "Biscoito Saudável Batata Doce #semleite #semovos #semtrigo",
+      "canal": "Susi Derosa",
+      "url": "https://www.youtube.com/watch?v=RAaxxbvzCUg",
+      "duracao": "1:30",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 10,
       "id": "7P_4y4j9cWA",
-      "titulo": "Just Oats & Chia Seeds! The Healthiest Snack You’ll Make This Week❗️",
+      "titulo": "Just Oats & Chia Seeds! The Healthiest Snack You'll Make This Week❗️",
       "canal": "Zara Cooks Tasty & Healthy Food",
       "url": "https://www.youtube.com/watch?v=7P_4y4j9cWA",
       "duracao": "4:00",
       "descricaoConsultada": true
     },
     {
-      "posicao": 7,
+      "posicao": 11,
       "id": "WAwcloRLMY0",
       "titulo": "High Protein Tuna Avocado Spread for Breakfast | Quick & Easy Breakfast for Work",
       "canal": "Chill Chicken",
@@ -67,7 +105,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 8,
+      "posicao": 12,
       "id": "j1EUg_IfTh8",
       "titulo": "The Ginger Garlic Chicken I Make on My Busiest Days! One Pan, Big Flavor",
       "canal": "Pure Delicious",
@@ -76,7 +114,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 9,
+      "posicao": 13,
       "id": "dupbD0MR6Wo",
       "titulo": "Crispy Chicken in Creamy Garlic Parmesan Sauce 😍 Better Than You Think!",
       "canal": "Alle Rezepte",
@@ -85,7 +123,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 10,
+      "posicao": 14,
       "id": "Yyzdcpqct50",
       "titulo": "How To Make Cottage Cheese Flatbread",
       "canal": "Andrew Gruel",
@@ -94,7 +132,25 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 11,
+      "posicao": 15,
+      "id": "b2xbwfPU4IQ",
+      "titulo": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
+      "canal": "Fantastische Rezepte",
+      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
+      "duracao": "4:57",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 16,
+      "id": "AfhwWdJX7Lg",
+      "titulo": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
+      "canal": "Przepisy Mimi",
+      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
+      "duracao": "6:35",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 17,
       "id": "8y3AEMvtq68",
       "titulo": "Just oatmeal and yogurt! This Danish oatmeal cookie recipe is delicious",
       "canal": "wie man alles kocht",
@@ -103,7 +159,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 12,
+      "posicao": 18,
       "id": "0A3e0V3nw2A",
       "titulo": "Creamy Mushroom Chicken | Chicken with Creamy Mushroom Sauce Recipe",
       "canal": "The Cooking Foodie",
@@ -112,7 +168,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 13,
+      "posicao": 19,
       "id": "mdPveC7HlFM",
       "titulo": "Kein Zucker! Gesunde Kekse ohne Mehl, Zucker und Gluten! Energiedessert für jeden Tag!",
       "canal": "Süß und Gesund",
@@ -121,7 +177,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 14,
+      "posicao": 20,
       "id": "TH9rWEh8okY",
       "titulo": "Easy Cottage Cheese Flatbread or Wraps | 2 Ingredients & High Protein",
       "canal": "The Protein Chef",
@@ -130,7 +186,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 15,
+      "posicao": 21,
       "id": "VX-dMV-HZQQ",
       "titulo": "COTTAGE CHEESE FLATBREAD PIZZA. Pepperoni Keto Pizza, Cottage Cheese Pizza Crust.",
       "canal": "Keto Kitchen",
@@ -139,52 +195,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 16,
-      "id": "KmiFvWdx01M",
-      "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES -  Delícia Fácil e Rápido",
-      "canal": "Anjo Low Carb Receitas",
-      "url": "https://www.youtube.com/watch?v=KmiFvWdx01M",
-      "duracao": "2:30",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 17,
-      "id": "eCazTN5-Rsc",
-      "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
-      "canal": "Alle Rezepte",
-      "url": "https://www.youtube.com/watch?v=eCazTN5-Rsc",
-      "duracao": "5:43",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 18,
-      "id": "dRW3VMfNlaY",
-      "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
-      "canal": "Delicious and easy recipes",
-      "url": "https://www.youtube.com/watch?v=dRW3VMfNlaY",
-      "duracao": "6:42",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 19,
-      "id": "BkTFTZw9PSE",
-      "titulo": "Peito de pato com mel e Vinho do Porto",
-      "canal": "Cozinha de Arquiteto",
-      "url": "https://www.youtube.com/watch?v=BkTFTZw9PSE",
-      "duracao": "11:55",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 20,
-      "id": "H1od62HtUDM",
-      "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
-      "canal": "Mamãe Vida Saudável",
-      "url": "https://www.youtube.com/watch?v=H1od62HtUDM",
-      "duracao": "3:36",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 21,
+      "posicao": 22,
       "id": "DDzNylsClC4",
       "titulo": "SÓ 2 INGREDIENTES, SEM NENHUMA FARINHA, Substitua o PÃO no Café da Manhã!",
       "canal": "Receitas Low Carb para Diabéticos",
@@ -193,9 +204,54 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 22,
+      "posicao": 23,
+      "id": "KmiFvWdx01M",
+      "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES - Delícia Fácil e Rápido",
+      "canal": "Anjo Low Carb Receitas",
+      "url": "https://www.youtube.com/watch?v=KmiFvWdx01M",
+      "duracao": "2:30",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 24,
+      "id": "eCazTN5-Rsc",
+      "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
+      "canal": "Alle Rezepte",
+      "url": "https://www.youtube.com/watch?v=eCazTN5-Rsc",
+      "duracao": "5:43",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 25,
+      "id": "dRW3VMfNlaY",
+      "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
+      "canal": "Delicious and easy recipes",
+      "url": "https://www.youtube.com/watch?v=dRW3VMfNlaY",
+      "duracao": "6:42",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 26,
+      "id": "BkTFTZw9PSE",
+      "titulo": "Peito de pato com mel e Vinho do Porto",
+      "canal": "Cozinha de Arquiteto",
+      "url": "https://www.youtube.com/watch?v=BkTFTZw9PSE",
+      "duracao": "11:55",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 27,
+      "id": "H1od62HtUDM",
+      "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
+      "canal": "Mamãe Vida Saudável",
+      "url": "https://www.youtube.com/watch?v=H1od62HtUDM",
+      "duracao": "3:36",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 28,
       "id": "RueGO-RTfZI",
-      "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
+      "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
       "canal": "Lu Crosara",
       "url": "https://www.youtube.com/watch?v=RueGO-RTfZI",
       "duracao": "1:01",
