@@ -305,10 +305,10 @@
       marcados === itens.length ? "Tudo pronto!" : `${marcados} de ${itens.length} no carrinho`;
   };
 
-  const textoDaLista = (receita, somentePendentes) => {
+  const textoDaLista = (receita, somenteMarcados) => {
     const linhas = [`Lista de compras: ${receita.titulo}`, `Rendimento: ${receita.rendimento}`];
     receita.compras.forEach((s) => {
-      const itens = s.itens.filter((i) => !somentePendentes || !itemMarcado(receita.id, i));
+      const itens = s.itens.filter((i) => !somenteMarcados || itemMarcado(receita.id, i));
       if (!itens.length) return;
       linhas.push("", s.secao.toUpperCase(), ...itens.map((i) => `- ${i}`));
     });
@@ -346,18 +346,28 @@
     }
   };
 
-  const listaPendente = (receita) => {
-    const pendentes = receita.compras.some((s) => s.itens.some((i) => !itemMarcado(receita.id, i)));
-    return textoDaLista(receita, pendentes);
+  const listaMarcados = (receita) => {
+    const marcados = receita.compras.some((s) => s.itens.some((i) => itemMarcado(receita.id, i)));
+    if (!marcados) return null;
+    return textoDaLista(receita, true);
   };
 
   const acoes = {
     async copiar(receita) {
-      const ok = await copiarTexto(listaPendente(receita));
+      const texto = listaMarcados(receita);
+      if (!texto) {
+        avisar("Marque os itens que quer copiar");
+        return;
+      }
+      const ok = await copiarTexto(texto);
       avisar(ok ? "Lista copiada" : "Não foi possível copiar");
     },
     async compartilhar(receita) {
-      const texto = listaPendente(receita);
+      const texto = listaMarcados(receita);
+      if (!texto) {
+        avisar("Marque os itens que quer copiar");
+        return;
+      }
       if (navigator.share) {
         try {
           await navigator.share({ title: `Lista de compras: ${receita.titulo}`, text: texto });

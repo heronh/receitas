@@ -34,9 +34,9 @@ const server = http.createServer((req, res) => {
   page.on('response', r => { if (r.status() >= 400) errors.push(`${r.status()}: ${r.url()}`); });
   try {
     await page.goto(url);
-    assert.equal(await page.locator('[data-receita]').count(), 22);
-    assert.equal(await page.locator('[data-card]').count(), 22);
-    assert.equal(await page.locator('#contagem').innerText(), '22 receitas');
+    assert.equal(await page.locator('[data-receita]').count(), 23);
+    assert.equal(await page.locator('[data-card]').count(), 23);
+    assert.equal(await page.locator('#contagem').innerText(), '23 receitas');
     await page.locator('.card[href="#aveia-assada-maca"]').click();
     await page.locator('#aveia-assada-maca .variacao__nome').waitFor();
     assert.equal(await page.locator('#aveia-assada-maca .variacao__nome').innerText(), 'Cookies de aveia, maçã e canela');
@@ -65,7 +65,7 @@ const server = http.createServer((req, res) => {
     await page.evaluate(() => { location.hash = '#wrap-cottage-ovos'; });
     await page.waitForFunction(() => !document.querySelector('#wrap-cottage-ovos').hidden);
     assert.equal(await page.locator('#busca').inputValue(), '');
-    assert.equal(await page.locator('[data-receita]:visible').count(), 22);
+    assert.equal(await page.locator('[data-receita]:visible').count(), 23);
     await page.getByRole('button', { name: 'Vegana', exact: true }).click();
     assert.equal(await page.locator('[data-card]:visible').count(), 4);
     await page.getByRole('button', { name: 'Todas', exact: true }).click();
@@ -79,16 +79,15 @@ const server = http.createServer((req, res) => {
     await compras.getByRole('button', { name: 'Copiar lista', exact: true }).click();
     let copied = await page.evaluate(() => navigator.clipboard.readText());
     assert.ok(copied.includes('Rendimento:'));
-    assert.ok(!copied.includes(marked), 'a cópia deve omitir o item já comprado');
+    assert.ok(copied.includes(marked), 'a cópia deve incluir só o item marcado');
     await compras.getByRole('button', { name: 'Limpar marcações', exact: true }).click();
     assert.ok(!await first.isChecked());
     await page.evaluate(() => Object.defineProperty(navigator, 'share', { value: undefined, configurable: true }));
     await compras.getByRole('button', { name: 'Compartilhar', exact: true }).click();
-    copied = await page.evaluate(() => navigator.clipboard.readText());
-    assert.ok(copied.includes(marked), 'compartilhar deve copiar a lista quando não há Web Share');
+    assert.equal(await page.locator('#aviso').innerText(), 'Marque os itens que quer copiar');
     await page.evaluate(() => { localStorage.setItem('receitas:compras:v1', '{"pao-linhaca":42}'); location.hash = '#%E0%A4%A'; });
     await page.reload();
-    assert.equal(await page.locator('[data-receita]').count(), 22);
+    assert.equal(await page.locator('[data-receita]').count(), 23);
     const ids = await page.locator('[id]').evaluateAll(nodes => nodes.map(n => n.id));
     assert.equal(new Set(ids).size, ids.length, 'IDs duplicados');
     await page.evaluate(() => { history.replaceState(null, '', '/'); scrollTo(0, 0); });
@@ -112,7 +111,7 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Tab');
     assert.equal(await page.evaluate(() => document.activeElement.textContent), 'Todas');
     assert.deepEqual(errors, []);
-    console.log('PASS: 22 âncoras; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
+    console.log('PASS: 23 âncoras; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
     console.log(`Capturas: ${output}`);
   } finally {
     await browser.close();
