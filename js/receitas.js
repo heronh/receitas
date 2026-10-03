@@ -139,6 +139,7 @@ const RECEITAS = [
       "Para não grudar, use papel siliconado próprio para forno e uma camada fina de azeite."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 3 dias, em pote fechado. Refrigere depois de perder o calor inicial.",
       "congelador": "Pode congelar já fatiado por até 1 mês, com papel entre as fatias. Aqueça diretamente na torradeira ou frigideira."
     },
@@ -314,6 +315,7 @@ const RECEITAS = [
       "A descrição inclui mel, portanto não classificamos esta versão como “sem açúcar adicionado”."
     ],
     "conservacao": {
+      "ambiente": "Poucas horas em temperatura ambiente; prefira geladeira pela umidade (aprox.).",
       "geladeira": "Até 3 dias em pote fechado; por serem úmidos, mantenha refrigerados.",
       "congelador": "Pode congelar os biscoitos assados por até 1 mês. Reaqueça no forno para recuperar a superfície."
     },
@@ -370,6 +372,11 @@ const RECEITAS = [
           "A cobertura leva açúcar. Sem ela, a massa descrita não inclui açúcar adicionado. O título do vídeo não vira alegação de “sem açúcar”.",
           "O vídeo serve os cookies com chá de folhas de framboesa e um pedaço de maçã. Esse acompanhamento não entra na ficha nem na nutrição."
         ],
+        "conservacao": {
+          "ambiente": "Poucas horas em temperatura ambiente; prefira a geladeira pela umidade (aprox.).",
+          "geladeira": "Até 3 dias em pote fechado.",
+          "congelador": "Pode congelar os biscoitos assados por até 1 mês. Reaqueça no forno para recuperar a superfície."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=FxgVCAD6KyE",
           "texto": "Assistir ao vídeo original",
@@ -455,6 +462,7 @@ const RECEITAS = [
       "Chocolate amargo pode conter açúcar. Para evitar açúcar adicionado, confira o rótulo; isso também altera a nutrição."
     ],
     "conservacao": {
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
       "geladeira": "Até 3 dias, em recipiente fechado.",
       "congelador": "Pode congelar por até 1 mês. Descongele na geladeira, dentro do pote fechado, para reduzir condensação no chocolate."
     },
@@ -541,7 +549,8 @@ const RECEITAS = [
       "Discos com a mesma espessura assam juntos; papel entre o copo e a massa evita que grudem."
     ],
     "conservacao": {
-      "geladeira": "Para manter a crocância, o autor orienta pote hermético em local seco por até 7 dias, somente se completamente secos. Se ficarem macios ou úmidos, refrigere e consuma em até 3 dias.",
+      "ambiente": "Até 5–7 dias em pote hermético em local seco e fresco, se bem secos (aprox.; ver também geladeira).",
+      "geladeira": "Se ficarem macios ou úmidos, refrigere em pote fechado e consuma em até 3 dias.",
       "congelador": "O autor não informa congelamento. Sugestão: congele os discos crus separados por até 1 mês e asse sem descongelar, ajustando o tempo."
     },
     "proveniencia": {
@@ -593,6 +602,11 @@ const RECEITAS = [
           "A narração confirma batata-doce no vapor, farinha de arroz, gergelim, óleo de coco e sal; não há leite nem ovos. As medidas são estimativa editorial.",
           "Discos finos e uniformes assam mais rápido e ficam mais crocantes."
         ],
+        "conservacao": {
+          "ambiente": "Até 5–7 dias em pote hermético em local seco e fresco, se bem secos (aprox.).",
+          "geladeira": "Se ficarem macios ou úmidos, refrigere e consuma em até 3 dias.",
+          "congelador": "Pode congelar os discos crus, separados, por até 1 mês e assar sem descongelar."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=RAaxxbvzCUg",
           "texto": "Assistir ao vídeo original",
@@ -684,6 +698,7 @@ const RECEITAS = [
       "Para desenformar, umedeça levemente as formas. Verifique no rótulo se o chocolate não contém leite nem glúten."
     ],
     "conservacao": {
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
       "geladeira": "Até 3 dias, tampado.",
       "congelador": "Não recomendado pela textura: o gel de ágar pode liberar água ao descongelar. Prefira preparar uma quantidade para a geladeira."
     },
@@ -759,7 +774,8 @@ const RECEITAS = [
       "Para mais crocância, deixe espessura uniforme e evite guardar ainda mornos. Eles endurecem ao esfriar."
     ],
     "conservacao": {
-      "geladeira": "Quando bem secos, guarde em pote hermético em local seco por até 3 dias (sugestão). Se houver umidade, mantenha na geladeira.",
+      "ambiente": "Até 5–7 dias em pote hermético em local seco e fresco, se bem secos (aprox.; ver também geladeira).",
+      "geladeira": "Se houver umidade, mantenha na geladeira em pote fechado.",
       "congelador": "Pode congelar assados por até 1 mês. Aqueça no forno e deixe esfriar antes de guardar novamente."
     },
     "proveniencia": {
@@ -843,6 +859,7 @@ const RECEITAS = [
       "Use abacates maduros, mas firmes; o tamanho varia muito, por isso o cálculo considera 300 g de polpa."
     ],
     "conservacao": {
+      "ambiente": "Não deixar fora da geladeira além do tempo de servir (aprox.).",
       "geladeira": "Prefira consumir no mesmo dia; mantenha em pote fechado por no máximo 24 horas para preservar a qualidade.",
       "congelador": "Não recomendado: abacate, ovo e iogurte juntos podem perder textura. Faça porções menores e mantenha refrigeradas."
     },
@@ -1443,6 +1460,11 @@ const RECEITAS = [
           "Não mexer no forno e esperar esfriar sem tocar são o segredo dos clusters.",
           "Fica ótima com iogurte grego, frutas e um fio de mel."
         ],
+        "conservacao": {
+          "ambiente": "Até 2 semanas em pote hermético, em local seco e fresco (aprox.).",
+          "geladeira": "Até 1 mês em pote fechado se o clima estiver úmido (aprox.).",
+          "congelador": "Até 3 meses em pote fechado; volte à temperatura ambiente antes de servir."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=dOS-ut_54H0",
           "texto": "Assistir ao vídeo original",
@@ -1533,6 +1555,7 @@ const RECEITAS = [
       "Espere formar crosta antes de virar e use uma espátula larga. A massa não leva fermento e fica baixa."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 3 dias em pote fechado.",
       "congelador": "Pode congelar os pães prontos por até 1 mês, separados por papel. Reaqueça em frigideira em fogo baixo."
     },
@@ -1731,6 +1754,7 @@ const RECEITAS = [
       "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
       "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
     },
@@ -1915,6 +1939,7 @@ const RECEITAS = [
       "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
     ],
     "conservacao": {
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
       "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
       "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
     },
@@ -2004,6 +2029,7 @@ const RECEITAS = [
       "Não substitua o bicarbonato por mais quantidade: o excesso deixa sabor residual. São biscoitos mais macios, não crackers secos."
     ],
     "conservacao": {
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
       "geladeira": "Até 3 dias em recipiente fechado.",
       "congelador": "Pode congelar depois de assados por até 1 mês. Aqueça no forno em temperatura baixa."
     },
@@ -2154,6 +2180,11 @@ const RECEITAS = [
           "Sem castanhas, fica adequada para lanche escolar (verifique a política da escola sobre sementes e tahine).",
           "O segundo forno depois de cortar deixa as barras mais firmes."
         ],
+        "conservacao": {
+          "ambiente": "Até 5 dias em pote hermético, em local seco (aprox.).",
+          "geladeira": "Até 2 semanas em pote fechado (aprox.).",
+          "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=O5JihHkvM4w",
           "texto": "Assistir ao vídeo original",
@@ -2212,6 +2243,11 @@ const RECEITAS = [
           "Barras ficam mastigáveis e crocantes; boas como lanche energético.",
           "Deixe esfriar totalmente na forma para não esfarelar."
         ],
+        "conservacao": {
+          "ambiente": "Até 5 dias em pote hermético, em local seco (aprox.).",
+          "geladeira": "Até 2 semanas em pote fechado (aprox.).",
+          "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=EnDaiQgtYmY",
           "texto": "Assistir ao vídeo original",
@@ -2271,6 +2307,11 @@ const RECEITAS = [
           "O xarope de arroz integral ajuda a manter as barras intactas; mel ou maple funcionam, mas esfarelam mais.",
           "Pressionar bem na forma e cortar ainda mornas (depois esfriar sem separar) facilita o corte limpo."
         ],
+        "conservacao": {
+          "ambiente": "Até 5 dias em pote hermético, em local seco (aprox.).",
+          "geladeira": "Até 2 semanas em pote fechado (aprox.).",
+          "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=ls2fTESZA88",
           "texto": "Assistir ao vídeo original",
@@ -2483,6 +2524,7 @@ const RECEITAS = [
       "O autor oferece a opção de ovo de linhaça, mas a ficha e o cálculo usam ovo comum. Xarope e algumas cranberries contêm açúcar adicionado."
     ],
     "conservacao": {
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
       "geladeira": "Até 3 dias em recipiente fechado; a refrigeração ajuda a preservar as castanhas.",
       "congelador": "Pode congelar por até 1 mês, preferencialmente sem a cobertura. Descongele no recipiente fechado."
     },
@@ -2574,6 +2616,7 @@ const RECEITAS = [
       "Não deixe as bordas muito mais finas que o centro; elas secam e quebram antes de o restante assar."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 3 dias, separado por papel e bem fechado.",
       "congelador": "O autor confirma que pode congelar. Sugestão de qualidade: até 1 mês, sem recheio. Descongele na geladeira e aqueça brevemente."
     },
@@ -2920,6 +2963,7 @@ const RECEITAS = [
       "O peso de oito fatias de embutido muda conforme a marca. A nutrição publicada pelo canal pode diferir da sua pizza."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 3 dias, em recipiente fechado.",
       "congelador": "Pode congelar a pizza já assada em fatias por até 1 mês. Reaqueça no forno até o centro estar bem quente."
     },
@@ -3003,6 +3047,7 @@ const RECEITAS = [
       "Não espere crescimento de pão com fermento. Discos menores e fogo baixo facilitam cozinhar o centro sem queimar."
     ],
     "conservacao": {
+      "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
       "geladeira": "Até 3 dias, tampado.",
       "congelador": "Pode congelar os discos cozidos por até 1 mês; a ricota pode ficar mais granulada. Descongele na geladeira."
     },
@@ -3052,6 +3097,11 @@ const RECEITAS = [
           "A descrição confirma 3 ovos e 150 g de ricota; o método na frigideira e o rendimento são estimativa editorial (sem legendas úteis).",
           "Recheio opcional: coloque no meio antes de fechar ou virar, para não vazar."
         ],
+        "conservacao": {
+          "ambiente": "Até algumas horas depois de esfriar; com recheio, prefira a geladeira (aprox.).",
+          "geladeira": "Até 3 dias, tampado.",
+          "congelador": "Pode congelar os discos por até 1 mês. Descongele na geladeira."
+        },
         "fonte": {
           "url": "https://www.youtube.com/watch?v=DDzNylsClC4",
           "texto": "Assistir ao vídeo original",
@@ -3531,7 +3581,8 @@ const RECEITAS = [
       "A espessura uniforme favorece crocância. Não substitua farinha por grão cozido na mesma quantidade: a hidratação é diferente."
     ],
     "conservacao": {
-      "geladeira": "Depois de completamente frias e secas, guarde em pote hermético por até 3 dias (sugestão). Se permanecerem úmidas, refrigere.",
+      "ambiente": "Até 2–3 dias em pote fechado em local fresco e seco (aprox.); se houver ovo/laticínio ou umidade, prefira geladeira.",
+      "geladeira": "Se permanecerem úmidas, refrigere em pote fechado.",
       "congelador": "Pode congelar assadas por até 1 mês. Volte ao forno por alguns minutos para recuperar a crocância."
     },
     "proveniencia": {

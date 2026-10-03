@@ -56,6 +56,24 @@ test('cada ficha permite cozinhar e comprar, com porção e origem das informaç
   }
 });
 
+test('pães, biscoitos, pastas e doces informam validade em temperatura ambiente', () => {
+  const categorias = new Set(['Pães e wraps', 'Biscoitos e crackers', 'Entradas e pastas', 'Doces e lanches']);
+  const exigir = (item, id) => {
+    assert.ok(item.conservacao?.ambiente, `${id}: ambiente`);
+    assert.ok(item.conservacao?.geladeira, `${id}: geladeira`);
+    assert.ok(item.conservacao?.congelador, `${id}: congelador`);
+  };
+  for (const r of receitas) {
+    const cat = r.categoria === 'Recentes' ? r.categoriaBase : r.categoria;
+    if (!categorias.has(cat)) continue;
+    exigir(r, r.id);
+    for (const variacao of r.variacoes || []) exigir(variacao, variacao.id);
+  }
+  const salgadinho = receitas.find(r => r.id === 'salgadinho-batata-doce');
+  assert.ok(!/local seco/.test(salgadinho.conservacao.geladeira));
+  assert.match(salgadinho.conservacao.ambiente, /local seco/);
+});
+
 test('diferenças entre títulos e ingredientes não geram alegações falsas', () => {
   const frango = receitas.find(r => r.fonte?.url.includes('dupbD0MR6Wo'));
   assert.ok(frango?.proveniencia.nota.includes('muçarela'));

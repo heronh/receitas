@@ -89,6 +89,22 @@
       .join("")}</ul>`;
   };
 
+  const htmlConservacao = (c) => {
+    const linhas = c.ambiente
+      ? [
+          ["Ambiente", c.ambiente],
+          ["Geladeira", c.geladeira],
+          ["Congelador", c.congelador],
+        ]
+      : [
+          ["Geladeira / armazenamento", c.geladeira],
+          ["Congelador", c.congelador],
+        ];
+    return `<dl class="conservacao">${linhas
+      .map(([rotulo, texto]) => `<div><dt>${rotulo}</dt><dd>${escapar(texto)}</dd></div>`)
+      .join("")}</dl>`;
+  };
+
   const htmlLista = (itens, classe = "ingredientes") =>
     `<ul class="${classe}">${itens.map((i) => `<li>${escapar(i)}</li>`).join("")}</ul>`;
 
@@ -208,10 +224,7 @@
     </section>
     <section class="bloco">
       <h3 class="bloco__titulo">Como guardar</h3>
-      <dl class="conservacao">
-        <div><dt>Geladeira / armazenamento</dt><dd>${escapar(r.conservacao.geladeira)}</dd></div>
-        <div><dt>Congelador</dt><dd>${escapar(r.conservacao.congelador)}</dd></div>
-      </dl>
+      ${htmlConservacao(r.conservacao)}
     </section>
 
     ${r.compras?.length ? htmlCompras(r) : ""}

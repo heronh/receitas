@@ -395,10 +395,10 @@ main {
 .receita__origem strong { color: var(--texto); }
 .receita__nota { margin: 8px 0 0; color: var(--texto-suave); font-size: 0.82rem; }
 .selo { display: inline-block; vertical-align: middle; margin-left: 4px; padding: 3px 8px; border-radius: 999px; background: var(--destaque-suave); color: var(--texto); font-size: 0.68rem; font-weight: 600; }
-.conservacao { margin: 0; display: grid; gap: 10px; }
-.conservacao > div { padding: 12px 14px; background: var(--superficie-2); border: 1px solid var(--borda); border-radius: var(--raio-p); }
-.conservacao dt { font-size: 0.85rem; font-weight: 700; color: var(--verde); }
-.conservacao dd { margin: 4px 0 0; font-size: 0.92rem; }
+.conservacao { margin: 0; display: grid; gap: 8px; }
+.conservacao > div { padding: 10px 12px; background: var(--superficie-2); border: 1px solid var(--borda); border-radius: var(--raio-p); }
+.conservacao dt { font-size: 0.78rem; font-weight: 650; letter-spacing: 0.01em; color: var(--verde); }
+.conservacao dd { margin: 3px 0 0; font-size: 0.9rem; }
 
 .bloco {
   margin-top: 22px;

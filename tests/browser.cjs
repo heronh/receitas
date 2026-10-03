@@ -40,6 +40,8 @@ const server = http.createServer((req, res) => {
     await page.locator('.card[href="#aveia-assada-maca"]').click();
     await page.locator('#aveia-assada-maca .variacao__nome').waitFor();
     assert.equal(await page.locator('#aveia-assada-maca .variacao__nome').innerText(), 'Cookies de aveia, maçã e canela');
+    assert.deepEqual(await page.locator('#aveia-assada-maca .conservacao dt').allInnerTexts(), ['Ambiente', 'Geladeira', 'Congelador']);
+    assert.deepEqual(await page.locator('#frango-gengibre-alho .conservacao dt').allInnerTexts(), ['Geladeira / armazenamento', 'Congelador']);
     assert.equal(await page.locator('a[href="https://www.youtube.com/watch?v=FxgVCAD6KyE"]').count(), 1);
     await page.locator('#bolo-aveia-cacau-banana h2').waitFor();
     await page.locator('#pao-aveia-iogurte-grego h2').waitFor();
