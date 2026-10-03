@@ -1,6 +1,6 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-10-02",
+  "consultadoEm": "2026-10-03",
   "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte.",
   "videos": [
     {
@@ -15,12 +15,11 @@
     {
       "posicao": 2,
       "id": "qviffFXr_sg",
-      "titulo": "A protein dessert! In 5 minutes! NO sugar! NO gluten!",
-      "canal": null,
+      "titulo": "Just oatmeal and yogurt! NO flour! NO sugar! A healthy breakfast in 5 minutes.",
+      "canal": "Schnelle Rezepte",
       "url": "https://www.youtube.com/watch?v=qviffFXr_sg",
-      "duracao": null,
-      "descricaoConsultada": false,
-      "nota": "oEmbed 401; ingredientes parciais na página embed; preparo não confirmado — receita não ingerida"
+      "duracao": "3:14",
+      "descricaoConsultada": true
     },
     {
       "posicao": 3,
@@ -37,9 +36,9 @@
       "titulo": "These Cinnamon Oat Cookies Are Seriously Addictive",
       "canal": "Mommy's Recipes",
       "url": "https://www.youtube.com/watch?v=oLjTJSwSHR8",
-      "duracao": null,
-      "descricaoConsultada": false,
-      "nota": "Sem ingredientes na descrição; não reprocessar"
+      "duracao": "1:58",
+      "descricaoConsultada": true,
+      "nota": "Descrição sem lista de ingredientes; medidas lidas nas legendas da tela do vídeo."
     },
     {
       "posicao": 5,
@@ -115,6 +114,24 @@
     },
     {
       "posicao": 13,
+      "id": "tApjUXrfQ84",
+      "titulo": "Banana Oatmeal Bars (No Sugar)",
+      "canal": "Nico's Recipes",
+      "url": "https://www.youtube.com/watch?v=tApjUXrfQ84",
+      "duracao": "0:19",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 14,
+      "id": "VpH7kZchAS4",
+      "titulo": "O Segredo para as Ervilhas com Ovos.. poucos fazem assim",
+      "canal": "Paulo Oliveira",
+      "url": "https://www.youtube.com/watch?v=VpH7kZchAS4",
+      "duracao": "6:54",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 15,
       "id": "dupbD0MR6Wo",
       "titulo": "Crispy Chicken in Creamy Garlic Parmesan Sauce 😍 Better Than You Think!",
       "canal": "Alle Rezepte",
@@ -123,7 +140,16 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 14,
+      "posicao": 16,
+      "id": "LZjqqnymUv4",
+      "titulo": "Super Crunchy & Clustery Granola Recipe😍 #granola #easyrecipe #granolarecipe",
+      "canal": "fitfoodieselma",
+      "url": "https://www.youtube.com/watch?v=LZjqqnymUv4",
+      "duracao": "0:39",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 17,
       "id": "Yyzdcpqct50",
       "titulo": "How To Make Cottage Cheese Flatbread",
       "canal": "Andrew Gruel",
@@ -132,7 +158,16 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 15,
+      "posicao": 18,
+      "id": "sVPwjoFjM1k",
+      "titulo": "Pão de Abacate Sem Glúten",
+      "canal": "SIMPLES E NATURAL 85",
+      "url": "https://www.youtube.com/watch?v=sVPwjoFjM1k",
+      "duracao": "2:44",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 19,
       "id": "b2xbwfPU4IQ",
       "titulo": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
       "canal": "Fantastische Rezepte",
@@ -141,7 +176,25 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 16,
+      "posicao": 20,
+      "id": "dOS-ut_54H0",
+      "titulo": "The Secret to Crunchy Granola? One Egg White.",
+      "canal": "Little BIG kitchen",
+      "url": "https://www.youtube.com/watch?v=dOS-ut_54H0",
+      "duracao": "0:46",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 21,
+      "id": "uEQRL_GLC_w",
+      "titulo": "Barrinhas proteicas anti inflamatórias anti oxidantes que ajudam a combater a celulite",
+      "canal": "Cleci Receitas",
+      "url": "https://www.youtube.com/watch?v=uEQRL_GLC_w",
+      "duracao": "0:49",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 22,
       "id": "AfhwWdJX7Lg",
       "titulo": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
       "canal": "Przepisy Mimi",
@@ -150,7 +203,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 17,
+      "posicao": 23,
       "id": "8y3AEMvtq68",
       "titulo": "Just oatmeal and yogurt! This Danish oatmeal cookie recipe is delicious",
       "canal": "wie man alles kocht",
@@ -159,7 +212,43 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 18,
+      "posicao": 24,
+      "id": "C1dBjcTQNqo",
+      "titulo": "How to Make Granola Bars at Home (Healthy + Simple)",
+      "canal": "The Cooking Foodie",
+      "url": "https://www.youtube.com/watch?v=C1dBjcTQNqo",
+      "duracao": "3:01",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 25,
+      "id": "a64-9eoJWoY",
+      "titulo": "no bake peanut butter oat bars - just 4 ingredients!",
+      "canal": "I Heart Nap Time",
+      "url": "https://www.youtube.com/watch?v=a64-9eoJWoY",
+      "duracao": "0:26",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 26,
+      "id": "A47Ug5c3gIo",
+      "titulo": "5 Ingredient Banana Oat Bars. Perfect for busy mornings or as a healthy snack! #oatmeal #easyrecipe",
+      "canal": "Chef Savvy",
+      "url": "https://www.youtube.com/watch?v=A47Ug5c3gIo",
+      "duracao": "0:18",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 27,
+      "id": "EnDaiQgtYmY",
+      "titulo": "Chia Seed Recipe also Great for Diet and Packed with Nutrients – Chia Seed Energy Bars by What Shall",
+      "canal": "What Shall I Cook",
+      "url": "https://www.youtube.com/watch?v=EnDaiQgtYmY",
+      "duracao": "0:57",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 28,
       "id": "0A3e0V3nw2A",
       "titulo": "Creamy Mushroom Chicken | Chicken with Creamy Mushroom Sauce Recipe",
       "canal": "The Cooking Foodie",
@@ -168,7 +257,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 19,
+      "posicao": 29,
       "id": "mdPveC7HlFM",
       "titulo": "Kein Zucker! Gesunde Kekse ohne Mehl, Zucker und Gluten! Energiedessert für jeden Tag!",
       "canal": "Süß und Gesund",
@@ -177,7 +266,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 20,
+      "posicao": 30,
       "id": "TH9rWEh8okY",
       "titulo": "Easy Cottage Cheese Flatbread or Wraps | 2 Ingredients & High Protein",
       "canal": "The Protein Chef",
@@ -186,7 +275,25 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 21,
+      "posicao": 31,
+      "id": "F5xDn0DueO4",
+      "titulo": "ENTRECOSTO MAIS TENRO E SUCULENTO QUE COMI NA VIDA!!",
+      "canal": "Paulo Oliveira",
+      "url": "https://www.youtube.com/watch?v=F5xDn0DueO4",
+      "duracao": "11:20",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 32,
+      "id": "ozdbNFy84bY",
+      "titulo": "Peanut Butter Oat Bars -- Recipe in description👇",
+      "canal": "The Simple Homeplace",
+      "url": "https://www.youtube.com/watch?v=ozdbNFy84bY",
+      "duracao": "0:46",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 33,
       "id": "VX-dMV-HZQQ",
       "titulo": "COTTAGE CHEESE FLATBREAD PIZZA. Pepperoni Keto Pizza, Cottage Cheese Pizza Crust.",
       "canal": "Keto Kitchen",
@@ -195,7 +302,16 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 22,
+      "posicao": 34,
+      "id": "ls2fTESZA88",
+      "titulo": "Healthy Chia Seed Energy Bar Recipe",
+      "canal": "Healthline",
+      "url": "https://www.youtube.com/watch?v=ls2fTESZA88",
+      "duracao": "0:44",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 35,
       "id": "DDzNylsClC4",
       "titulo": "SÓ 2 INGREDIENTES, SEM NENHUMA FARINHA, Substitua o PÃO no Café da Manhã!",
       "canal": "Receitas Low Carb para Diabéticos",
@@ -204,7 +320,16 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 23,
+      "posicao": 36,
+      "id": "O5JihHkvM4w",
+      "titulo": "Easy NUT-FREE Granola Bars Your Kid Can Take To School | Inspired by @NYTCooking | Eden Eats",
+      "canal": "Eden Eats",
+      "url": "https://www.youtube.com/watch?v=O5JihHkvM4w",
+      "duracao": "1:00",
+      "descricaoConsultada": true
+    },
+    {
+      "posicao": 37,
       "id": "KmiFvWdx01M",
       "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES - Delícia Fácil e Rápido",
       "canal": "Anjo Low Carb Receitas",
@@ -213,7 +338,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 24,
+      "posicao": 38,
       "id": "eCazTN5-Rsc",
       "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
       "canal": "Alle Rezepte",
@@ -222,7 +347,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 25,
+      "posicao": 39,
       "id": "dRW3VMfNlaY",
       "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
       "canal": "Delicious and easy recipes",
@@ -231,7 +356,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 26,
+      "posicao": 40,
       "id": "BkTFTZw9PSE",
       "titulo": "Peito de pato com mel e Vinho do Porto",
       "canal": "Cozinha de Arquiteto",
@@ -240,7 +365,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 27,
+      "posicao": 41,
       "id": "H1od62HtUDM",
       "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
       "canal": "Mamãe Vida Saudável",
@@ -249,7 +374,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 28,
+      "posicao": 42,
       "id": "RueGO-RTfZI",
       "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
       "canal": "Lu Crosara",

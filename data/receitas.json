@@ -1,77 +1,69 @@
 [
   {
-    "id": "hamburguer-quinoa",
-    "videoId": "H1od62HtUDM",
-    "titulo": "Hambúrguer de quinoa",
+    "id": "panquecas-aveia-iogurte",
+    "videoId": "qviffFXr_sg",
+    "titulo": "Panquecas de aveia e iogurte",
     "categoria": "Recentes",
-    "categoriaBase": "Pratos principais",
+    "categoriaBase": "Doces e lanches",
     "tags": [],
-    "icone": "imagens/receita-icon-salad.jpg",
-    "destaque": "Hambúrguer de quinoa cozida com aveia, cebola, cenoura e ovo. Descansa, modela, passa pelo congelador e doura na frigideira.",
-    "porcoes": 4,
-    "porcao": "1 hambúrguer grande (ou 1,5 pequenos)",
-    "rendimento": "6 hambúrgueres pequenos ou 4 grandes",
-    "tempo": "Cerca de 50 minutos incluindo descanso e congelador (estimativa)",
+    "icone": "imagens/receita-icon-yogurt-berries.jpg",
+    "destaque": "Massa de aveia moída, iogurte, mel e ovos, frita em forma de panqueca grossa. Serve com iogurte e chocolate amargo ralado.",
+    "porcoes": 2,
+    "porcao": "2 panquecas",
+    "rendimento": "4 panquecas",
+    "tempo": "Cerca de 15 minutos",
     "ingredientes": [
       {
-        "titulo": "Base",
+        "titulo": "Massa",
         "itens": [
-          "1 xícara (150 g) de quinoa cozida",
-          "1/4 xícara (30 g) de farinha de aveia (pode ser aveia em flocos)",
-          "1/4 xícara (20 g) de aveia em flocos",
-          "1 ovo"
+          "1 xícara (110 g) de aveia em flocos (moer)",
+          "1/2 colher de chá de fermento em pó",
+          "Uma pitada de sal",
+          "130 g (4,5 oz) de iogurte",
+          "1 colher de sopa de mel",
+          "2 ovos"
         ]
       },
       {
-        "titulo": "Hortifrúti e temperos",
+        "titulo": "Para fritar e servir",
         "itens": [
-          "1/2 cebola pequena ralada",
-          "2 colheres de sopa de cenoura ralada",
-          "Cebolinha a gosto",
-          "Gergelim preto a gosto",
-          "Páprica doce a gosto",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto"
-        ]
-      },
-      {
-        "titulo": "Para a frigideira",
-        "itens": [
-          "Azeite para untar a frigideira"
+          "Azeite para untar a frigideira",
+          "Iogurte a gosto para cobrir",
+          "Chocolate amargo sem açúcar ralado a gosto"
         ]
       }
     ],
     "preparo": [
-      "Misture todos os ingredientes em uma tigela e deixe descansar por 10 minutos.",
-      "Modele os hambúrgueres e leve ao congelador por cerca de 30 minutos.",
-      "Regue um fio de azeite na frigideira e doure o hambúrguer em fogo baixo.",
-      "Vire e doure o outro lado. Sirva em seguida."
+      "Moa a aveia até ficar bem fina. Misture com o fermento e a pitada de sal.",
+      "Incorpore o iogurte, o mel e os ovos batidos até obter uma massa homogênea.",
+      "Unte uma frigideira (de preferência com cavidades) com azeite. Despeje a massa em 4 porções e doure dos dois lados em fogo médio.",
+      "Sirva com iogurte e chocolate amargo ralado por cima."
     ],
     "dicas": [
-      "O canal pede para pesar os ingredientes; xícara medida de 240 ml.",
-      "Congelar antes de fritar ajuda a manter o formato na frigideira."
+      "Medidas da massa vêm da descrição e das legendas na tela; o preparo foi lido no vídeo (moer, misturar, fritar, cobrir).",
+      "«Azeite», «iogurte» e «chocolate a gosto» ficam como no vídeo."
     ],
     "conservacao": {
-      "geladeira": "Até 2 dias na geladeira.",
-      "congelador": "Até 20 dias; congele espalhados e depois empilhe com plástico ou papel manteiga entre eles."
+      "ambiente": "Consumir no mesmo dia fora da geladeira (aprox.).",
+      "geladeira": "Até 2 dias em pote fechado (aprox.); reaqueça na frigideira.",
+      "congelador": "Pode congelar as panquecas sem cobertura por até 1 mês. Descongele e toste na frigideira."
     },
     "proveniencia": {
-      "nota": "Ingredientes, preparo, rendimento e conservação vieram da descrição do vídeo. Tempero 'a gosto' e azeite da frigideira sem quantidade fixa."
+      "nota": "Ingredientes da descrição/tela; preparo extraído do vídeo (moinho, mistura, frigideira com cavidades, cobertura de iogurte e chocolate ralado)."
     },
     "fonte": {
-      "url": "https://www.youtube.com/watch?v=H1od62HtUDM",
+      "url": "https://www.youtube.com/watch?v=qviffFXr_sg",
       "texto": "Assistir ao vídeo original",
-      "canal": "Mamãe Vida Saudável",
-      "tituloOriginal": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
-      "duracao": "3:36"
+      "canal": "Schnelle Rezepte",
+      "tituloOriginal": "Just oatmeal and yogurt! NO flour! NO sugar! A healthy breakfast in 5 minutes.",
+      "duracao": "3:14"
     },
-    "nutricaoAutor": {
-      "kcal": 125,
-      "prot": 5.5,
-      "carb": 16.5,
-      "gord": 4.0,
-      "fibras": 2.2,
-      "nota": "Estimativa manual por porção (4 grandes) a partir das medidas da descrição; quinoa fora da tabela local."
+    "baseNutricional": {
+      "aveia": 110,
+      "iogurte": 130,
+      "mel": 21,
+      "azeite": 5,
+      "chocolate": 10
     }
   },
   {
@@ -139,6 +131,74 @@
       "azeite": 13
     },
     "notaNutricional": ""
+  },
+  {
+    "id": "cookies-aveia-canela-castanha",
+    "videoId": "oLjTJSwSHR8",
+    "titulo": "Cookies de aveia, canela e castanha de caju",
+    "categoria": "Recentes",
+    "categoriaBase": "Biscoitos e crackers",
+    "tags": [],
+    "icone": "imagens/receita-icon-oat-cookie.jpg",
+    "destaque": "Cookies de aveia com iogurte, canela e castanha de caju. Bate ovos, une os secos, modela bolinhas, achata com um copo e assa.",
+    "porcoes": 4,
+    "porcao": "2 cookies",
+    "rendimento": "8 cookies; 4 porções",
+    "tempo": "Cerca de 25 minutos (15 min no forno)",
+    "ingredientes": [
+      {
+        "titulo": "Úmidos",
+        "itens": [
+          "2 ovos",
+          "2 colheres de sopa de iogurte natural",
+          "2 colheres de sopa de manteiga derretida ou azeite",
+          "2 colheres de sopa de adoçante"
+        ]
+      },
+      {
+        "titulo": "Secos",
+        "itens": [
+          "1 1/2 xícara (200 g) de aveia em flocos",
+          "1/3 xícara (50 g) de castanha de caju",
+          "2 colheres de chá de canela em pó",
+          "3/4 colher de chá de fermento em pó",
+          "Uma pitada de sal"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata os ovos. Incorpore o iogurte e a manteiga derretida (ou azeite) até ficar homogêneo.",
+      "Em outra tigela (ou na mesma), junte a aveia, a castanha de caju, a canela, o fermento e a pitada de sal. Misture tudo até a massa unir.",
+      "Incorpore as 2 colheres de sopa de adoçante à massa, antes de modelar.",
+      "Modele bolinhas, coloque em assadeira forrada com papel e achate com o fundo de um copo.",
+      "Asse a 175 °C (350 °F) por 15 minutos, até dourar. Deixe esfriar na assadeira."
+    ],
+    "dicas": [
+      "Todas as medidas vieram das legendas na tela do vídeo; a descrição do YouTube não listava ingredientes.",
+      "A castanha pode ir picada ou levemente triturada, como no vídeo."
+    ],
+    "conservacao": {
+      "ambiente": "Até 3–4 dias em pote fechado em local seco e fresco (aprox.).",
+      "geladeira": "Até 5–7 dias em pote fechado (aprox.).",
+      "congelador": "Pode congelar assados por até 1 mês. Reaqueça no forno baixo."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes e forno lidos nas legendas do vídeo (2 ovos, 2 colheres de sopa de iogurte, 2 colheres de sopa de manteiga ou azeite, 2 colheres de sopa de adoçante, 200 g de aveia, 50 g de castanha de caju, 2 colheres de chá de canela, 3/4 colher de chá de fermento, pitada de sal, 175 °C / 350 °F por 15 min). Rendimento confirmado: 8 cookies."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=oLjTJSwSHR8",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Mommy’s Recipes",
+      "tituloOriginal": "These Cinnamon Oat Cookies Are Seriously Addictive",
+      "duracao": "1:58"
+    },
+    "baseNutricional": {
+      "aveia": 200,
+      "castanha_caju": 50,
+      "iogurte": 30,
+      "azeite": 26
+    },
+    "notaNutricional": "Ovos e canela sem entrada dedicada completa; estimativa parcial pelos secos e gordura. O adoçante (2 colheres de sopa) não entra na conta: o vídeo não especifica o tipo."
   },
   {
     "id": "aveia-assada-maca",
@@ -264,155 +324,11 @@
     ]
   },
   {
-    "id": "pao-aveia-iogurte-grego",
-    "videoId": "b2xbwfPU4IQ",
-    "titulo": "Pão de aveia com iogurte grego",
-    "categoria": "Recentes",
-    "categoriaBase": "Pães e wraps",
-    "tags": [
-      "Sem glúten"
-    ],
-    "icone": "imagens/receita-icon-seeds.jpg",
-    "destaque": "Pão de aveia moída, iogurte grego, ovos e sementes, sem farinha de trigo nem fermento biológico. A descrição não lista açúcar.",
-    "porcoes": 10,
-    "porcao": "1 fatia (1/10 do pão; a descrição também estima 1/12)",
-    "rendimento": "1 pão, em 10 fatias (a descrição indica 10 a 12 fatias)",
-    "tempo": "45–50 minutos de forno + 30–60 minutos de resfriamento",
-    "ingredientes": [
-      {
-        "titulo": "Laticínios e ovos",
-        "itens": [
-          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
-          "2 ovos"
-        ]
-      },
-      {
-        "titulo": "Sementes e mercearia",
-        "itens": [
-          "160 g de aveia em flocos (1 e 1/2 xícara)",
-          "30 g de linhaça (1/4 de xícara)",
-          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
-          "2 colheres de sopa de gergelim (cerca de 20 g)",
-          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
-          "1 colher de chá de sal",
-          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)",
-          "Água: 130 ml"
-        ]
-      }
-    ],
-    "preparo": [
-      "Bata o iogurte grego com os ovos até ficar liso. Moa a aveia e a linhaça.",
-      "Se quiser, toste levemente as sementes de abóbora e o gergelim. Misture-os à farinha de aveia e à linhaça, com o fermento e o sal.",
-      "Junte a água, o azeite e a mistura de iogurte e ovos. Mexa até obter uma massa espessa e uniforme.",
-      "Despeje em uma forma de pão forrada com papel para forno, ou untada. Alise a superfície.",
-      "Asse em forno preaquecido a 180 °C por 45–50 minutos. Um palito no centro deve sair limpo. Espere esfriar na forma, de 30 a 60 minutos, antes de fatiar."
-    ],
-    "dicas": [
-      "O título fala em diabetes e em pão sem açúcar. A ficha não transforma isso em recomendação: a descrição simplesmente não lista açúcar.",
-      "As sementes podem ir inteiras, se preferir crocância, ou moídas, como a descrição também permite.",
-      "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
-    ],
-    "conservacao": {
-      "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
-      "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
-    },
-    "proveniencia": {
-      "nota": "Ingredientes, medidas, forno, resfriamento e armazenamento vêm da descrição. O peso das sementes de abóbora usa o meio da faixa de 20–25 g. O azeite foi convertido a 26 g. A nutrição usa 10 fatias."
-    },
-    "fonte": {
-      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
-      "texto": "Assistir ao vídeo original",
-      "canal": "Fantastische Rezepte",
-      "tituloOriginal": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
-      "duracao": "4:57"
-    },
-    "baseNutricional": {
-      "iogurte": 130,
-      "ovo": 100,
-      "aveia": 160,
-      "linhaca": 30,
-      "semente_abobora": 22,
-      "gergelim": 20,
-      "azeite": 26
-    },
-    "notaNutricional": "Iogurte grego aproximado pelo iogurte natural da TACO, o que pode subestimar a proteína. Sementes de abóbora: 22 g, meio da faixa de 20–25 g. Azeite: 26 g. Água, sal e fermento não entram. Porção de 1/10; a descrição também cita 1/12."
-  },
-  {
-    "id": "bolo-aveia-cacau-banana",
-    "videoId": "AfhwWdJX7Lg",
-    "titulo": "Bolo de aveia, cacau e banana",
-    "categoria": "Recentes",
-    "categoriaBase": "Doces e lanches",
-    "tags": [],
-    "icone": "imagens/receita-icon-banana.jpg",
-    "destaque": "Bolo de aveia hidratada em leite quente, com banana, cacau e amendoim. A descrição não inclui açúcar.",
-    "porcoes": 8,
-    "porcao": "1 pedaço (1/8 do bolo; rendimento estimado)",
-    "rendimento": "1 bolo em 8 pedaços (estimativa; a descrição não informa o rendimento)",
-    "tempo": "10 minutos de hidratação + 40 minutos de forno",
-    "ingredientes": [
-      {
-        "titulo": "Hortifrúti",
-        "itens": [
-          "2 bananas (aprox. 200 g sem casca; estimativa)"
-        ]
-      },
-      {
-        "titulo": "Mercearia",
-        "itens": [
-          "120 g de aveia em flocos",
-          "45 g de cacau em pó (4 colheres de sopa)",
-          "1 colher de sopa de fermento em pó",
-          "40 g de amendoim"
-        ]
-      },
-      {
-        "titulo": "Líquidos e ovos",
-        "itens": [
-          "250 ml de leite quente",
-          "2 ovos"
-        ]
-      }
-    ],
-    "preparo": [
-      "Misture a aveia com o leite quente e deixe hidratar por 10 minutos.",
-      "Amasse as bananas e incorpore à aveia. Junte os ovos, o cacau, o fermento e o amendoim até a massa ficar homogênea.",
-      "Transfira para uma forma e asse a 180 °C por 40 minutos. Deixe amornar antes de cortar."
-    ],
-    "dicas": [
-      "A descrição pede 1 colher de sopa de fermento em pó. A ficha mantém essa medida.",
-      "Não há açúcar na lista. Bananas mais maduras deixam o bolo mais doce; isso não é uma alegação de alimento “sem açúcar”.",
-      "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
-    ],
-    "conservacao": {
-      "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
-      "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
-    },
-    "proveniencia": {
-      "nota": "Aveia, leite, tempo de hidratação, bananas, ovos, cacau, fermento, amendoim e forno vêm da descrição. O peso das bananas, o tipo de leite e a divisão em 8 pedaços são estimativas. A conservação não está no vídeo."
-    },
-    "fonte": {
-      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
-      "texto": "Assistir ao vídeo original",
-      "canal": "Przepisy Mimi",
-      "tituloOriginal": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
-      "duracao": "6:35"
-    },
-    "baseNutricional": {
-      "aveia": 120,
-      "leite": 250,
-      "banana": 200,
-      "ovo": 100,
-      "cacau": 45,
-      "amendoim": 40
-    },
-    "notaNutricional": "Bananas estimadas em 200 g sem casca. 250 ml de leite integral contados como 250 g; a descrição não especifica o tipo de leite. Fermento não entra. O rendimento de 8 pedaços é estimativa."
-  },
-  {
     "id": "bombons-maca-amendoim",
     "videoId": "qwi2Y8isloI",
     "titulo": "Bombons de maçã, amendoim e chocolate",
-    "categoria": "Doces e lanches",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
     "tags": [],
     "icone": "imagens/receita-icon-nuts.jpg",
     "destaque": "Docinhos de maçã e amendoim cobertos com chocolate amargo. A textura depende de reduzir bem a umidade da fruta.",
@@ -875,6 +791,193 @@
     "notaNutricional": "Sem arroz; inclui todo o azeite. Caldo e temperos em pequenas quantidades foram omitidos do cálculo; sódio não foi calculado."
   },
   {
+    "id": "barras-banana-aveia",
+    "videoId": "tApjUXrfQ84",
+    "titulo": "Barras de banana e aveia",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-banana.jpg",
+    "destaque": "Barras macias de banana, iogurte grego, pasta de amendoim e aveia, com gotas de chocolate. Sem açúcar adicionado na massa.",
+    "porcoes": 9,
+    "porcao": "1 barra",
+    "rendimento": "Cerca de 9 barras em forma 20×20 cm (estimativa; o short não informa)",
+    "tempo": "Cerca de 30–35 minutos (estimativa de forno + preparo)",
+    "ingredientes": [
+      {
+        "titulo": "Massa",
+        "itens": [
+          "2 bananas maduras amassadas (240 g / 1 xícara)",
+          "1/3 xícara de iogurte grego (aprox. 80 g; estimativa)",
+          "1/3 xícara de pasta de amendoim (aprox. 85 g; estimativa)",
+          "1 colher de chá de essência de baunilha",
+          "2 xícaras de aveia em flocos (aprox. 180 g; estimativa)",
+          "1/4 xícara de gotas de chocolate amargo (aprox. 45 g) + 1 colher de sopa para cobrir (aprox. 10 g)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Preaqueça o forno a 180 °C e forre uma forma pequena (cerca de 20×20 cm) com papel manteiga (temperatura e forma estimadas; o short remete ao site).",
+      "Amasse as bananas e misture com o iogurte grego, a pasta de amendoim e a baunilha até ficar homogêneo.",
+      "Incorpore a aveia e as gotas de chocolate (reserve 1 colher de sopa para a cobertura).",
+      "Espalhe na forma, espalhe as gotas restantes por cima e asse cerca de 20–25 minutos até firmar (tempo estimado).",
+      "Deixe esfriar antes de cortar em barras."
+    ],
+    "dicas": [
+      "Use bananas bem maduras para doçura natural — a receita não leva açúcar na massa.",
+      "Guarde na geladeira para manter a textura úmida ao longo da semana.",
+      "O short remete a receita completa no site do canal; forno e rendimento são estimativas."
+    ],
+    "conservacao": {
+      "ambiente": "Até 1 dia em pote fechado (são úmidas; prefira geladeira).",
+      "geladeira": "Até 5 dias em recipiente fechado (prazo aproximado; o canal sugere meal prep na geladeira).",
+      "congelador": "Até 1 mês, separadas por papel; descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes e pesos (bananas 240 g) da descrição do short. Conversões de iogurte, pasta, aveia e chocolate estimadas. Forno, tempo e rendimento (~9 barras) estimados — o short aponta o site. Variação A47Ug5c3gIo (5 ingredientes) acrescentada nesta sync, com medidas estimadas."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=tApjUXrfQ84",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Nico's Recipes",
+      "tituloOriginal": "Banana Oatmeal Bars (No Sugar)",
+      "duracao": "0:19"
+    },
+    "baseNutricional": {
+      "banana": 240,
+      "iogurte": 80,
+      "amendoim": 85,
+      "aveia": 180,
+      "chocolate": 55
+    },
+    "notaNutricional": "Chocolate 45 g + 10 g de cobertura. Baunilha sem peso.",
+    "variacoes": [
+      {
+        "id": "barras-banana-5-ingredientes",
+        "videoId": "A47Ug5c3gIo",
+        "titulo": "Barras de banana com 5 ingredientes",
+        "descricao": "Versão rápida com banana, aveia, baunilha ou maple, pasta de amendoim e gotas de chocolate. Medidas estimadas a partir do short (18 s) — o vídeo não lista quantidades.",
+        "rendimento": "Cerca de 9 barras em forma quadrada (estimativa)",
+        "porcoes": 9,
+        "porcao": "1 barra",
+        "ingredientes": [
+          {
+            "titulo": "Massa",
+            "itens": [
+              "2 bananas maduras amassadas (aprox. 240 g; estimativa, mesmo espírito da irmã)",
+              "2 xícaras de aveia em flocos a gosto (aprox. 180 g; estimativa)",
+              "1 colher de chá de essência de baunilha ou fio de maple (estimativa; o short mostra um líquido)",
+              "1/3 xícara de pasta de amendoim a gosto (aprox. 85 g; estimativa)",
+              "1/4 xícara de gotas de chocolate a gosto (aprox. 45 g; estimativa)"
+            ]
+          }
+        ],
+        "preparo": [
+          "Amasse as bananas maduras em uma tigela.",
+          "Misture a aveia, o fio de baunilha ou maple, a pasta de amendoim e as gotas de chocolate até incorporar.",
+          "Espalhe a massa em forma quadrada forrada com papel manteiga.",
+          "Asse até dourar — temperatura e tempo não ditos no short; estimar 180 °C por 20–25 minutos.",
+          "Deixe amornar e corte em cerca de 9 barras."
+        ],
+        "dicas": [
+          "Todas as medidas (exceto as 2 bananas) são estimativas — ajuste a aveia e a pasta até a massa grudar.",
+          "Bananas bem maduras adoçam sem açúcar extra.",
+          "Se preferir maple no lugar da baunilha, use só um fio para não deixar a massa mole demais."
+        ],
+        "conservacao": {
+          "ambiente": "Até 1 dia em pote fechado (são úmidas; prefira geladeira) (prazo aproximado).",
+          "geladeira": "Até 5 dias em recipiente fechado (prazo aproximado).",
+          "congelador": "Até 1 mês, separadas por papel; descongele na geladeira."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=A47Ug5c3gIo",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Chef Savvy",
+          "tituloOriginal": "5 Ingredient Banana Oat Bars. Perfect for busy mornings or as a healthy snack! #oatmeal #easyrecipe",
+          "duracao": "0:18"
+        },
+        "baseNutricional": {
+          "banana": 240,
+          "aveia": 180,
+          "amendoim": 85,
+          "chocolate": 45
+        },
+        "notaNutricional": "Pesos estimados (aveia 2 xícaras ≈ 180 g; pasta 1/3 xícara ≈ 85 g; gotas 1/4 xícara ≈ 45 g). Baunilha/maple sem peso na base."
+      }
+    ]
+  },
+  {
+    "id": "ervilhas-ovos",
+    "videoId": "VpH7kZchAS4",
+    "titulo": "Ervilhas com ovos",
+    "categoria": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-eggs.jpg",
+    "destaque": "Ervilhas em molho de tomate com enchidos, ovos com gema cremosa e salsa ou coentros. Clássico português para servir com pão.",
+    "porcoes": 4,
+    "porcao": "1/4 da panela (com 1 ovo)",
+    "rendimento": "4 porções (4–5 ovos; estimativa)",
+    "tempo": "Cerca de 35–40 minutos (estimativa)",
+    "ingredientes": [
+      {
+        "titulo": "Enchidos e base",
+        "itens": [
+          "1 chouriço às rodelas",
+          "1 morcela às rodelas (ou barriga fumada, tocinho, chouriço preto, linguiça — a gosto)",
+          "1 cebola grande (aprox. 150 g; estimativa)",
+          "3 tomates bem maduros (aprox. 300 g; estimativa)",
+          "4 dentes de alho (aprox. 12 g)",
+          "2 a 3 folhas de louro",
+          "Azeite q.b. (aprox. 30 g / 2 colheres de sopa; estimativa)",
+          "Sal e pimenta q.b."
+        ]
+      },
+      {
+        "titulo": "Ervilhas, ovos e finalizar",
+        "itens": [
+          "Ervilhas q.b., de preferência descongeladas (aprox. 400 g; estimativa para 4 pessoas)",
+          "4 a 5 ovos",
+          "Salsa ou coentros picados para finalizar",
+          "Pão para servir"
+        ]
+      }
+    ],
+    "preparo": [
+      "Em azeite, refogue a cebola com os enchidos às rodelas até soltarem cheiro e gordura.",
+      "Acrescente o alho e o louro; refogue mais um pouco.",
+      "Junte o tomate e cozinhe até formar um molho.",
+      "Adicione um pouco de água e as ervilhas descongeladas; cozinhe até ficarem tenras.",
+      "Faça covas no molho, quebre os ovos por cima, tampe e deixe ~2 minutos até a clara firmar e a gema ficar cremosa.",
+      "Finalize com salsa ou coentros picados e sirva com pão."
+    ],
+    "dicas": [
+      "Os enchidos ficam a gosto — troque chouriço e morcela por linguiça ou barriga fumada se preferir.",
+      "Não passe demais os ovos: o ponto do vídeo é gema ainda cremosa.",
+      "Ervilhas congeladas descongeladas mantêm a cor mais verde."
+    ],
+    "conservacao": {
+      "geladeira": "Até 2 dias em pote fechado; os ovos perdem o ponto ao reaquecer (prazo aproximado).",
+      "congelador": "Não recomendado com os ovos já cozidos. Congelé só o molho com ervilhas (sem ovos) por até 1 mês; acrescente ovos frescos ao reaquecer."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes da descrição; preparo conforme o pedido da sync (refogar cebola+enchidos; alho+louro; tomate; água; ervilhas; ovos tampados ~2 min). Pesos de cebola, tomate, alho, azeite e ervilhas estimados. Enchidos, ervilhas e pão sem chave em nutrientes.json — omitidos da base. Ovos contados como 5 × 50 g."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=VpH7kZchAS4",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Paulo Oliveira",
+      "tituloOriginal": "O Segredo para as Ervilhas com Ovos.. poucos fazem assim",
+      "duracao": "6:54"
+    },
+    "baseNutricional": {
+      "cebola": 150,
+      "tomate": 300,
+      "alho": 12,
+      "azeite": 30,
+      "ovo": 250
+    },
+    "notaNutricional": "Chouriço, morcela, ervilhas e pão fora da tabela local. Cinco ovos = 250 g."
+  },
+  {
     "id": "frango-molho-cremoso",
     "videoId": "dupbD0MR6Wo",
     "titulo": "Frango dourado ao molho cremoso de alho",
@@ -953,6 +1056,143 @@
     "notaNutricional": ""
   },
   {
+    "id": "granola-crocante",
+    "videoId": "LZjqqnymUv4",
+    "titulo": "Granola crocante em clusters",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-nuts.jpg",
+    "destaque": "Granola crocante com aveia, nozes, maple e claras de ovo. Assa em fogo baixo e termina no forno desligado para formar clusters.",
+    "porcoes": 10,
+    "porcao": "1/10 da receita (cerca de 70 g)",
+    "rendimento": "Cerca de 10 porções (conforme a descrição)",
+    "tempo": "Cerca de 1 hora (30 min assando + 30 min no forno desligado)",
+    "ingredientes": [
+      {
+        "titulo": "Secos",
+        "itens": [
+          "4 xícaras (360 g) de aveia em flocos",
+          "1 xícara (140 g) de nozes picadas (nozes e pecãs, ou outras a gosto)",
+          "1 pitada de sal",
+          "2 colheres de chá de canela",
+          "1 colher de chá de cardamomo em pó"
+        ]
+      },
+      {
+        "titulo": "Úmidos",
+        "itens": [
+          "1/3 a 1/2 xícara (80–120 ml) de maple syrup, a gosto",
+          "1/3 xícara (80 ml) de óleo de coco derretido",
+          "2 claras de ovo"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture todos os ingredientes em uma tigela até a aveia ficar bem envolvida.",
+      "Espalhe em camada fina e uniforme em assadeira forrada com papel manteiga.",
+      "Asse a 150 °C por 30 minutos.",
+      "Desligue o forno, abra a porta um pouco e deixe a granola dentro por mais 30 minutos enquanto esfria — isso ajuda a crocância.",
+      "Quando esfriar, quebre em clusters e guarde em pote hermético."
+    ],
+    "dicas": [
+      "As claras ajudam a formar clusters grandes em vez de farelo.",
+      "Sirva com iogurte grego e frutas vermelhas, como sugere o canal.",
+      "Ajuste o maple entre 80 e 120 ml conforme o nível de doçura desejado."
+    ],
+    "conservacao": {
+      "ambiente": "Até 2 semanas em pote hermético, em local seco e fresco (prazo aproximado).",
+      "geladeira": "Até 1 mês em pote fechado, se o clima estiver úmido (prazo aproximado).",
+      "congelador": "Até 3 meses em saco ou pote fechado; deixe voltar à temperatura ambiente antes de servir."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, rendimento (~10 porções) e preparo vieram da descrição do vídeo. Conversões em gramas da própria descrição. Óleo de coco e cardamomo sem chave em nutrientes.json; claras contadas como ovo (66 g). Pecan agrupado em nozes."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=LZjqqnymUv4",
+      "texto": "Assistir ao vídeo original",
+      "canal": "fitfoodieselma",
+      "tituloOriginal": "Super Crunchy & Clustery Granola Recipe😍 #granola #easyrecipe #granolarecipe",
+      "duracao": "0:39"
+    },
+    "baseNutricional": {
+      "aveia": 360,
+      "nozes": 140,
+      "maple": 120,
+      "ovo": 66
+    },
+    "notaNutricional": "Maple no ponto médio (~120 g a partir de 80–120 ml). Duas claras ≈ 66 g como ovo. Óleo de coco fora da tabela local.",
+    "variacoes": [
+      {
+        "id": "granola-clara-ovo",
+        "videoId": "dOS-ut_54H0",
+        "titulo": "Granola crocante com clara de ovo",
+        "descricao": "Versão com azeite (ou manteiga), mel, amêndoas, sementes de abóbora, chia e casca de laranja. Uma clara ajuda a formar clusters dourados.",
+        "rendimento": "4–5 porções (conforme a descrição)",
+        "porcoes": 5,
+        "porcao": "1/5 da receita",
+        "ingredientes": [
+          {
+            "titulo": "Secos",
+            "itens": [
+              "240 g (2½ xícaras) de aveia em flocos",
+              "60 g (1/2 xícara) de amêndoas cruas, grosseiramente picadas",
+              "40 g (1/3 xícara) de sementes de abóbora",
+              "10 g (1 colher de sopa) de chia",
+              "40 g (1/3 xícara) de flocos de coco (opcional)",
+              "1/2 colher de chá de sal",
+              "1 colher de chá de canela",
+              "Raspas de 1 laranja ou 2 tangerinas"
+            ]
+          },
+          {
+            "titulo": "Úmidos",
+            "itens": [
+              "60 g (1/4 xícara) de azeite ou manteiga derretida",
+              "80 g (1/4 xícara) de mel ou maple syrup",
+              "1 colher de chá de essência de baunilha",
+              "1 clara de ovo grande"
+            ]
+          },
+          {
+            "titulo": "Depois de assar",
+            "itens": [
+              "40 g (1/3 xícara) de cranberries ou uvas-passas secas"
+            ]
+          }
+        ],
+        "preparo": [
+          "Preaqueça o forno a 170 °C e forre uma assadeira com papel manteiga.",
+          "Misture todos os secos em uma tigela grande.",
+          "Em outra tigela, misture levemente azeite (ou manteiga), mel, baunilha e a clara — sem bater em neve.",
+          "Despeje os úmidos sobre os secos e misture até cobrir bem.",
+          "Espalhe em camada uniforme. Não mexa durante o forno. Asse 25–30 minutos até dourar bem.",
+          "Deixe esfriar por completo sem mexer (os clusters formam nessa etapa). Quebre em pedaços e acrescente as frutas secas."
+        ],
+        "dicas": [
+          "Não mexer no forno e esperar esfriar sem tocar são o segredo dos clusters.",
+          "Fica ótima com iogurte grego, frutas e um fio de mel."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=dOS-ut_54H0",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Little BIG kitchen",
+          "tituloOriginal": "The Secret to Crunchy Granola? One Egg White.",
+          "duracao": "0:46"
+        },
+        "baseNutricional": {
+          "aveia": 240,
+          "semente_abobora": 40,
+          "chia": 10,
+          "azeite": 60,
+          "mel": 80,
+          "ovo": 33,
+          "cranberry": 40
+        },
+        "notaNutricional": "Amêndoas e flocos de coco sem chave local — omitidos da base. Clara ≈ 33 g como ovo. Mel usado (maple é alternativa)."
+      }
+    ]
+  },
+  {
     "id": "pao-cottage-aveia",
     "videoId": "Yyzdcpqct50",
     "titulo": "Pão de frigideira de cottage e aveia",
@@ -1017,6 +1257,295 @@
     "notaNutricional": ""
   },
   {
+    "id": "pao-abacate",
+    "videoId": "sVPwjoFjM1k",
+    "titulo": "Pão de abacate sem glúten",
+    "categoria": "Pães e wraps",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-salad.jpg",
+    "destaque": "Pão sem glúten com abacate, farinha de aveia e farinha de castanha de caju (ou amêndoas). Fermento biológico e químico, assado a 180 °C.",
+    "porcoes": 8,
+    "porcao": "1 pedaço (1/8 da fornada; estimativa)",
+    "rendimento": "1 fornada de pãezinhos / bolinhas (estimativa)",
+    "tempo": "Cerca de 1 hora 15 min (10 min fermento + 30 min descanso + 25–30 min forno)",
+    "ingredientes": [
+      {
+        "titulo": "Fermento",
+        "itens": [
+          "200 ml de água morna",
+          "1 sachê de fermento biológico",
+          "1 colher de sopa de adoçante natural (eritritol ou xilitol) a gosto — ou mel / melado a gosto (opcional)"
+        ]
+      },
+      {
+        "titulo": "Massas e abacate",
+        "itens": [
+          "200 g de farinha de aveia fina (não usar farelo)",
+          "200 g de farinha de castanha de caju ou de amêndoas",
+          "3 colheres de sopa de amido de milho ou farinha de arroz (aprox. 30 g; estimativa)",
+          "100 g de abacate amassado",
+          "1 colher de chá de sal",
+          "Ervas a gosto (opcional)",
+          "1 colher de sopa de fermento químico"
+        ]
+      },
+      {
+        "titulo": "Para modelar",
+        "itens": [
+          "Azeite para untar as mãos e a forma"
+        ]
+      }
+    ],
+    "preparo": [
+      "Dilua o adoçante (se usar) na água morna com o fermento biológico. Deixe 10 minutos até borbulhar; use pote largo para não transbordar.",
+      "Em outra tigela, misture o abacate amassado, o sal, o amido (ou farinha de arroz), a farinha de aveia e a farinha de castanha de caju até incorporar.",
+      "Acrescente a mistura de água e fermento biológico; misture bem. Por último, adicione o fermento químico e mexa de novo.",
+      "Cubra com pano e deixe descansar 30 minutos.",
+      "Unte as mãos com azeite e faça bolinhas. Coloque em aro de pão, forminhas de silicone ou forma untada.",
+      "Asse em forno preaquecido a 180 °C por 25–30 minutos, até dourar e ficar macio. Deixe amornar antes de servir."
+    ],
+    "dicas": [
+      "Use farinha de aveia fina, não farelo, para o miolo ficar mais fofo.",
+      "O adoçante é opcional; o abacate já traz umidade e sabor.",
+      "Farinha de amêndoas pode substituir a de castanha de caju."
+    ],
+    "conservacao": {
+      "ambiente": "Até 1 dia bem fechado, depois de esfriar (prazo aproximado).",
+      "geladeira": "Até 3 dias em pote ou saco fechado (prazo aproximado).",
+      "congelador": "Até 1 mês, já assado e separado; aqueça no forno ou torradeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes e preparo completos da descrição do vídeo. Amido ~30 g estimado. Azeite só para untar, fora da base. Adoçante/mel opcional fora da nutrição. Rendimento em porções estimado."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=sVPwjoFjM1k",
+      "texto": "Assistir ao vídeo original",
+      "canal": "SIMPLES E NATURAL 85",
+      "tituloOriginal": "Pão de Abacate Sem Glúten",
+      "duracao": "2:44"
+    },
+    "baseNutricional": {
+      "aveia": 200,
+      "castanha_caju": 200,
+      "amido": 30,
+      "abacate": 100
+    },
+    "notaNutricional": "Farinha de aveia e de castanha de caju pelos pesos da descrição. Amido estimado em 30 g. Fermentos e adoçante fora da tabela."
+  },
+  {
+    "id": "pao-aveia-iogurte-grego",
+    "videoId": "b2xbwfPU4IQ",
+    "titulo": "Pão de aveia com iogurte grego",
+    "categoria": "Pães e wraps",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-seeds.jpg",
+    "destaque": "Pão de aveia moída, iogurte grego, ovos e sementes, sem farinha de trigo nem fermento biológico. A descrição não lista açúcar.",
+    "porcoes": 10,
+    "porcao": "1 fatia (1/10 do pão; a descrição também estima 1/12)",
+    "rendimento": "1 pão, em 10 fatias (a descrição indica 10 a 12 fatias)",
+    "tempo": "45–50 minutos de forno + 30–60 minutos de resfriamento",
+    "ingredientes": [
+      {
+        "titulo": "Laticínios e ovos",
+        "itens": [
+          "130 g de iogurte grego natural sem açúcar (1/2 xícara)",
+          "2 ovos"
+        ]
+      },
+      {
+        "titulo": "Sementes e mercearia",
+        "itens": [
+          "160 g de aveia em flocos (1 e 1/2 xícara)",
+          "30 g de linhaça (1/4 de xícara)",
+          "2 colheres de sopa de sementes de abóbora (a descrição indica cerca de 20–25 g; no cálculo, 22 g)",
+          "2 colheres de sopa de gergelim (cerca de 20 g)",
+          "1 e 1/2 colher de chá de fermento em pó (cerca de 6–7 g)",
+          "1 colher de chá de sal",
+          "2 colheres de sopa de azeite (a descrição indica cerca de 30 ml; 26 g pela conversão de 13 g por colher)",
+          "Água: 130 ml"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata o iogurte grego com os ovos até ficar liso. Moa a aveia e a linhaça.",
+      "Se quiser, toste levemente as sementes de abóbora e o gergelim. Misture-os à farinha de aveia e à linhaça, com o fermento e o sal.",
+      "Junte a água, o azeite e a mistura de iogurte e ovos. Mexa até obter uma massa espessa e uniforme.",
+      "Despeje em uma forma de pão forrada com papel para forno, ou untada. Alise a superfície.",
+      "Asse em forno preaquecido a 180 °C por 45–50 minutos. Um palito no centro deve sair limpo. Espere esfriar na forma, de 30 a 60 minutos, antes de fatiar."
+    ],
+    "dicas": [
+      "O título fala em diabetes e em pão sem açúcar. A ficha não transforma isso em recomendação: a descrição simplesmente não lista açúcar.",
+      "As sementes podem ir inteiras, se preferir crocância, ou moídas, como a descrição também permite.",
+      "O filtro “Sem glúten” pressupõe aveia sem contaminação e rótulos conferidos. Há ovos e iogurte, então não é uma receita vegana."
+    ],
+    "conservacao": {
+      "geladeira": "Até 5–7 dias em recipiente ou saco fechado, como indica a descrição.",
+      "congelador": "A descrição indica congelar as fatias separadas. Descongele em temperatura ambiente ou toste direto do congelador."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, medidas, forno, resfriamento e armazenamento vêm da descrição. O peso das sementes de abóbora usa o meio da faixa de 20–25 g. O azeite foi convertido a 26 g. A nutrição usa 10 fatias."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=b2xbwfPU4IQ",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Fantastische Rezepte",
+      "tituloOriginal": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
+      "duracao": "4:57"
+    },
+    "baseNutricional": {
+      "iogurte": 130,
+      "ovo": 100,
+      "aveia": 160,
+      "linhaca": 30,
+      "semente_abobora": 22,
+      "gergelim": 20,
+      "azeite": 26
+    },
+    "notaNutricional": "Iogurte grego aproximado pelo iogurte natural da TACO, o que pode subestimar a proteína. Sementes de abóbora: 22 g, meio da faixa de 20–25 g. Azeite: 26 g. Água, sal e fermento não entram. Porção de 1/10; a descrição também cita 1/12."
+  },
+  {
+    "id": "barrinhas-gelatina-frutas",
+    "videoId": "uEQRL_GLC_w",
+    "titulo": "Barrinhas de gelatina com frutas",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-yogurt-berries.jpg",
+    "destaque": "Barrinhas de gelatina incolor com leite de coco, chia, mel com pimenta e frutas vermelhas. Sem forno; firmam 1 h na geladeira.",
+    "porcoes": 4,
+    "porcao": "1 fatia grande (1/4 da forma)",
+    "rendimento": "4 fatias grandes (conforme o vídeo)",
+    "tempo": "Cerca de 10 min de preparo + 1 h na geladeira",
+    "ingredientes": [
+      {
+        "titulo": "Base",
+        "itens": [
+          "35 g de gelatina incolor sem sabor",
+          "250 ml de água",
+          "250 ml de leite de coco",
+          "1 a 2 colheres de sopa de chia (visto no vídeo; estimado ≈ 15–20 g)",
+          "30 gotas de nanoprópolis (opcional — omita se não encontrar)",
+          "2 colheres de sopa de mel com pimenta (aprox. 42 g; estimativa)"
+        ]
+      },
+      {
+        "titulo": "Frutas",
+        "itens": [
+          "100 g de mirtilo",
+          "100 g de uva",
+          "100 g de morango",
+          "Figos e physalis para decorar (opcional)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Hidrate a gelatina na água por cerca de 30 segundos.",
+      "Leve ao micro-ondas por cerca de 1 minuto até dissolver.",
+      "Misture o leite de coco, a chia, a nanoprópolis (se usar) e o mel com pimenta.",
+      "Acrescente as frutas (mirtilo, uva e morango); decore com figos e physalis se quiser.",
+      "Leve à geladeira por cerca de 1 hora até firmar; corte em 4 fatias grandes."
+    ],
+    "dicas": [
+      "A nanoprópolis é opcional — a receita funciona sem ela se não achar o produto.",
+      "Use gelatina incolor sem sabor; se preferir agar-ágar, ajuste a proporção conforme a embalagem (não testado neste vídeo).",
+      "Corte só depois de firmar bem; a textura é de gelatina, não de barra seca."
+    ],
+    "conservacao": {
+      "ambiente": "Não recomendado — derrete fora da geladeira.",
+      "geladeira": "Até 3–4 dias em pote fechado (prazo aproximado).",
+      "congelador": "Até 1 mês; a textura pode mudar ao descongelar — prefira geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes da descrição (uEQRL_GLC_w). Chia vista no vídeo (1–2 cs estimadas). Preparo conforme o pedido da sync (hidratar ~30 s; microondas 1 min; misturar; frutas; geladeira 1 h; 4 fatias). Gelatina, mirtilo, uva, morango, nanoprópolis e figos/physalis sem chave em nutrientes.json — omitidos da base (leite de coco, chia e mel entram)."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=uEQRL_GLC_w",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Cleci Receitas",
+      "tituloOriginal": "Barrinhas proteicas anti inflamatórias anti oxidantes que ajudam a combater a celulite",
+      "duracao": "0:49"
+    },
+    "baseNutricional": {
+      "leite_coco": 250,
+      "chia": 20,
+      "mel": 42
+    },
+    "notaNutricional": "Leite de coco 250 ml ≈ 250 g. Chia ~20 g (2 cs). Mel 2 cs ≈ 42 g. Gelatina e frutas frescas fora da tabela local."
+  },
+  {
+    "id": "bolo-aveia-cacau-banana",
+    "videoId": "AfhwWdJX7Lg",
+    "titulo": "Bolo de aveia, cacau e banana",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-banana.jpg",
+    "destaque": "Bolo de aveia hidratada em leite quente, com banana, cacau e amendoim. A descrição não inclui açúcar.",
+    "porcoes": 8,
+    "porcao": "1 pedaço (1/8 do bolo; rendimento estimado)",
+    "rendimento": "1 bolo em 8 pedaços (estimativa; a descrição não informa o rendimento)",
+    "tempo": "10 minutos de hidratação + 40 minutos de forno",
+    "ingredientes": [
+      {
+        "titulo": "Hortifrúti",
+        "itens": [
+          "2 bananas (aprox. 200 g sem casca; estimativa)"
+        ]
+      },
+      {
+        "titulo": "Mercearia",
+        "itens": [
+          "120 g de aveia em flocos",
+          "45 g de cacau em pó (4 colheres de sopa)",
+          "1 colher de sopa de fermento em pó",
+          "40 g de amendoim"
+        ]
+      },
+      {
+        "titulo": "Líquidos e ovos",
+        "itens": [
+          "250 ml de leite quente",
+          "2 ovos"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture a aveia com o leite quente e deixe hidratar por 10 minutos.",
+      "Amasse as bananas e incorpore à aveia. Junte os ovos, o cacau, o fermento e o amendoim até a massa ficar homogênea.",
+      "Transfira para uma forma e asse a 180 °C por 40 minutos. Deixe amornar antes de cortar."
+    ],
+    "dicas": [
+      "A descrição pede 1 colher de sopa de fermento em pó. A ficha mantém essa medida.",
+      "Não há açúcar na lista. Bananas mais maduras deixam o bolo mais doce; isso não é uma alegação de alimento “sem açúcar”.",
+      "A descrição não indica o tipo de leite nem se o amendoim vai inteiro ou picado."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias em pote fechado, depois de perder o calor. Prazo sugerido: o vídeo não informa armazenamento.",
+      "congelador": "Pode congelar os pedaços por até 1 mês e aquecer no forno ou na torradeira. Sugestão de qualidade, não teste de validade."
+    },
+    "proveniencia": {
+      "nota": "Aveia, leite, tempo de hidratação, bananas, ovos, cacau, fermento, amendoim e forno vêm da descrição. O peso das bananas, o tipo de leite e a divisão em 8 pedaços são estimativas. A conservação não está no vídeo."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=AfhwWdJX7Lg",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Przepisy Mimi",
+      "tituloOriginal": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
+      "duracao": "6:35"
+    },
+    "baseNutricional": {
+      "aveia": 120,
+      "leite": 250,
+      "banana": 200,
+      "ovo": 100,
+      "cacau": 45,
+      "amendoim": 40
+    },
+    "notaNutricional": "Bananas estimadas em 200 g sem casca. 250 ml de leite integral contados como 250 g; a descrição não especifica o tipo de leite. Fermento não entra. O rendimento de 8 pedaços é estimativa."
+  },
+  {
     "id": "biscoitos-aveia-iogurte",
     "videoId": "8y3AEMvtq68",
     "titulo": "Biscoitos de aveia, iogurte e limão",
@@ -1078,6 +1607,258 @@
       "manteiga": 40
     },
     "notaNutricional": ""
+  },
+  {
+    "id": "barras-granola",
+    "videoId": "C1dBjcTQNqo",
+    "titulo": "Barras de granola caseiras",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-cereal-bar.jpg",
+    "destaque": "Barras mastigáveis de aveia, amêndoas, amendoim, cranberries, mel e pasta de amendoim. Assadas a 170 °C.",
+    "porcoes": 12,
+    "porcao": "1 barra",
+    "rendimento": "Cerca de 12 barras",
+    "tempo": "Cerca de 40 minutos (25–30 min de forno + preparo)",
+    "ingredientes": [
+      {
+        "titulo": "Secos",
+        "itens": [
+          "3 xícaras (270 g) de aveia em flocos",
+          "1 xícara (140 g) de amêndoas picadas",
+          "1/2 xícara (40 g) de amendoim",
+          "1/2 xícara (60 g) de cranberries secas",
+          "2 colheres de sopa de coco ralado (opcional)",
+          "1/4 colher de chá de sal"
+        ]
+      },
+      {
+        "titulo": "Úmidos",
+        "itens": [
+          "1/2 xícara + 1 colher de sopa (200 g) de mel",
+          "1/3 xícara (80 ml) de óleo de coco",
+          "3 colheres de sopa (45 g) de pasta de amendoim",
+          "1 colher de chá de essência de baunilha"
+        ]
+      }
+    ],
+    "preparo": [
+      "Preaqueça o forno a 170 °C e forre uma forma (cerca de 20×20 cm ou similar) com papel manteiga.",
+      "Misture os secos em uma tigela.",
+      "Aqueça levemente o mel com o óleo de coco e a pasta de amendoim até ficar homogêneo; acrescente a baunilha.",
+      "Despeje sobre os secos e misture bem. Presse firmemente na forma.",
+      "Asse por 25–30 minutos até dourar nas bordas. Deixe esfriar por completo antes de cortar em cerca de 12 barras."
+    ],
+    "dicas": [
+      "Pressionar bem a mistura na forma evita que as barras desfaçam ao cortar.",
+      "Espere esfriar totalmente; quentes ainda estão moles e quebram com facilidade.",
+      "O coco ralado é opcional e não entra na nutrição."
+    ],
+    "conservacao": {
+      "ambiente": "Até 5 dias em pote hermético, em local seco (prazo aproximado).",
+      "geladeira": "Até 2 semanas em pote fechado (prazo aproximado).",
+      "congelador": "Até 2 meses, separadas por papel; descongele na geladeira ou em temperatura ambiente."
+    },
+    "proveniencia": {
+      "nota": "Quantidades e rendimento (~12 barras) fornecidos para esta sync (descrição do vídeo remete ao site). Amêndoas e óleo de coco sem chave em nutrientes.json — omitidos da baseNutricional. Amendoim + pasta de amendoim somados."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=C1dBjcTQNqo",
+      "texto": "Assistir ao vídeo original",
+      "canal": "The Cooking Foodie",
+      "tituloOriginal": "How to Make Granola Bars at Home (Healthy + Simple)",
+      "duracao": "3:01"
+    },
+    "baseNutricional": {
+      "aveia": 270,
+      "amendoim": 85,
+      "cranberry": 60,
+      "mel": 200
+    },
+    "notaNutricional": "Amendoim 40 g + pasta 45 g = 85 g. Amêndoas (140 g) e óleo de coco fora da tabela.",
+    "variacoes": [
+      {
+        "id": "barras-granola-sem-castanha",
+        "videoId": "O5JihHkvM4w",
+        "titulo": "Barras de granola sem castanha (escolar)",
+        "descricao": "Versão sem nozes, com sementes, tâmaras, tahine e maple. Inspirada em Melissa Clark / NYT Cooking, adaptada por Eden Eats.",
+        "rendimento": "10–12 barras",
+        "porcoes": 12,
+        "porcao": "1 barra",
+        "ingredientes": [
+          {
+            "titulo": "Base",
+            "itens": [
+              "2 xícaras de aveia em flocos (aprox. 180 g; conversão estimada)",
+              "1 xícara de sementes de abóbora cruas (aprox. 140 g; estimativa)",
+              "1/3 xícara de óleo de coco não refinado",
+              "1/3 xícara de pasta de tahine",
+              "1/2 xícara de maple syrup",
+              "1 colher de chá de essência de baunilha",
+              "3 claras de ovo",
+              "1/3 xícara de sementes de girassol cruas (aprox. 45 g; estimativa)",
+              "1/4 xícara de sementes de linhaça (aprox. 35 g; estimativa)",
+              "1/4 xícara de sementes de cânhamo",
+              "2 colheres de sopa de gergelim (aprox. 18 g; estimativa)",
+              "1/2 xícara de flocos de coco sem açúcar",
+              "10 tâmaras medjool sem caroço, picadas",
+              "1/2 colher de chá de sal kosher"
+            ]
+          },
+          {
+            "titulo": "Cobertura opcional",
+            "itens": [
+              "Gotas de chocolate derretidas com um pouco de óleo de coco",
+              "Flor de sal a gosto"
+            ]
+          }
+        ],
+        "preparo": [
+          "Preaqueça o forno a 150 °C (300 °F). Forre uma forma 23×33 cm (9×13 pol.) com papel manteiga.",
+          "Bata no liquidificador 1/2 xícara da aveia com 1/2 xícara das sementes de abóbora até virar farinha; coloque em tigela grande.",
+          "Acrescente claras, maple, tahine, óleo de coco e baunilha; misture. Incorpore o restante da aveia, sementes, flocos de coco, sal e tâmaras até tudo ficar envolvido.",
+          "Espalhe na forma e asse 40 minutos. Tire, corte em 10–12 barras ainda na tábua e leve de volta à assadeira por mais 20 minutos.",
+          "Deixe esfriar. Se quiser, regue com chocolate derretido e flor de sal; leve ao congelador ~20 minutos para firmar."
+        ],
+        "dicas": [
+          "Sem castanhas, fica adequada para lanche escolar (verifique a política da escola sobre sementes e tahine).",
+          "O segundo forno depois de cortar deixa as barras mais firmes."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=O5JihHkvM4w",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Eden Eats",
+          "tituloOriginal": "Easy NUT-FREE Granola Bars Your Kid Can Take To School | Inspired by @NYTCooking | Eden Eats",
+          "duracao": "1:00"
+        },
+        "baseNutricional": {
+          "aveia": 180,
+          "semente_abobora": 140,
+          "maple": 160,
+          "ovo": 99,
+          "girassol": 45,
+          "linhaca": 35,
+          "gergelim": 18
+        },
+        "notaNutricional": "Conversões de xícara estimadas. Tahine, cânhamo, coco, tâmaras e chocolate da cobertura fora da tabela. Três claras ≈ 99 g como ovo. Maple 1/2 xícara ≈ 160 g."
+      },
+      {
+        "id": "barras-chia-quinoa",
+        "videoId": "EnDaiQgtYmY",
+        "titulo": "Barras de energia com chia e quinoa",
+        "descricao": "Barras com aveia, quinoa, linhaça, chia, frutas secas, mel e pasta de amêndoa.",
+        "rendimento": "Cerca de 9–12 barras em forma 20×20 cm (estimativa)",
+        "porcoes": 9,
+        "porcao": "1 barra",
+        "ingredientes": [
+          {
+            "titulo": "Secos",
+            "itens": [
+              "1½ xícara de aveia em flocos (aprox. 135 g; estimativa)",
+              "1/2 xícara de quinoa",
+              "1/4 xícara de farinha de linhaça (aprox. 35 g; estimativa)",
+              "3 colheres de sopa de chia (aprox. 30 g; estimativa)",
+              "1/2 xícara de frutas secas (cranberries, passas ou tâmaras picadas; aprox. 60 g)",
+              "1 clara de ovo grande",
+              "1/4 colher de chá de sal",
+              "1 colher de chá de canela"
+            ]
+          },
+          {
+            "titulo": "Úmidos",
+            "itens": [
+              "1/2 xícara de mel (aprox. 170 g; estimativa)",
+              "1/2 xícara de pasta de amêndoa"
+            ]
+          }
+        ],
+        "preparo": [
+          "Preaqueça o forno a 163 °C (325 °F). Unte ou forre uma forma 20×20 cm (8×8 pol.).",
+          "Misture aveia, quinoa, linhaça, chia, frutas secas e a clara.",
+          "Em panela em fogo médio, aqueça mel, pasta de amêndoa, sal e canela até ficar liso, mexendo sempre.",
+          "Despeje sobre os secos e misture até cobrir. Presse firmemente na forma.",
+          "Asse 23–25 minutos até as bordas dourarem. Espere esfriar por completo antes de cortar."
+        ],
+        "dicas": [
+          "Barras ficam mastigáveis e crocantes; boas como lanche energético.",
+          "Deixe esfriar totalmente na forma para não esfarelar."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=EnDaiQgtYmY",
+          "texto": "Assistir ao vídeo original",
+          "canal": "What Shall I Cook",
+          "tituloOriginal": "Chia Seed Recipe also Great for Diet and Packed with Nutrients – Chia Seed Energy Bars by What Shall",
+          "duracao": "0:57"
+        },
+        "baseNutricional": {
+          "aveia": 135,
+          "linhaca": 35,
+          "chia": 30,
+          "cranberry": 60,
+          "mel": 170,
+          "ovo": 33
+        },
+        "notaNutricional": "Quinoa e pasta de amêndoa sem chave local. Frutas secas contadas como cranberry. Clara ≈ 33 g."
+      },
+      {
+        "id": "barras-chia-energia",
+        "videoId": "ls2fTESZA88",
+        "titulo": "Barras de energia com chia",
+        "descricao": "Barras da Healthline com aveia, amêndoas, coco, cranberries, sementes, chia, xarope de arroz integral e pasta de amendoim. Rendem 18.",
+        "rendimento": "18 barras",
+        "porcoes": 18,
+        "porcao": "1 barra",
+        "ingredientes": [
+          {
+            "titulo": "Secos",
+            "itens": [
+              "4 xícaras de aveia em flocos (aprox. 360 g; estimativa)",
+              "1/2 xícara de amêndoas torradas e picadas",
+              "1/2 xícara de coco ralado sem açúcar",
+              "1/2 xícara (aprox. 60 g) de cranberries secas",
+              "1/2 xícara de sementes de abóbora ou girassol (aprox. 70 g; estimativa)",
+              "2 colheres de sopa de chia (aprox. 20 g)",
+              "1/2 colher de chá de sal"
+            ]
+          },
+          {
+            "titulo": "Úmidos",
+            "itens": [
+              "2/3 xícara de xarope de arroz integral (brown rice syrup)",
+              "1/2 xícara de pasta de amendoim ou de amêndoa lisa (aprox. 128 g; estimativa)",
+              "1 colher de chá de essência de baunilha"
+            ]
+          }
+        ],
+        "preparo": [
+          "Preaqueça o forno a 163 °C (325 °F). Forre forma 23×33 cm com papel manteiga sobrando nas laterais; unte levemente.",
+          "Misture aveia, amêndoas, coco, cranberries, sementes, chia e sal.",
+          "Aqueça o xarope com a pasta e a baunilha no micro-ondas ~30 s (ou em panela 1 min) até derreter. Misture aos secos.",
+          "Transfira para a forma e pressione bem com uma espátula.",
+          "Asse 20–25 min para barras mais macias ou 30–35 min para mais crocantes, até dourar nas bordas.",
+          "Espere 10 minutos na forma; use o papel para tirar; corte em 18 barras e deixe esfriar ~30 min sem separar. Depois separe."
+        ],
+        "dicas": [
+          "O xarope de arroz integral ajuda a manter as barras intactas; mel ou maple funcionam, mas esfarelam mais.",
+          "Pressionar bem na forma e cortar ainda mornas (depois esfriar sem separar) facilita o corte limpo."
+        ],
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=ls2fTESZA88",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Healthline",
+          "tituloOriginal": "Healthy Chia Seed Energy Bar Recipe",
+          "duracao": "0:44"
+        },
+        "baseNutricional": {
+          "aveia": 360,
+          "cranberry": 60,
+          "semente_abobora": 70,
+          "chia": 20,
+          "amendoim": 128
+        },
+        "notaNutricional": "Amêndoas, coco e xarope de arroz sem chave local. Pasta contada como amendoim (~128 g). Sementes como abóbora."
+      }
+    ]
   },
   {
     "id": "frango-cogumelos",
@@ -1311,6 +2092,204 @@
       "url": "https://theproteinchef.co/cottage-cheese-flatbread-recipe/",
       "texto": "Receita escrita pelo autor"
     }
+  },
+  {
+    "id": "entrecosto-sous-vide",
+    "videoId": "F5xDn0DueO4",
+    "titulo": "Entrecosto sous vide",
+    "categoria": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-pork.jpg",
+    "destaque": "Entrecosto temperado com dry rub, cozido sous vide 12 h em baixa temperatura e finalizado na grelha ou forno com molho BBQ express.",
+    "porcoes": 4,
+    "porcao": "1/4 da peça",
+    "rendimento": "1 peça de entrecosto (~1–1,5 kg estimado) para cerca de 4 porções",
+    "tempo": "Cerca de 12 h 30 min (12 h sous vide + preparo e finalização)",
+    "ingredientes": [
+      {
+        "titulo": "Carne",
+        "itens": [
+          "1 peça de entrecosto (aprox. 1–1,5 kg; estimativa — o vídeo não informa o peso)"
+        ]
+      },
+      {
+        "titulo": "Dry rub",
+        "itens": [
+          "20 g de cebola em pó",
+          "10 g de gengibre em pó",
+          "20 g de alho em pó",
+          "10 g de cominhos",
+          "40 g de pimentão doce ou páprica",
+          "40 g de sal",
+          "20 g de pimenta-preta"
+        ]
+      },
+      {
+        "titulo": "Molho BBQ express",
+        "itens": [
+          "5 colheres de sopa de vinagre balsâmico tinto",
+          "4 colheres de sopa de ketchup",
+          "3 colheres de sopa de mel (aprox. 63 g; estimativa)",
+          "1 colher de sopa de açúcar",
+          "2 colheres de sopa de molho inglês",
+          "3 colheres de sopa do dry rub"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture todos os ingredientes do dry rub. Reserve 3 colheres de sopa para o molho BBQ.",
+      "Seque o entrecosto, cubra generosamente com o dry rub restante e embale a vácuo (ou em saco próprio para sous vide).",
+      "Cozinhe sous vide em baixa temperatura por 12 horas, até as fibras amaciarem.",
+      "Prepare o molho BBQ express misturando balsâmico, ketchup, mel, açúcar, molho inglês e as 3 colheres de dry rub.",
+      "Retire o entrecosto do saco, seque a superfície e finalize na grelha ou no forno quente, pincelando o molho até caramelizar.",
+      "Descanse alguns minutos, corte entre os ossos e sirva com o molho restante."
+    ],
+    "dicas": [
+      "As 12 h em baixa temperatura são o que deixam o entrecosto extremamente tenro.",
+      "Seque bem antes de grelhar para formar crosta e caramelizar o BBQ.",
+      "Guarde dry rub sobrando em pote fechado para outras carnes."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias, já cozido, em pote fechado (prazo aproximado).",
+      "congelador": "Até 2 meses depois do sous vide (antes ou depois de grelhar); descongele na geladeira e reaqueça até o centro bem quente."
+    },
+    "proveniencia": {
+      "nota": "Dry rub e molho BBQ da descrição. Peso da peça (1–1,5 kg) e porções estimados. Temperatura exata do banho não consta na descrição — seguir o vídeo. Entrecosto, cebola/alho em pó, páprica, ketchup, balsâmico e molho inglês sem chave em nutrientes.json; só gengibre do rub e mel do molho entram na base."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=F5xDn0DueO4",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Paulo Oliveira",
+      "tituloOriginal": "ENTRECOSTO MAIS TENRO E SUCULENTO QUE COMI NA VIDA!!",
+      "duracao": "11:20"
+    },
+    "baseNutricional": {
+      "gengibre": 10,
+      "mel": 63
+    },
+    "notaNutricional": "Carne de porco e maior parte do rub/molho fora da tabela. Mel do BBQ ≈ 63 g (3 cs)."
+  },
+  {
+    "id": "barras-pasta-amendoim-aveia",
+    "videoId": "ozdbNFy84bY",
+    "titulo": "Barras de pasta de amendoim e aveia",
+    "categoria": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-cereal-bar.jpg",
+    "destaque": "Barras sem forno com farinha de aveia, linhaça, pasta de amendoim e maple (ou mel), cobertas com chocolate derretido. Firmam na geladeira.",
+    "porcoes": 16,
+    "porcao": "1 barra",
+    "rendimento": "Cerca de 16 barras em forma 20×20 cm",
+    "tempo": "Cerca de 15 min de preparo + algumas horas na geladeira",
+    "ingredientes": [
+      {
+        "titulo": "Massa",
+        "itens": [
+          "1 1/3 xícara de farinha de aveia (2 xícaras de aveia moída ≈ 180 g)",
+          "2 colheres de sopa de farinha de linhaça (aprox. 14 g; estimativa)",
+          "1 xícara de pasta de amendoim (aprox. 256 g; estimativa)",
+          "1/3 xícara de maple syrup ou mel (aprox. 107 g de maple; estimativa)",
+          "1 colher de chá de canela",
+          "1 colher de chá de essência de baunilha",
+          "1 pitada de sal"
+        ]
+      },
+      {
+        "titulo": "Cobertura",
+        "itens": [
+          "1 xícara de gotas de chocolate semiamargo (aprox. 170 g; estimativa)",
+          "1 colher de sopa de óleo de coco"
+        ]
+      }
+    ],
+    "preparo": [
+      "Em panela, aqueça a pasta de amendoim com o maple (ou mel), a canela e o sal até misturar bem.",
+      "Incorpore a farinha de aveia e a farinha de linhaça (e a baunilha) até formar uma massa.",
+      "Pressione a massa em forma 20×20 cm forrada com papel manteiga.",
+      "Derreta as gotas de chocolate com o óleo de coco e cubra a massa.",
+      "Leve à geladeira por algumas horas até firmar; corte em cerca de 16 barras."
+    ],
+    "dicas": [
+      "A farinha de aveia pode ser feita moendo 2 xícaras de flocos no liquidificador.",
+      "Pressione bem a massa na forma para as barras não esfarelarem ao cortar.",
+      "Maple e mel são intercambiáveis na mesma medida; o maple deixa um pouco mais suave."
+    ],
+    "conservacao": {
+      "ambiente": "Até 2 dias em pote fechado se fresco (prazo aproximado); a cobertura de chocolate amolece no calor — prefira geladeira.",
+      "geladeira": "Até 2 semanas em pote fechado (prazo aproximado).",
+      "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes da descrição do vídeo (ozdbNFy84bY). Conversões de pasta, maple e chocolate estimadas. Óleo de coco, canela, baunilha e sal fora da baseNutricional. Farinha de aveia contada como aveia (2 xícaras moídas ≈ 180 g)."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=ozdbNFy84bY",
+      "texto": "Assistir ao vídeo original",
+      "canal": "The Simple Homeplace",
+      "tituloOriginal": "Peanut Butter Oat Bars -- Recipe in description👇",
+      "duracao": "0:46"
+    },
+    "baseNutricional": {
+      "aveia": 180,
+      "linhaca": 14,
+      "amendoim": 256,
+      "maple": 107,
+      "chocolate": 170
+    },
+    "notaNutricional": "Aveia 180 g (2 xícaras moídas). Linhaça 2 cs ≈ 14 g. Pasta 1 xícara ≈ 256 g. Maple 1/3 xícara ≈ 107 g. Chocolate 1 xícara ≈ 170 g. Óleo de coco fora da tabela.",
+    "variacoes": [
+      {
+        "id": "barras-amendoim-mel-sem-forno",
+        "videoId": "a64-9eoJWoY",
+        "titulo": "Barras de amendoim e mel sem forno",
+        "descricao": "Barras sem forno com pasta de amendoim, mel, aveia e gotas de chocolate. Quatro ingredientes; firmam na geladeira. Medidas de mel, aveia e chocolate estimadas (o short não lista pesos).",
+        "rendimento": "Cerca de 9 barras em forma 20×20 cm (estimativa)",
+        "porcoes": 9,
+        "porcao": "1 barra",
+        "ingredientes": [
+          {
+            "titulo": "Base",
+            "itens": [
+              "1 xícara de pasta de amendoim (aprox. 256 g; estimativa)",
+              "1/3 xícara de mel (aprox. 113 g; estimado — o short não informa a quantidade)",
+              "2 xícaras de aveia em flocos (aprox. 180 g; estimativa)",
+              "1/2 xícara de gotas de chocolate (aprox. 90 g; estimativa)"
+            ]
+          }
+        ],
+        "preparo": [
+          "Misture a pasta de amendoim com o mel até ficar homogêneo.",
+          "Incorpore a aveia e as gotas de chocolate.",
+          "Pressione firmemente em forma 20×20 cm forrada com papel manteiga.",
+          "Leve à geladeira até firmar.",
+          "Corte em cerca de 9 barras."
+        ],
+        "dicas": [
+          "Sem forno: a geladeira é o que dá firmeza — pressione bem na forma antes de gelar.",
+          "Se a massa estiver seca demais, acrescente um pouco mais de mel ou pasta; se mole, mais aveia.",
+          "Ótimas para lancheira; mantenha refrigeradas em dias quentes."
+        ],
+        "conservacao": {
+          "ambiente": "Até 1–2 dias em pote fechado se o clima estiver fresco (prazo aproximado); prefira geladeira.",
+          "geladeira": "Até 1–2 semanas em pote fechado (prazo aproximado).",
+          "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=a64-9eoJWoY",
+          "texto": "Assistir ao vídeo original",
+          "canal": "I Heart Nap Time",
+          "tituloOriginal": "no bake peanut butter oat bars - just 4 ingredients!",
+          "duracao": "0:26"
+        },
+        "baseNutricional": {
+          "amendoim": 256,
+          "mel": 113,
+          "aveia": 180,
+          "chocolate": 90
+        },
+        "notaNutricional": "1 xícara de pasta ≈ 256 g; mel 1/3 xícara ≈ 113 g; aveia 2 xícaras ≈ 180 g; gotas 1/2 xícara ≈ 90 g — todos estimados."
+      }
+    ]
   },
   {
     "id": "pizza-cottage-pepperoni",
@@ -1706,6 +2685,80 @@
       "mel": 42
     },
     "notaNutricional": "Inclui abóbora. Estimativa conservadora com pato cru com pele; não desconta gordura descartada nem álcool evaporado e pode superestimar o valor servido."
+  },
+  {
+    "id": "hamburguer-quinoa",
+    "videoId": "H1od62HtUDM",
+    "titulo": "Hambúrguer de quinoa",
+    "categoria": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-salad.jpg",
+    "destaque": "Hambúrguer de quinoa cozida com aveia, cebola, cenoura e ovo. Descansa, modela, passa pelo congelador e doura na frigideira.",
+    "porcoes": 4,
+    "porcao": "1 hambúrguer grande (ou 1,5 pequenos)",
+    "rendimento": "6 hambúrgueres pequenos ou 4 grandes",
+    "tempo": "Cerca de 50 minutos incluindo descanso e congelador (estimativa)",
+    "ingredientes": [
+      {
+        "titulo": "Base",
+        "itens": [
+          "1 xícara (150 g) de quinoa cozida",
+          "1/4 xícara (30 g) de farinha de aveia (pode ser aveia em flocos)",
+          "1/4 xícara (20 g) de aveia em flocos",
+          "1 ovo"
+        ]
+      },
+      {
+        "titulo": "Hortifrúti e temperos",
+        "itens": [
+          "1/2 cebola pequena ralada",
+          "2 colheres de sopa de cenoura ralada",
+          "Cebolinha a gosto",
+          "Gergelim preto a gosto",
+          "Páprica doce a gosto",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto"
+        ]
+      },
+      {
+        "titulo": "Para a frigideira",
+        "itens": [
+          "Azeite para untar a frigideira"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture todos os ingredientes em uma tigela e deixe descansar por 10 minutos.",
+      "Modele os hambúrgueres e leve ao congelador por cerca de 30 minutos.",
+      "Regue um fio de azeite na frigideira e doure o hambúrguer em fogo baixo.",
+      "Vire e doure o outro lado. Sirva em seguida."
+    ],
+    "dicas": [
+      "O canal pede para pesar os ingredientes; xícara medida de 240 ml.",
+      "Congelar antes de fritar ajuda a manter o formato na frigideira."
+    ],
+    "conservacao": {
+      "geladeira": "Até 2 dias na geladeira.",
+      "congelador": "Até 20 dias; congele espalhados e depois empilhe com plástico ou papel manteiga entre eles."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, preparo, rendimento e conservação vieram da descrição do vídeo. Tempero 'a gosto' e azeite da frigideira sem quantidade fixa."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=H1od62HtUDM",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Mamãe Vida Saudável",
+      "tituloOriginal": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
+      "duracao": "3:36"
+    },
+    "nutricaoAutor": {
+      "kcal": 125,
+      "prot": 5.5,
+      "carb": 16.5,
+      "gord": 4.0,
+      "fibras": 2.2,
+      "nota": "Estimativa manual por porção (4 grandes) a partir das medidas da descrição; quinoa fora da tabela local."
+    }
   },
   {
     "id": "bolacha-grao-de-bico",
