@@ -631,6 +631,18 @@
       "fonte": null,
       "referencia": "Aproximação editorial de composição genérica; substituir pelo rótulo do produto para maior precisão."
     },
+    "figado": {
+      "nome": "Carne, bovina, fígado, cru",
+      "por100g": {
+        "kcal": 141.0,
+        "prot": 20.7,
+        "carb": 1.1,
+        "gord": 5.3,
+        "fibras": 0.0
+      },
+      "fonte": "https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf",
+      "referencia": "TACO 4ª ed., carne bovina, fígado, cru. Energia 141 kcal, proteína 20,7 g, lipídios 5,3 g, carboidrato 1,1 g e fibra 0."
+    },
     "pato": {
       "nome": "Carne de pato crua com pele (sem desconto da gordura descartada)",
       "por100g": {

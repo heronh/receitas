@@ -94,6 +94,117 @@ const RECEITAS = [
     }
   },
   {
+    "id": "bolo-aveia-cacau-iogurte",
+    "videoId": "2MfibVTCvYM",
+    "titulo": "Bolo de aveia, cacau e iogurte",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-yogurt-berries.jpg",
+    "destaque": "Bolo de aveia com cacau, iogurte, mel e ovos, com mirtilos, nozes e chocolate. Sem farinha. O título anuncia 5 minutos.",
+    "porcoes": 6,
+    "porcao": "1 pedaço (1/6 do bolo; rendimento estimado)",
+    "rendimento": "1 bolo pequeno em 6 pedaços (estimativa; o vídeo não informa o rendimento)",
+    "tempo": "Cerca de 5 minutos, segundo o título; o forno abaixo é estimativa",
+    "ingredientes": [
+      {
+        "titulo": "Secos",
+        "itens": [
+          "130 g de aveia em flocos",
+          "20 g de cacau em pó",
+          "1/2 colher de chá de canela",
+          "Uma pitada de sal",
+          "1 colher de chá de bicarbonato de sódio"
+        ]
+      },
+      {
+        "titulo": "Úmidos",
+        "itens": [
+          "3 ovos",
+          "150 g de iogurte",
+          "30 g de mel",
+          "20 ml de leite",
+          "1 cunha de limão"
+        ]
+      },
+      {
+        "titulo": "Para misturar no fim",
+        "itens": [
+          "60 g de mirtilos",
+          "30 g de nozes",
+          "30 g de chocolate",
+          "1 colher de chá de coco ralado"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture a aveia, o cacau, a canela e a pitada de sal.",
+      "Incorpore os ovos, o iogurte e o mel até a massa unir.",
+      "Junte o bicarbonato e o suco da cunha de limão. Acrescente os mirtilos, as nozes, o chocolate, o leite e o coco ralado.",
+      "Transfira para uma forma pequena. O título diz que fica pronto em 5 minutos; as legendas não mostram o forno. Se assar, use 180 °C e confira o centro (estimativa de 20–25 minutos para esta quantidade). Deixe amornar antes de cortar."
+    ],
+    "dicas": [
+      "Há mel na massa. O título diz «no sugar»; esta ficha não trata a receita como sem açúcar adicionado.",
+      "Não leva farinha de trigo. A liga fica com a aveia, os ovos e o iogurte.",
+      "É um bolo de iogurte com cacau, separado do bolo de banana: a base úmida, a fruta e os adicionados são outros."
+    ],
+    "conservacao": {
+      "ambiente": "Até 1 dia em pote fechado em local fresco (aprox.); com ovo e iogurte, prefira a geladeira.",
+      "geladeira": "Até 3 dias em pote fechado (aprox.).",
+      "congelador": "Pode congelar os pedaços por até 1 mês. Descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Quantidades lidas nas legendas da tela: 130 g de aveia, 20 g de cacau, 1/2 colher de chá de canela, uma pitada de sal, 3 ovos, 150 g de iogurte, 30 g de mel, 1 colher de chá de bicarbonato, 1 cunha de limão, 60 g de mirtilos, 30 g de nozes, 30 g de chocolate, 20 ml de leite e 1 colher de chá de coco ralado. O forno e o rendimento não aparecem nas legendas; o título anuncia 5 minutos."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=2MfibVTCvYM",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Baking without flour",
+      "tituloOriginal": "Oats, cocoa, and yogurt! Ready in just 5 minutes! No sugar! No flour!",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Secos",
+        "itens": [
+          "130 g de aveia em flocos",
+          "20 g de cacau em pó",
+          "1/2 colher de chá de canela",
+          "Uma pitada de sal",
+          "1 colher de chá de bicarbonato de sódio"
+        ]
+      },
+      {
+        "secao": "Úmidos",
+        "itens": [
+          "3 ovos",
+          "150 g de iogurte",
+          "30 g de mel",
+          "20 ml de leite",
+          "1 cunha de limão"
+        ]
+      },
+      {
+        "secao": "Para misturar no fim",
+        "itens": [
+          "60 g de mirtilos",
+          "30 g de nozes",
+          "30 g de chocolate",
+          "1 colher de chá de coco ralado"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 215,
+      "prot": 9.0,
+      "carb": 25.8,
+      "gord": 9.9,
+      "fibras": 3.8,
+      "origem": "estimativa",
+      "nota": "Mirtilos (60 g) e coco ralado (1 colher de chá) sem chave na tabela local. Canela, sal e bicarbonato não entram. A cunha de limão foi contada como 15 g. Três ovos como 150 g."
+    }
+  },
+  {
     "id": "pao-linhaca",
     "videoId": "zM8yab1Uy4U",
     "titulo": "Pão de linhaça e chia",
@@ -393,6 +504,64 @@ const RECEITAS = [
           "origem": "estimativa",
           "nota": "Meia xícara de aveia contada como 40 g e as maçãs como 300 g sem miolo; as duas conversões são estimadas. Canela e a cobertura opcional não entram. O vídeo não informa o rendimento; a divisão em 8 biscoitos é estimativa."
         }
+      },
+      {
+        "id": "cookies-aveia-maca-gergelim",
+        "videoId": "Hw91QZTx5LU",
+        "titulo": "Cookies de aveia, maçã e gergelim",
+        "descricao": "Outro vídeo da mesma família, com maçã ralada, aveia, gergelim e um toque de mel, coberto com frutas vermelhas. A descrição não traz gramas; os pesos são estimativa. Porção estimada: 2 biscoitos.",
+        "rendimento": "Cerca de 8 biscoitos ou 1 forma pequena de barras; 4 porções (estimativa)",
+        "porcoes": 4,
+        "porcao": "2 biscoitos",
+        "ingredientes": [
+          {
+            "titulo": "Hortifrúti",
+            "itens": [
+              "2 maçãs médias raladas, sem miolo (aprox. 300 g; estimativa)",
+              "Frutas vermelhas frescas para cobrir (quantidade não informada)"
+            ]
+          },
+          {
+            "titulo": "Mercearia",
+            "itens": [
+              "100 g de aveia em flocos (estimativa)",
+              "2 colheres de sopa de gergelim (aprox. 20 g; estimativa)",
+              "Um toque de mel (estimativa: 1 colher de sopa, cerca de 21 g)"
+            ]
+          }
+        ],
+        "preparo": [
+          "Rale as maçãs sem o miolo. Misture com a aveia, o gergelim e o mel até unir.",
+          "Deixe descansar cerca de 10 minutos (sugestão) para a aveia absorver a umidade da maçã.",
+          "Modele biscoitos ou espalhe em forma pequena forrada, como barras. Cubra com as frutas vermelhas.",
+          "Asse a 180 °C por 20–25 minutos (estimativa), até dourar. Deixe esfriar antes de cortar."
+        ],
+        "dicas": [
+          "A descrição fala em cookies e também em barras de aveia e maçã. A massa é a mesma; muda o formato.",
+          "Leva mel. O título diz «no sugar»; com mel há açúcar adicionado, além do açúcar da fruta.",
+          "Sem farinha de trigo. A liga fica com a maçã ralada e o mel."
+        ],
+        "conservacao": {
+          "ambiente": "Poucas horas em temperatura ambiente; prefira a geladeira pela umidade (aprox.).",
+          "geladeira": "Até 3 dias em pote fechado.",
+          "congelador": "Pode congelar os biscoitos assados por até 1 mês. Reaqueça no forno para recuperar a superfície."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=Hw91QZTx5LU",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Recipes Mimi",
+          "tituloOriginal": "Oatmeal and apple! Incredibly delicious & HEALTHY Cookies! No flour! No Sugar!",
+          "duracao": "—"
+        },
+        "nutricao": {
+          "kcal": 185,
+          "prot": 4.8,
+          "carb": 33.5,
+          "gord": 4.6,
+          "fibras": 3.8,
+          "origem": "estimativa",
+          "nota": "Frutas vermelhas de cobertura fora da conta: a descrição não informa a quantidade e não há chave de fruta fresca. Pesos de maçã, aveia, gergelim e mel são estimativa. O mel foi contado como 1 colher de sopa (21 g), a partir de «a touch of honey»."
+        }
       }
     ],
     "compras": [
@@ -426,8 +595,7 @@ const RECEITAS = [
     "id": "bombons-maca-amendoim",
     "videoId": "qwi2Y8isloI",
     "titulo": "Bombons de maçã, amendoim e chocolate",
-    "categoria": "Recentes",
-    "categoriaBase": "Doces e lanches",
+    "categoria": "Doces e lanches",
     "tags": [],
     "icone": "imagens/receita-icon-nuts.jpg",
     "destaque": "Docinhos de maçã e amendoim cobertos com chocolate amargo. A textura depende de reduzir bem a umidade da fruta.",
@@ -3005,6 +3173,105 @@ const RECEITAS = [
       "gord": 15.5,
       "nota": "Valores declarados pelo canal para 1 de 6 fatias; não foram recalculados. Dependem do cottage e da espessura do pepperoni.",
       "origem": "autor"
+    }
+  },
+  {
+    "id": "figado-boi-airfryer",
+    "videoId": "TmHXy8hkBgw",
+    "titulo": "Fígado de boi na airfryer",
+    "categoria": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-pork.jpg",
+    "destaque": "Fígado em pedaços, marinado com cominho e lemon pepper, com cebola e tomate cereja na airfryer a 180 °C.",
+    "porcoes": 2,
+    "porcao": "cerca de 150 g de fígado com os acompanhamentos",
+    "rendimento": "2 porções",
+    "tempo": "Cerca de 30 minutos (pré-aquecimento, 15 min de marinada e 10–15 min na airfryer)",
+    "ingredientes": [
+      {
+        "titulo": "Proteína",
+        "itens": [
+          "300 g de fígado de boi, em pedaços iguais"
+        ]
+      },
+      {
+        "titulo": "Hortifrúti",
+        "itens": [
+          "1/2 xícara de tomate cereja cortado ao meio no sentido do comprimento (aprox. 75 g; estimativa de peso)",
+          "1 cebola cortada em rodelas finas (aprox. 120 g; estimativa)",
+          "Salsa picada para finalizar"
+        ]
+      },
+      {
+        "titulo": "Temperos",
+        "itens": [
+          "2 colheres de sopa de azeite de oliva",
+          "1 colher de chá de lemon pepper",
+          "1 colher de chá de cominho",
+          "Sal",
+          "Pimenta-do-reino moída"
+        ]
+      }
+    ],
+    "preparo": [
+      "Pré-aqueça a airfryer a 180 °C por 3 minutos.",
+      "Numa tigela, misture o fígado com o cominho, o sal, a pimenta e o lemon pepper. Deixe marinar na geladeira por 15 minutos.",
+      "Junte a cebola em rodelas, os tomates cortados ao meio e o azeite.",
+      "Coloque no cesto e programe 5 minutos. Vire os pedaços e programe mais 5 minutos.",
+      "Prove. Se quiser mais cozido, programe mais 5 minutos. Deixe descansar uns 3 minutos e sirva quente, com salsa picada."
+    ],
+    "dicas": [
+      "O ponto que o canal indica é cozido por fora e rosado por dentro. Os 5 minutos extras ficam a gosto.",
+      "Lemon pepper já salga: prove antes de acrescentar mais sal."
+    ],
+    "conservacao": {
+      "geladeira": "Até 2 dias em pote fechado. Reaqueça até ficar bem quente.",
+      "congelador": "Pode congelar por até 1 mês. Descongele na geladeira e reaqueça bem; a textura fica mais firme."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes e modo vêm da descrição: 300 g de fígado, 2 colheres de sopa de azeite, 1/2 xícara de tomate cereja, 1 cebola, 1 colher de chá de lemon pepper, 1 colher de chá de cominho, sal, pimenta-do-reino e salsa. Airfryer a 180 °C, marinada de 15 minutos, 5+5 minutos e mais 5 se quiser. O peso do tomate e da cebola é estimativa. Sal, pimenta e salsa não têm medida na descrição."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=TmHXy8hkBgw",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Tempero do Dodi | Chef Jorge Lopes",
+      "tituloOriginal": "FÍGADO DE BOI NA AIRFRYER | FÁCIL E GOSTOSO | Prakumê",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Proteína",
+        "itens": [
+          "300 g de fígado de boi, em pedaços iguais"
+        ]
+      },
+      {
+        "secao": "Hortifrúti",
+        "itens": [
+          "1/2 xícara de tomate cereja cortado ao meio no sentido do comprimento (aprox. 75 g; estimativa de peso)",
+          "1 cebola cortada em rodelas finas (aprox. 120 g; estimativa)",
+          "Salsa picada para finalizar"
+        ]
+      },
+      {
+        "secao": "Temperos",
+        "itens": [
+          "2 colheres de sopa de azeite de oliva",
+          "1 colher de chá de lemon pepper",
+          "1 colher de chá de cominho",
+          "Sal",
+          "Pimenta-do-reino moída"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 355,
+      "prot": 32.5,
+      "carb": 8.2,
+      "gord": 21.1,
+      "fibras": 1.8,
+      "origem": "estimativa",
+      "nota": "Lemon pepper, cominho, sal, pimenta e salsa fora da conta. Tomate cereja estimado em 75 g (1/2 xícara) e a cebola em 120 g. Azeite: 2 colheres de sopa ≈ 26 g."
     }
   },
   {
