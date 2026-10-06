@@ -214,7 +214,56 @@
       "chia": 80,
       "azeite": 13
     },
-    "notaNutricional": ""
+    "notaNutricional": "",
+    "variacoes": [
+      {
+        "id": "paezinhos-linhaca-gergelim",
+        "videoId": "Q_RQlrHsZgk",
+        "titulo": "Pãezinhos de linhaça e gergelim",
+        "descricao": "Pãezinhos individuais feitos apenas com farinha de linhaça e gergelim, temperados a gosto e assados até firmar.",
+        "rendimento": "Cerca de 4 pãezinhos individuais (estimativa; o vídeo não informa quantidade)",
+        "porcoes": 4,
+        "porcao": "1 pãozinho",
+        "ingredientes": [
+          {
+            "titulo": "Sementes e base",
+            "itens": [
+              "1 xícara de linhaça (ou farinha pronta; aprox. 140 g; conversão estimada)",
+              "1/4 xícara de sementes de gergelim (aprox. 35 g; conversão estimada)",
+              "Água: cerca de 120 ml para hidratar (estimativa; quantidade não informada)",
+              "Temperos a gosto (sal e ervas a gosto)"
+            ]
+          }
+        ],
+        "preparo": [
+          "Moa a linhaça caso esteja em sementes até virar farinha e misture com as sementes de gergelim e os temperos a gosto.",
+          "Adicione a água aos poucos, misturando até formar uma massa consistente e moldável. Deixe hidratar por alguns minutos.",
+          "Modele 4 pãezinhos redondos e disponha em assadeira forrada com papel manteiga.",
+          "Asse em forno preaquecido a 180 °C por 25–30 minutos (estimativa) até firmarem e dourarem levemente. Deixe esfriar antes de servir."
+        ],
+        "dicas": [
+          "A receita descrita leva apenas linhaça, gergelim e temperos a gosto; a água e o modo de assar foram estimados para a formação dos pãezinhos.",
+          "As sementes de gergelim podem ser incorporadas inteiras na massa ou parte salpicada por cima antes de assar."
+        ],
+        "conservacao": {
+          "ambiente": "Até 1–2 dias em saco ou pote fechado em temperatura ambiente fresca (aprox.); depois prefira a geladeira.",
+          "geladeira": "Até 4–5 dias em pote bem fechado (aprox.).",
+          "congelador": "Até 1 mês no congelador, embalados individualmente (aprox.). Reaqueça no forno ou torradeira."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=Q_RQlrHsZgk",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Virando a Mesa",
+          "tituloOriginal": "JUST 1 CUP OF FLAXSEED! I LOST WEIGHT BY REPLACING BREAD WITH THESE LITTLE BUNS!",
+          "duracao": "—"
+        },
+        "baseNutricional": {
+          "linhaca": 140,
+          "gergelim": 35
+        },
+        "notaNutricional": "Estimativa baseada em 1 xícara de linhaça (≈140 g) e 1/4 xícara de gergelim (≈35 g), divididos em 4 porções. Temperos e água não alteram o cálculo."
+      }
+    ]
   },
   {
     "id": "cookies-aveia-canela-castanha",

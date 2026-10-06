@@ -19,7 +19,12 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   const recentesVideoIds = new Set(recentes.map(r => r.videoId));
   assert.deepEqual(recentes.map(r => r.id), recentesIds);
   assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
-  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia'].includes(r.id)));
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-linhaca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia'].includes(r.id)));
+  const variacaoLinhaca = receitas.find(r => r.id === 'pao-linhaca').variacoes[0];
+  assert.equal(variacaoLinhaca.id, 'paezinhos-linhaca-gergelim');
+  assert.equal(variacaoLinhaca.videoId, 'Q_RQlrHsZgk');
+  assert.equal(variacaoLinhaca.fonte.url, 'https://www.youtube.com/watch?v=Q_RQlrHsZgk');
+  assert.ok(variacaoLinhaca.ingredientes.length && variacaoLinhaca.preparo.length >= 3 && variacaoLinhaca.nutricao?.origem === 'estimativa');
   const variacaoAveia = receitas.find(r => r.id === 'aveia-assada-maca').variacoes[0];
   assert.equal(variacaoAveia.id, 'cookies-aveia-maca-canela');
   assert.equal(variacaoAveia.videoId, 'FxgVCAD6KyE');
