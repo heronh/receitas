@@ -654,6 +654,42 @@
       },
       "fonte": null,
       "referencia": "Aproximação editorial de composição genérica; substituir pelo rótulo do produto para maior precisão."
+    },
+    "farinha_amendoa": {
+      "nome": "Farinha de amêndoa (amêndoas moídas)",
+      "por100g": {
+        "kcal": 579,
+        "prot": 21.2,
+        "carb": 21.6,
+        "gord": 49.9,
+        "fibras": 12.5
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial da amêndoa crua (USDA). Não é entrada da TACO."
+    },
+    "coco_ralado": {
+      "nome": "Coco ralado seco, sem açúcar",
+      "por100g": {
+        "kcal": 660,
+        "prot": 6.9,
+        "carb": 23.7,
+        "gord": 64.5,
+        "fibras": 16.3
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de coco seco ralado sem açúcar. 22 g em 1/4 xícara combinam com coco ralado, não com coco fresco."
+    },
+    "acucar_palma": {
+      "nome": "Açúcar de palma",
+      "por100g": {
+        "kcal": 380,
+        "prot": 0,
+        "carb": 95,
+        "gord": 0,
+        "fibras": 0
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de açúcar de palma. Não é entrada da TACO."
     }
   }
 }
