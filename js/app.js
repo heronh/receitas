@@ -244,7 +244,9 @@
   const htmlFiltros = () => {
     const chip = (rotulo, filtro) =>
       `<button type="button" class="chip" data-filtro="${escapar(JSON.stringify(filtro))}" aria-pressed="false">${escapar(rotulo)}</button>`;
-    const categoriasUsadas = CATEGORIAS.filter((c) => RECEITAS.some((r) => r.categoria === c));
+    const categoriasUsadas = CATEGORIAS.filter((c) =>
+      RECEITAS.some((r) => r.categoria === c || r.categoriaBase === c)
+    );
     const tagsUsadas = TAGS_FILTRO.filter((t) => RECEITAS.some((r) => r.tags.includes(t)));
     return [
       chip("Todas", null),
@@ -282,7 +284,7 @@
 
   const combina = (r) => {
     const f = estado.filtro;
-    if (f?.tipo === "categoria" && r.categoria !== f.valor) return false;
+    if (f?.tipo === "categoria" && r.categoria !== f.valor && r.categoriaBase !== f.valor) return false;
     if (f?.tipo === "tag" && !r.tags.includes(f.valor)) return false;
     if (!estado.termo) return true;
     const texto = textoBusca.get(r.id);

@@ -47,6 +47,10 @@ const server = http.createServer((req, res) => {
     await page.locator('#pao-aveia-iogurte-grego h2').waitFor();
     await page.getByRole('button', { name: 'Recentes', exact: true }).click();
     assert.equal(await page.locator('[data-card]:visible').count(), 5);
+    assert.ok(await page.locator('[data-card="pao-linhaca"]').isVisible());
+    await page.getByRole('button', { name: 'Pães e wraps', exact: true }).click();
+    assert.ok(await page.locator('[data-card="pao-linhaca"]').isVisible());
+    assert.ok(await page.locator('[data-receita="pao-linhaca"]').isVisible());
     await page.getByRole('button', { name: 'Todas', exact: true }).click();
     const anchors = await page.locator('.card').evaluateAll(nodes => nodes.map(n => n.getAttribute('href')));
     for (const anchor of anchors) {

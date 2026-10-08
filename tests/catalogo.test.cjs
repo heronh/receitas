@@ -46,6 +46,25 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   assert.ok(!receitas.find(r => r.id === 'pao-ricota-ovo').categoriaBase);
 });
 
+test('filtro de categoria aceita a categoria da ficha ou a categoriaBase', () => {
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
+  const categoriasUsadas = app.match(/const categoriasUsadas = ([\s\S]*?);/);
+  const combina = app.match(/if \(f\?\.tipo === "categoria" && ([^)]+)\) return false;/);
+  assert.ok(categoriasUsadas && /r\.categoria === c \|\| r\.categoriaBase === c/.test(categoriasUsadas[1]));
+  assert.ok(combina && /r\.categoria !== f\.valor && r\.categoriaBase !== f\.valor/.test(combina[1]));
+  const pao = receitas.find(r => r.id === 'pao-linhaca');
+  assert.equal(pao.categoria, 'Recentes');
+  assert.equal(pao.categoriaBase, 'Pães e wraps');
+  const aceita = (r, valor) => r.categoria === valor || r.categoriaBase === valor;
+  assert.ok(aceita(pao, 'Recentes') && aceita(pao, 'Pães e wraps'));
+  const categorias = ['Recentes', 'Pratos principais', 'Entradas e pastas', 'Pães e wraps', 'Biscoitos e crackers', 'Doces e lanches'];
+  const chips = categorias.filter(c => receitas.some(r => r.categoria === c || r.categoriaBase === c));
+  assert.ok(chips.includes('Pães e wraps'));
+  for (const base of new Set(receitas.map(r => r.categoriaBase).filter(Boolean))) {
+    assert.ok(chips.includes(base), base);
+  }
+});
+
 test('cada ficha permite cozinhar e comprar, com porção e origem das informações', () => {
   for (const r of receitas) {
     assert.ok(r.destaque && r.rendimento && r.porcao && r.proveniencia?.nota, r.id);
