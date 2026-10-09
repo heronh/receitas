@@ -3189,7 +3189,7 @@ const RECEITAS = [
     "categoria": "Pratos principais",
     "tags": [],
     "icone": "imagens/receita-icon-pork.jpg",
-    "destaque": "Entrecosto temperado com dry rub, cozido sous vide 12 h em baixa temperatura e finalizado na grelha ou forno com molho BBQ express.",
+    "destaque": "Entrecosto pincelado com um pouco de mostarda e dry rub, cozido sous vide 12 h em baixa temperatura e finalizado na grelha ou forno com molho BBQ express, também com um pouco de mostarda.",
     "porcoes": 4,
     "porcao": "1/4 da peça",
     "rendimento": "1 peça de entrecosto (~1–1,5 kg estimado) para cerca de 4 porções",
@@ -3198,7 +3198,8 @@ const RECEITAS = [
       {
         "titulo": "Carne",
         "itens": [
-          "1 peça de entrecosto (aprox. 1–1,5 kg; estimativa — o vídeo não informa o peso)"
+          "1 peça de entrecosto (aprox. 1–1,5 kg; estimativa — o vídeo não informa o peso)",
+          "um pouco de mostarda para pincelar"
         ]
       },
       {
@@ -3221,15 +3222,16 @@ const RECEITAS = [
           "3 colheres de sopa de mel (aprox. 63 g; estimativa)",
           "1 colher de sopa de açúcar",
           "2 colheres de sopa de molho inglês",
-          "3 colheres de sopa do dry rub"
+          "3 colheres de sopa do dry rub",
+          "um pouco de mostarda"
         ]
       }
     ],
     "preparo": [
       "Misture todos os ingredientes do dry rub. Reserve 3 colheres de sopa para o molho BBQ.",
-      "Seque o entrecosto, cubra generosamente com o dry rub restante e embale a vácuo (ou em saco próprio para sous vide).",
+      "Seque o entrecosto, pincele um pouco de mostarda nos dois lados para o dry rub aderir, cubra generosamente com o dry rub restante e embale a vácuo (ou em saco próprio para sous vide).",
       "Cozinhe sous vide em baixa temperatura por 12 horas, até as fibras amaciarem.",
-      "Prepare o molho BBQ express misturando balsâmico, ketchup, mel, açúcar, molho inglês e as 3 colheres de dry rub.",
+      "Prepare o molho BBQ express misturando balsâmico, ketchup, um pouco de mostarda, mel, açúcar, molho inglês e as 3 colheres de dry rub.",
       "Retire o entrecosto do saco, seque a superfície e finalize na grelha ou no forno quente, pincelando o molho até caramelizar.",
       "Descanse alguns minutos, corte entre os ossos e sirva com o molho restante."
     ],
@@ -3243,7 +3245,7 @@ const RECEITAS = [
       "congelador": "Até 2 meses depois do sous vide (antes ou depois de grelhar); descongele na geladeira e reaqueça até o centro bem quente."
     },
     "proveniencia": {
-      "nota": "Dry rub e molho BBQ da descrição. Peso da peça (1–1,5 kg) e porções estimados. Temperatura exata do banho não consta na descrição — seguir o vídeo. Entrecosto, cebola/alho em pó, páprica, ketchup, balsâmico e molho inglês sem chave em nutrientes.json; só gengibre do rub e mel do molho entram na base."
+      "nota": "Dry rub e molho BBQ da descrição. A mostarda não está na descrição: na fala (F5xDn0DueO4), um pouco é pincelado na carne como binder, antes do dry rub, e um pouco entra no molho BBQ. Quantidade vaga, como dita («um pouco»), sem estimativa em gramas. Peso da peça (1–1,5 kg) e porções estimados. Temperatura exata do banho não consta na descrição — seguir o vídeo. Entrecosto, cebola/alho em pó, páprica, ketchup, balsâmico, molho inglês e mostarda sem chave em nutrientes.json; só gengibre do rub e mel do molho entram na base."
     },
     "fonte": {
       "url": "https://www.youtube.com/watch?v=F5xDn0DueO4",
@@ -3256,7 +3258,8 @@ const RECEITAS = [
       {
         "secao": "Carne",
         "itens": [
-          "1 peça de entrecosto (aprox. 1–1,5 kg; estimativa — o vídeo não informa o peso)"
+          "1 peça de entrecosto (aprox. 1–1,5 kg; estimativa — o vídeo não informa o peso)",
+          "um pouco de mostarda para pincelar"
         ]
       },
       {
@@ -3279,7 +3282,8 @@ const RECEITAS = [
           "3 colheres de sopa de mel (aprox. 63 g; estimativa)",
           "1 colher de sopa de açúcar",
           "2 colheres de sopa de molho inglês",
-          "3 colheres de sopa do dry rub"
+          "3 colheres de sopa do dry rub",
+          "um pouco de mostarda"
         ]
       }
     ],
