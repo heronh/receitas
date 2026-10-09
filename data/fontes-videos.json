@@ -1,7 +1,7 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-10-08",
-  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias.",
+  "consultadoEm": "2026-10-09",
+  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas.",
   "videos": [
     {
       "posicao": 1,
@@ -400,6 +400,16 @@
     },
     {
       "posicao": 44,
+      "id": "VOlIRFtI4XI",
+      "titulo": "Brownie de flocons d'avoine cuit : sans sucre, sans farine, sans oeufs ! Recette rapide ♥",
+      "canal": "Un jour Une recette",
+      "url": "https://www.youtube.com/watch?v=VOlIRFtI4XI",
+      "duracao": "2:50",
+      "descricaoConsultada": true,
+      "nota": "Ingredientes da descrição: 45 g de flocos de aveia em pó (sem glúten), 90 g de compota de maçã ou banana, 60 ml de leite vegetal ou leite à escolha, 1/4 colher de chá de fermento, 1 colher de sopa de cacau amargo, pepitas de chocolate sem quantidade. Canal prefere a versão sem ovo. Duração 2:50 (170 s)."
+    },
+    {
+      "posicao": 45,
       "id": "KmiFvWdx01M",
       "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES - Delícia Fácil e Rápido",
       "canal": "Anjo Low Carb Receitas",
@@ -408,7 +418,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 45,
+      "posicao": 46,
       "id": "eCazTN5-Rsc",
       "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
       "canal": "Alle Rezepte",
@@ -417,7 +427,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 46,
+      "posicao": 47,
       "id": "dRW3VMfNlaY",
       "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
       "canal": "Delicious and easy recipes",
@@ -426,7 +436,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 47,
+      "posicao": 48,
       "id": "BkTFTZw9PSE",
       "titulo": "Peito de pato com mel e Vinho do Porto",
       "canal": "Cozinha de Arquiteto",
@@ -435,7 +445,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 48,
+      "posicao": 49,
       "id": "H1od62HtUDM",
       "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
       "canal": "Mamãe Vida Saudável",
@@ -444,7 +454,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 49,
+      "posicao": 50,
       "id": "RueGO-RTfZI",
       "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
       "canal": "Lu Crosara",

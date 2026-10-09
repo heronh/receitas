@@ -3627,6 +3627,105 @@ const RECEITAS = [
     }
   },
   {
+    "id": "brownie-aveia-compota",
+    "videoId": "VOlIRFtI4XI",
+    "titulo": "Brownie de aveia e compota",
+    "categoria": "Doces e lanches",
+    "tags": [
+      "Vegana",
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-oat-cookie.jpg",
+    "destaque": "Brownie pequeno de aveia em pó, cacau amargo e compota de maçã ou banana, sem ovo. A descrição também cita uma versão com 1 ovo; o canal prefere sem.",
+    "porcoes": 4,
+    "porcao": "1 pedaço (1/4; rendimento estimado)",
+    "rendimento": "1 brownie pequeno em 4 pedaços (estimativa; o vídeo não informa o rendimento)",
+    "tempo": "Cerca de 25 minutos (estimativa de forno; o vídeo dura 2:50 e não informa o tempo)",
+    "ingredientes": [
+      {
+        "titulo": "Secos",
+        "itens": [
+          "45 g de flocos de aveia em pó (sem glúten)",
+          "1/4 de uma colher de chá de fermento em pó",
+          "1 colher de sopa de cacau amargo"
+        ]
+      },
+      {
+        "titulo": "Úmidos",
+        "itens": [
+          "90 g de compota de maçã ou de banana",
+          "60 ml de leite vegetal ou leite à escolha"
+        ]
+      },
+      {
+        "titulo": "Opcionais",
+        "itens": [
+          "Pepitas de chocolate ao leite ou amargo, sem açúcar (quantidade não informada)",
+          "1 ovo (versão alternativa citada; o canal prefere sem ovo)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Misture a aveia em pó, o cacau amargo e o fermento.",
+      "Incorpore a compota e o leite até a massa unir. Se usar pepitas, acrescente agora.",
+      "Transfira para uma forma pequena. O vídeo não informa temperatura nem tempo; como ponto de partida, asse a 180 °C por 15–20 minutos (estimativa) até o centro firmar. Deixe amornar antes de cortar."
+    ],
+    "dicas": [
+      "A lista da descrição não inclui ovo. A versão com 1 ovo é só uma opção mencionada; esta ficha segue a preferência do canal (sem ovo) e não conta o ovo na nutrição.",
+      "Há duas bases úmidas: compota de maçã ou de banana. A ficha mantém as duas como no vídeo; o cálculo usa 90 g de maçã (compota).",
+      "As pepitas ficam sem quantidade, como na descrição, e não entram no cálculo.",
+      "O título diz «sans sucre»; esta ficha não trata a receita como sem açúcar: a compota e as pepitas ao leite podem acrescentar açúcar."
+    ],
+    "conservacao": {
+      "ambiente": "Até 1 dia em pote fechado em local fresco (aprox.); com a umidade da compota, prefira a geladeira.",
+      "geladeira": "Até 3 dias em pote fechado (aprox.).",
+      "congelador": "Pode congelar os pedaços por até 1 mês. Descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes da descrição: 45 g de flocos de aveia em pó (sem glúten), 90 g de compota de maçã ou de banana, 60 ml de leite vegetal ou leite à escolha, 1/4 de uma colher de chá de fermento, 1 colher de sopa de cacau amargo e pepitas de chocolate ao leite ou amargo sem açúcar, sem quantidade. O canal menciona a opção com 1 ovo e prefere sem. Forno (180 °C, 15–20 minutos) e rendimento (4 pedaços) são estimativa editorial: o vídeo de 2:50 não informa. Não é variação do bolo de aveia, cacau e iogurte nem do bolo de aveia, cacau e banana: a base é vegana, com compota e lote bem menor."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=VOlIRFtI4XI",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Un jour Une recette",
+      "tituloOriginal": "Brownie de flocons d'avoine cuit : sans sucre, sans farine, sans oeufs ! Recette rapide ♥",
+      "duracao": "2:50"
+    },
+    "compras": [
+      {
+        "secao": "Secos",
+        "itens": [
+          "45 g de flocos de aveia em pó (sem glúten)",
+          "1/4 de uma colher de chá de fermento em pó",
+          "1 colher de sopa de cacau amargo"
+        ]
+      },
+      {
+        "secao": "Úmidos",
+        "itens": [
+          "90 g de compota de maçã ou de banana",
+          "60 ml de leite vegetal ou leite à escolha"
+        ]
+      },
+      {
+        "secao": "Opcionais",
+        "itens": [
+          "Pepitas de chocolate ao leite ou amargo, sem açúcar (quantidade não informada)",
+          "1 ovo (versão alternativa citada; o canal prefere sem ovo)"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 70,
+      "prot": 2.5,
+      "carb": 12.6,
+      "gord": 1.7,
+      "fibras": 2.0,
+      "origem": "estimativa",
+      "nota": "Compota contada como 90 g de maçã (a alternativa de banana não entra). Leite 60 ml ≈ 60 g; o tipo (vegetal ou outro) não está fixado. 1 colher de sopa de cacau amargo ≈ 7 g (estimativa). Fermento e pepitas sem quantidade não entram. O ovo opcional não entra."
+    }
+  },
+  {
     "id": "pao-ricota-ovo",
     "videoId": "KmiFvWdx01M",
     "titulo": "Pão de frigideira de ovo e ricota",
