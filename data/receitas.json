@@ -148,6 +148,84 @@
     "notaNutricional": "Sal e alho em pó não entram. A água não altera o cálculo."
   },
   {
+    "id": "torta-abobora-aveia-cottage",
+    "videoId": "4uWS0sIRSe8",
+    "titulo": "Torta de abóbora, aveia e cottage",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
+    "tags": [],
+    "icone": "imagens/receita-icon-pumpkin.jpg",
+    "destaque": "Torta de abóbora crua, aveia e cottage batidos no liquidificador, sem farinha de trigo nem manteiga. Passas e nozes vão por cima da massa; as sementes de abóbora, depois de esfriar.",
+    "porcoes": 6,
+    "porcao": "1 fatia (1/6 da torta; rendimento estimado)",
+    "rendimento": "1 torta de 20 cm em 6 fatias (estimativa; a descrição não informa o número de fatias)",
+    "tempo": "Cerca de 50 minutos (40 minutos no forno) + resfriamento completo",
+    "ingredientes": [
+      {
+        "titulo": "Massa no liquidificador",
+        "itens": [
+          "200 g de abóbora crua descascada",
+          "120 g de aveia em flocos (ou farinha de aveia)",
+          "200 g de cottage macio 0,1%",
+          "2 ovos",
+          "50 ml de leite 1,5%",
+          "1 colher de chá de fermento em pó",
+          "Adoçante a gosto"
+        ]
+      },
+      {
+        "titulo": "Por cima da massa",
+        "itens": [
+          "15 g de nozes picadas",
+          "15 g de uvas-passas"
+        ]
+      },
+      {
+        "titulo": "Depois de esfriar",
+        "itens": [
+          "10 g de sementes de abóbora"
+        ]
+      }
+    ],
+    "preparo": [
+      "Corte a abóbora crua descascada em cubos. No liquidificador, bata a abóbora, a aveia, o cottage, os ovos, o leite, o fermento e o adoçante a gosto em potência alta por cerca de 20–30 segundos, até um creme liso e sem grumos.",
+      "Forre uma forma redonda de 20 cm com papel manteiga. Despeje toda a massa e polvilhe as uvas-passas e as nozes picadas.",
+      "Asse em forno preaquecido a 180 °C por 40 minutos. Um palito no centro deve sair seco.",
+      "Deixe esfriar por completo na forma antes de cortar. Decore com as sementes de abóbora e sirva em fatias."
+    ],
+    "dicas": [
+      "“Adoçante a gosto” fica como na descrição: não há gramas, e esta ficha não escolhe marca nem quantidade.",
+      "Não corte a torta quente. A descrição pede esfriar por completo na forma para a textura de suflê firmar.",
+      "Não leva farinha de trigo nem manteiga. A aveia pode ter contato com trigo; a ficha não trata a receita como sem glúten."
+    ],
+    "conservacao": {
+      "ambiente": "Até 1 dia em pote fechado, em local fresco (aprox.); com ovo, leite e cottage, prefira a geladeira.",
+      "geladeira": "Até 3–4 dias em pote fechado (aprox.).",
+      "congelador": "Até 1 mês, em fatias bem embaladas (aprox.). Descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes, forma, forno e modo vêm da descrição: 200 g de abóbora crua descascada, 120 g de aveia em flocos ou farinha de aveia, 200 g de cottage macio 0,1%, 2 ovos, 50 ml de leite 1,5%, 1 colher de chá de fermento, adoçante a gosto, 15 g de nozes picadas, 15 g de uvas-passas e 10 g de sementes de abóbora. O número de fatias não é informado; 6 é estimativa para a forma de 20 cm. A descrição informa cerca de 976 kcal e 61 g de proteína na torta inteira, e cerca de 162 kcal e 10,1 g de proteína por 100 g."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=4uWS0sIRSe8",
+      "texto": "Assistir ao vídeo original",
+      "canal": "IRYNA_FOODBLOG",
+      "tituloOriginal": "61г БЕЛКА! Ленивый ТЫКВЕННЫЙ пирог «Всё в блендере» без муки и масла! ПП пирог 🎃🍏",
+      "duracao": "3:16"
+    },
+    "baseNutricional": {
+      "abobora": 200,
+      "aveia": 120,
+      "cottage": 200,
+      "ovo": 100,
+      "leite": 50,
+      "nozes": 15,
+      "uva_passa": 15,
+      "semente_abobora": 10
+    },
+    "notaNutricional": "Cottage 0,1% contado como cottage integral da tabela local, que não tem a versão magra; isso eleva gordura e calorias em relação aos cerca de 976 kcal e 34,6 g de gordura da descrição. Leite 1,5% contado como leite integral; 50 ml como 50 g. Dois ovos como 100 g. Adoçante a gosto e fermento não entram."
+  },
+  {
     "id": "panquecas-aveia-iogurte",
     "videoId": "qviffFXr_sg",
     "titulo": "Panquecas de aveia e iogurte",
@@ -301,8 +379,7 @@
     "id": "pao-linhaca",
     "videoId": "zM8yab1Uy4U",
     "titulo": "Pão de linhaça e chia",
-    "categoria": "Recentes",
-    "categoriaBase": "Pães e wraps",
+    "categoria": "Pães e wraps",
     "tags": [
       "Vegana",
       "Sem glúten"

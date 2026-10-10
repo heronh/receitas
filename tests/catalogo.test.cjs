@@ -7,12 +7,12 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'js/receitas.js'), 'utf8') + '\nthis.catalogo = RECEITAS;', context);
 const receitas = JSON.parse(JSON.stringify(context.catalogo));
-const playlistOrder = ['gJESkQtV_LA', 'wjae921V70I', 'qviffFXr_sg', '2MfibVTCvYM', 'zM8yab1Uy4U', 'oLjTJSwSHR8', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
-const recentesIds = ['muffins-amendoa-coco', 'crackers-sementes-sem-farinha', 'panquecas-aveia-iogurte', 'bolo-aveia-cacau-iogurte', 'pao-linhaca'];
+const playlistOrder = ['gJESkQtV_LA', 'wjae921V70I', '4uWS0sIRSe8', 'qviffFXr_sg', '2MfibVTCvYM', 'zM8yab1Uy4U', 'oLjTJSwSHR8', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
+const recentesIds = ['muffins-amendoa-coco', 'crackers-sementes-sem-farinha', 'torta-abobora-aveia-cottage', 'panquecas-aveia-iogurte', 'bolo-aveia-cacau-iogurte'];
 
 test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ricota', () => {
-  assert.equal(receitas.length, 39);
-  assert.equal(new Set(receitas.map(r => r.id)).size, 39);
+  assert.equal(receitas.length, 40);
+  assert.equal(new Set(receitas.map(r => r.id)).size, 40);
   assert.deepEqual(new Set(receitas.map(r => r.videoId)), new Set(playlistOrder));
   const recentes = receitas.filter(r => r.categoria === 'Recentes');
   const outros = receitas.filter(r => r.categoria !== 'Recentes');
@@ -44,6 +44,12 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   assert.ok(recentes.every(r => r.categoriaBase));
   assert.equal(receitas.find(r => r.id === 'pao-ricota-ovo').categoria, 'Pães e wraps');
   assert.ok(!receitas.find(r => r.id === 'pao-ricota-ovo').categoriaBase);
+  assert.equal(receitas.find(r => r.id === 'pao-linhaca').categoria, 'Pães e wraps');
+  assert.ok(!receitas.find(r => r.id === 'pao-linhaca').categoriaBase);
+  const torta = receitas.find(r => r.id === 'torta-abobora-aveia-cottage');
+  assert.equal(torta.videoId, '4uWS0sIRSe8');
+  assert.equal(torta.fonte.url, 'https://www.youtube.com/watch?v=4uWS0sIRSe8');
+  assert.equal(torta.categoriaBase, 'Doces e lanches');
 });
 
 test('filtro de categoria aceita a categoria da ficha ou a categoriaBase', () => {
@@ -52,11 +58,14 @@ test('filtro de categoria aceita a categoria da ficha ou a categoriaBase', () =>
   const combina = app.match(/if \(f\?\.tipo === "categoria" && ([^)]+)\) return false;/);
   assert.ok(categoriasUsadas && /r\.categoria === c \|\| r\.categoriaBase === c/.test(categoriasUsadas[1]));
   assert.ok(combina && /r\.categoria !== f\.valor && r\.categoriaBase !== f\.valor/.test(combina[1]));
-  const pao = receitas.find(r => r.id === 'pao-linhaca');
-  assert.equal(pao.categoria, 'Recentes');
-  assert.equal(pao.categoriaBase, 'Pães e wraps');
+  const torta = receitas.find(r => r.id === 'torta-abobora-aveia-cottage');
+  assert.equal(torta.categoria, 'Recentes');
+  assert.equal(torta.categoriaBase, 'Doces e lanches');
   const aceita = (r, valor) => r.categoria === valor || r.categoriaBase === valor;
-  assert.ok(aceita(pao, 'Recentes') && aceita(pao, 'Pães e wraps'));
+  assert.ok(aceita(torta, 'Recentes') && aceita(torta, 'Doces e lanches'));
+  const pao = receitas.find(r => r.id === 'pao-linhaca');
+  assert.equal(pao.categoria, 'Pães e wraps');
+  assert.ok(aceita(pao, 'Pães e wraps'));
   const categorias = ['Recentes', 'Pratos principais', 'Entradas e pastas', 'Pães e wraps', 'Biscoitos e crackers', 'Doces e lanches'];
   const chips = categorias.filter(c => receitas.some(r => r.categoria === c || r.categoriaBase === c));
   assert.ok(chips.includes('Pães e wraps'));
