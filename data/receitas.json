@@ -2472,6 +2472,321 @@
     }
   },
   {
+    "id": "assado-ovos-cottage",
+    "videoId": "UV0YaNJExv0",
+    "titulo": "Assado de ovos, cottage e espinafre",
+    "categoria": "Pratos principais",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-eggs.jpg",
+    "destaque": "Ovos e cottage com pouca gordura assados sobre espinafre, cogumelos, cebola e feta. É a primeira receita da compilação.",
+    "porcoes": 6,
+    "porcao": "1 fatia (1/6 da forma)",
+    "rendimento": "6 fatias, forma 23 cm × 33 cm",
+    "tempo": "Cerca de 1 hora (6–8 minutos no fogão, 30 minutos no forno e descanso)",
+    "ingredientes": [
+      {
+        "titulo": "Refogado",
+        "itens": [
+          "1 colher de chá de azeite",
+          "1 cebola pequena picada (cerca de 1 xícara)",
+          "225 g (8 oz) de cogumelos cremini fatiados",
+          "150 g (5 xícaras) de espinafre baby picado grosso",
+          "Uma pitada de sal para refogar"
+        ]
+      },
+      {
+        "titulo": "Ovos e queijos",
+        "itens": [
+          "12 ovos",
+          "1 1/2 xícara de cottage com pouca gordura (aprox. 340 g; conversão estimada)",
+          "1 colher de chá de alho em pó",
+          "1 colher de chá de cebola em pó",
+          "1/2 colher de chá de sal",
+          "1/4 colher de chá de pimenta-do-reino",
+          "57 g (2 oz) de queijo feta esfarelado"
+        ]
+      },
+      {
+        "titulo": "Forma",
+        "itens": [
+          "Spray culinário para untar a forma de 23 cm × 33 cm"
+        ]
+      }
+    ],
+    "preparo": [
+      "Preaqueça o forno a 180 °C (350 °F). Unte de leve uma forma de 23 cm × 33 cm.",
+      "Aqueça o azeite e refogue a cebola e os cogumelos com uma pitada de sal por 6–8 minutos, até a cebola ficar translúcida e os cogumelos dourarem de leve.",
+      "Junte o espinafre, desligue o fogo e mexa até murchar um pouco. Espalhe no fundo da forma.",
+      "Bata os ovos com o cottage, o alho em pó, a cebola em pó, o sal e a pimenta. Despeje sobre os legumes e puxe um pouco dos vegetais para a superfície. Distribua o feta.",
+      "Asse por 30 minutos, até os ovos firmarem. Descanse 15–25 minutos antes de cortar em 6 fatias."
+    ],
+    "dicas": [
+      "A pitada de sal do refogado fica como na página da autora, separada da 1/2 colher de chá que vai nos ovos.",
+      "O descanso evita que a fatia desmanche. A autora também serve com bacon de peru ou linguiça de frango quando quer mais proteína; isso não entra na ficha."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3–4 dias em pote fechado (aprox.).",
+      "congelador": "Até 1 mês, em fatias (aprox.). Descongele na geladeira e reaqueça até ficar quente no centro."
+    },
+    "proveniencia": {
+      "nota": "Receita da compilação no minuto 1:24. Medidas, forma, forno e 6 porções vêm da página da autora ligada na descrição (Healthy Cottage Cheese & Spinach Egg Bake). 8 oz de cogumelos e 2 oz de feta foram convertidos para 225 g e 57 g. A xícara e meia de cottage virou cerca de 340 g."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Clean & Delicious",
+      "tituloOriginal": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+      "duracao": "12:48"
+    },
+    "baseNutricional": {},
+    "notaNutricional": "",
+    "nutricaoAutor": {
+      "kcal": 218,
+      "prot": 21,
+      "carb": 6,
+      "gord": 12,
+      "fibras": 1,
+      "nota": "Valores publicados pela autora para 1 fatia. O spray da forma não entra."
+    },
+    "fonteComplementar": {
+      "url": "https://cleananddelicious.com/healthy-cottage-cheese-spinach-egg-bake/",
+      "texto": "Receita escrita pela autora"
+    }
+  },
+  {
+    "id": "panquecas-aveia-cottage",
+    "videoId": "UV0YaNJExv0",
+    "titulo": "Panquecas de aveia e cottage",
+    "categoria": "Doces e lanches",
+    "tags": [
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-yogurt-berries.jpg",
+    "destaque": "Panquecas batidas no liquidificador com aveia, claras, cottage e canela. Sem farinha de trigo e sem açúcar na massa.",
+    "porcoes": 2,
+    "porcao": "1 porção (metade da receita)",
+    "rendimento": "2 porções; a massa é despejada em porções de 1/4 de xícara",
+    "tempo": "Cerca de 15 minutos",
+    "ingredientes": [
+      {
+        "titulo": "Massa",
+        "itens": [
+          "1 xícara de aveia em flocos",
+          "3/4 de xícara de claras líquidas",
+          "1 xícara de cottage com pouca gordura",
+          "2 colheres de chá de fermento em pó",
+          "2 colheres de chá de canela",
+          "1 colher de chá de extrato de baunilha (opcional)"
+        ]
+      },
+      {
+        "titulo": "Para fritar e servir",
+        "itens": [
+          "Spray culinário para untar a frigideira",
+          "Frutas vermelhas a gosto (opcional)",
+          "Xarope de bordo a gosto (opcional)",
+          "Pasta de oleaginosas a gosto (opcional)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata no liquidificador a aveia, o cottage, as claras, o fermento, a canela e, se quiser, a baunilha, por cerca de 30 segundos. Raspe as laterais até a massa ficar lisa.",
+      "Aqueça uma frigideira antiaderente em fogo médio e unte com spray.",
+      "Despeje porções de 1/4 de xícara, sem encostar umas nas outras. Cozinhe cerca de 3 minutos, até as bordas borbulharem.",
+      "Vire e cozinhe mais cerca de 2 minutos, até dourar.",
+      "Sirva com frutas vermelhas e um fio de xarope de bordo, ou com pasta de oleaginosas. Essas coberturas não entram na nutrição."
+    ],
+    "dicas": [
+      "A baunilha é opcional, como na página da autora. A cobertura fica a gosto, sem medida.",
+      "A autora troca as claras por 2–3 ovos inteiros se precisar. Essa troca não entra no cálculo.",
+      "Não leva farinha de trigo. O filtro sem glúten pressupõe aveia certificada."
+    ],
+    "conservacao": {
+      "ambiente": "Consumir no mesmo dia fora da geladeira (aprox.); com claras e cottage, prefira a geladeira.",
+      "geladeira": "Até 2 dias em pote fechado (aprox.); reaqueça na frigideira.",
+      "congelador": "Até 1 mês, sem cobertura, separadas por papel (aprox.). Descongele e aqueça na frigideira."
+    },
+    "proveniencia": {
+      "nota": "Receita da compilação no minuto 3:19. Ingredientes, liquidificador, porções de 1/4 de xícara, tempos na frigideira e 2 porções vêm da página da autora (10-Minute Cottage Cheese Pancakes). Não é variação das panquecas de aveia e iogurte: a base úmida é cottage e claras, sem mel."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Clean & Delicious",
+      "tituloOriginal": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+      "duracao": "12:48"
+    },
+    "baseNutricional": {},
+    "notaNutricional": "",
+    "nutricaoAutor": {
+      "kcal": 312,
+      "prot": 30,
+      "carb": 38,
+      "gord": 4,
+      "fibras": 6,
+      "nota": "Valores publicados pela autora para 1 das 2 porções da massa. Frutas, xarope e pasta de oleaginosas não entram."
+    },
+    "fonteComplementar": {
+      "url": "https://cleananddelicious.com/high-protein-cottage-cheese-pancakes/",
+      "texto": "Receita escrita pela autora"
+    }
+  },
+  {
+    "id": "alfredo-cottage",
+    "videoId": "UV0YaNJExv0",
+    "titulo": "Macarrão ao molho alfredo de cottage",
+    "categoria": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-cheese.jpg",
+    "destaque": "Molho cru de cottage, parmesão e leite, batido e misturado ao linguine integral. Rende cerca de 3 xícaras de molho.",
+    "porcoes": 6,
+    "porcao": "1 porção (1/6 da receita, com o macarrão)",
+    "rendimento": "6 porções; cerca de 3 xícaras de molho",
+    "tempo": "Cerca de 15 minutos",
+    "ingredientes": [
+      {
+        "titulo": "Molho",
+        "itens": [
+          "2 xícaras de cottage com pouca gordura (aprox. 450 g; conversão estimada)",
+          "1 xícara de parmesão ralado",
+          "1 xícara de leite 2%",
+          "1 colher de chá de ervas italianas",
+          "1/4 de colher de chá de alho em pó",
+          "1/2 colher de chá de sal marinho",
+          "1/2 colher de chá de pimenta-do-reino"
+        ]
+      },
+      {
+        "titulo": "Massa e finalização",
+        "itens": [
+          "450 g (1 libra) de linguine integral, ou outra massa",
+          "1/3 de xícara de manjericão fresco picado",
+          "Parmesão ralado a gosto para servir (opcional)",
+          "Flocos de pimenta a gosto para servir (opcional)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Bata o cottage, o parmesão, o leite, as ervas italianas, o alho em pó, o sal e a pimenta até o molho ficar liso.",
+      "Cozinhe o linguine em bastante água salgada até al dente, no tempo da embalagem.",
+      "Escorra e volte a massa à panela em fogo bem baixo. Despeje o molho e mexa até aquecer.",
+      "Passe para uma travessa e cubra com o manjericão. Se quiser, junte mais parmesão e flocos de pimenta."
+    ],
+    "dicas": [
+      "O molho não vai ao fogo antes de encontrar a massa quente. Fogo alto pode talhar o cottage.",
+      "Parmesão e flocos de pimenta da finalização ficam a gosto e não entram na nutrição."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias em pote fechado (aprox.). O molho engrossa; solte com um fio de leite ao aquecer.",
+      "congelador": "Até 1 mês (aprox.). O macarrão com molho cremoso pode amolecer. Descongele na geladeira e aqueça em fogo baixo."
+    },
+    "proveniencia": {
+      "nota": "Receita da compilação no minuto 4:49, com o preparo a partir de 7:10. Medidas, 6 porções e cerca de 3 xícaras de molho vêm da página da autora (Bangin' Blender Alfredo with Cottage Cheese). 1 libra de linguine foi convertida para 450 g. As 2 xícaras de cottage viraram cerca de 450 g."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Clean & Delicious",
+      "tituloOriginal": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+      "duracao": "12:48"
+    },
+    "baseNutricional": {},
+    "notaNutricional": "",
+    "nutricaoAutor": {
+      "kcal": 413,
+      "prot": 27,
+      "carb": 63,
+      "gord": 8,
+      "fibras": 8,
+      "nota": "Valores publicados pela autora para 1 das 6 porções, já com o linguine. Parmesão extra e flocos de pimenta não entram."
+    },
+    "fonteComplementar": {
+      "url": "https://cleananddelicious.com/bangin-blender-alfredo-with-cottage-cheese/",
+      "texto": "Receita escrita pela autora"
+    }
+  },
+  {
+    "id": "torrada-cottage",
+    "videoId": "UV0YaNJExv0",
+    "titulo": "Torrada de cottage",
+    "categoria": "Entradas e pastas",
+    "tags": [],
+    "icone": "imagens/receita-icon-cheese.jpg",
+    "destaque": "Pão torrado com 1/4 de xícara de cottage e uma cobertura. A nutrição é a da versão com manteiga de amêndoa e frutas vermelhas; as outras cinco são alternativas.",
+    "porcoes": 1,
+    "porcao": "1 torrada com manteiga de amêndoa e frutas vermelhas",
+    "rendimento": "1 torrada; a página traz 6 coberturas para escolher uma",
+    "tempo": "Cerca de 5 minutos",
+    "ingredientes": [
+      {
+        "titulo": "Base",
+        "itens": [
+          "1 fatia de pão germinado, ou outro pão",
+          "1/4 de xícara de cottage com pouca gordura"
+        ]
+      },
+      {
+        "titulo": "Cobertura contabilizada",
+        "itens": [
+          "1 colher de sopa de manteiga de amêndoa",
+          "1/4 de xícara de frutas vermelhas variadas"
+        ]
+      },
+      {
+        "titulo": "Outras coberturas, uma por vez",
+        "itens": [
+          "Banana e pasta de amendoim: 1 colher de sopa de pasta de amendoim, 1/3 de banana fatiada e canela polvilhada",
+          "Ovo: 1 ovo cozido fatiado e 1/2 colher de chá de tempero para bagel (everything bagel)",
+          "Abacate: 1/4 de abacate fatiado, 1/4 de colher de chá de flocos de pimenta e uma pitada de flor de sal",
+          "Salmão: 30–55 g (1–2 oz) de salmão defumado, 1 colher de sopa de cebola roxa em fatias finas, 1 colher de sopa de alcaparras e endro fresco a gosto (opcional)",
+          "Tomate e pepino: 1 colher de sopa de tapenade de azeitona preta, pepino e tomates-cereja fatiados (quantidade não informada) e uma pitada de flor de sal e de pimenta-do-reino"
+        ]
+      }
+    ],
+    "preparo": [
+      "Torre o pão até dourar de leve.",
+      "Na versão contabilizada, espalhe a manteiga de amêndoa e depois o cottage. Cubra com as frutas vermelhas.",
+      "Se a cobertura for pasta de amendoim ou tapenade, espalhe essa camada primeiro e o cottage por cima. Nas outras, o cottage vai direto sobre a torrada.",
+      "Escolha só uma cobertura. Monte na hora."
+    ],
+    "dicas": [
+      "A página avisa que a nutrição é só da torrada com manteiga de amêndoa e frutas vermelhas. As outras coberturas não entram no número.",
+      "Pepino e tomate-cereja ficam sem quantidade, como na página. A pitada de flor de sal e a canela polvilhada também.",
+      "Pão germinado comum tem glúten. Use pão sem glúten se precisar. Manteiga ou azeite por baixo do cottage é um hábito citado pela autora e não entra na ficha."
+    ],
+    "conservacao": {
+      "ambiente": "Monte na hora. Fora da geladeira, não passe de algumas horas (aprox.).",
+      "geladeira": "O cottage fechado dura alguns dias no pote original. A torrada já montada amolece; monte na hora.",
+      "congelador": "O pão, sem cobertura, pode ir ao congelador por até 1 mês. Cottage e a torrada montada não congelam bem (aprox.)."
+    },
+    "proveniencia": {
+      "nota": "Receita da compilação no minuto 9:48. Base, seis coberturas e a ressalva da nutrição vêm da página da autora (Quick 5-minute Cottage Cheese Breakfast Toast). Não é o flatbread de cottage: aqui há uma fatia de pão."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Clean & Delicious",
+      "tituloOriginal": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+      "duracao": "12:48"
+    },
+    "baseNutricional": {},
+    "notaNutricional": "",
+    "nutricaoAutor": {
+      "kcal": 249,
+      "prot": 13,
+      "carb": 25,
+      "gord": 12,
+      "fibras": 6,
+      "nota": "Valores publicados pela autora só para a torrada com manteiga de amêndoa e frutas vermelhas. As outras coberturas mudam o prato."
+    },
+    "fonteComplementar": {
+      "url": "https://cleananddelicious.com/quick-5-minute-cottage-cheese-breakfast-toast/",
+      "texto": "Receita escrita pela autora"
+    }
+  },
+  {
     "id": "biscoitos-castanhas-sementes",
     "videoId": "mdPveC7HlFM",
     "titulo": "Biscoitos de castanhas, sementes e aveia",
@@ -2621,7 +2936,72 @@
     "fonteComplementar": {
       "url": "https://theproteinchef.co/cottage-cheese-flatbread-recipe/",
       "texto": "Receita escrita pelo autor"
-    }
+    },
+    "variacoes": [
+      {
+        "id": "wrap-cottage-pouca-gordura",
+        "videoId": "UV0YaNJExv0",
+        "titulo": "Wrap de cottage com pouca gordura",
+        "descricao": "A mesma folha de cottage e ovos, aqui com cottage com pouca gordura, menos tempero e cortada em 2 porções.",
+        "rendimento": "1 folha em assadeira pequena, cortada em 2",
+        "porcoes": 2,
+        "porcao": "meia folha, sem recheio",
+        "ingredientes": [
+          {
+            "titulo": "Massa",
+            "itens": [
+              "1 xícara de cottage com pouca gordura (aprox. 225 g; conversão estimada)",
+              "2 ovos",
+              "1/4 de colher de chá de alho em pó",
+              "1/4 de colher de chá de ervas italianas"
+            ]
+          },
+          {
+            "titulo": "Forma",
+            "itens": [
+              "Gordura para untar bem o papel de uma assadeira de 23 cm × 33 cm"
+            ]
+          }
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180 °C (350 °F). Forre uma assadeira de 23 cm × 33 cm com papel e unte bem.",
+          "Bata o cottage, os ovos, o alho em pó e as ervas até ficar liso.",
+          "Espalhe em camada uniforme.",
+          "Asse por 30–35 minutos, até dourar de leve e firmar.",
+          "Deixe esfriar 5–10 minutos, corte ao meio e recheie se quiser. O recheio não entra na nutrição."
+        ],
+        "dicas": [
+          "É variação do wrap de cottage e ovos: mesma dupla de ingredientes, cottage com pouca gordura e tempero em 1/4 de colher de chá.",
+          "A página rende 2 porções. A ficha principal conta a folha inteira de cottage integral como 1 porção."
+        ],
+        "conservacao": {
+          "ambiente": "Até 1 dia em pote fechado, em local fresco (aprox.); com ovo e cottage, prefira a geladeira.",
+          "geladeira": "Até 3 dias, sem recheio, bem fechado (aprox.).",
+          "congelador": "Até 1 mês, sem recheio (aprox.). Descongele na geladeira."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Clean & Delicious",
+          "tituloOriginal": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+          "duracao": "12:48"
+        },
+        "baseNutricional": {},
+        "notaNutricional": "",
+        "nutricaoAutor": {
+          "kcal": 146,
+          "prot": 20,
+          "carb": 4,
+          "gord": 5,
+          "fibras": 0.1,
+          "nota": "Valores publicados pela autora para meia receita, sem recheio. O cottage é o com pouca gordura."
+        },
+        "fonteComplementar": {
+          "url": "https://cleananddelicious.com/cottage-cheese-egg-flatbread-20g-protein/",
+          "texto": "Receita escrita pela autora"
+        }
+      }
+    ]
   },
   {
     "id": "entrecosto-sous-vide",
@@ -3228,6 +3608,79 @@
       "vinho_branco": 60
     },
     "notaNutricional": "Sem massa. O cálculo não desconta álcool evaporado nem gordura deixada na panela."
+  },
+  {
+    "id": "torrada-tofu-sem-pao",
+    "videoId": "Rr8iPXOKw4U",
+    "titulo": "Torrada de tofu sem pão",
+    "categoria": "Pratos principais",
+    "tags": [
+      "Vegana"
+    ],
+    "icone": "imagens/receita-icon-salad.jpg",
+    "destaque": "Tofu firme temperado com cenoura, cebolinha e queijos veganos, ligado com farinha de grão-de-bico e leite vegetal, frito como fatia de pão.",
+    "porcoes": 3,
+    "porcao": "1 porção (a descrição diz 2–3; o cálculo usa 3)",
+    "rendimento": "2 a 3 porções",
+    "tempo": "Cerca de 20 minutos (estimativa; a descrição não informa o tempo)",
+    "ingredientes": [
+      {
+        "titulo": "Base",
+        "itens": [
+          "300 g de tofu firme",
+          "Cebolinha (quantidade não informada; cerca de 15 g, estimativa de 2 talos)",
+          "1/2 cenoura média (aprox. 30 g; conversão estimada)",
+          "2 colheres de sopa de levedura nutricional (aprox. 10 g; conversão estimada)",
+          "1/2 colher de chá de açafrão-da-terra",
+          "Sal e pimenta-do-reino a gosto"
+        ]
+      },
+      {
+        "titulo": "Queijos e liga",
+        "itens": [
+          "Muçarela vegana (quantidade não informada; cerca de 30 g, estimativa)",
+          "Cheddar vegano (quantidade não informada; cerca de 30 g, estimativa)",
+          "3 colheres de sopa de farinha de grão-de-bico (aprox. 24 g; conversão estimada)",
+          "130 ml de leite vegetal",
+          "Óleo vegetal para fritar (quantidade não informada)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Escorra o tofu firme. Pique a cebolinha e rale a meia cenoura.",
+      "Amasse o tofu e misture com a cebolinha, a cenoura, a levedura, o açafrão-da-terra, o sal e a pimenta a gosto, os dois queijos, a farinha de grão-de-bico e o leite vegetal.",
+      "Modele 2 ou 3 porções no formato de fatia de pão. Se a massa escorrer, deixe descansar alguns minutos para a farinha absorver o líquido (estimativa).",
+      "Aqueça o óleo vegetal e frite dos dois lados até dourar. Sirva quente."
+    ],
+    "dicas": [
+      "A descrição não traz o passo a passo e as legendas não vieram. O modo de amassar, modelar e fritar é estimativa a partir do título e da lista; não entra ingrediente novo.",
+      "Sal e pimenta ficam a gosto. Cebolinha, muçarela vegana e cheddar vegano não têm peso na descrição: os gramas são estimativa.",
+      "O óleo de fritura não entra na nutrição porque a quantidade não é informada."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias em pote fechado (aprox.).",
+      "congelador": "Até 1 mês, separado por papel (aprox.). Reaqueça na frigideira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes e o rendimento de 2–3 porções vêm da descrição do vídeo. Foram estimados: 15 g de cebolinha, 30 g para meia cenoura média, 10 g para 2 colheres de sopa de levedura, 30 g de cada queijo vegano, 24 g para 3 colheres de sopa de farinha de grão-de-bico e o modo de fritar. O cálculo divide a receita em 3 porções."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=Rr8iPXOKw4U",
+      "texto": "Assistir ao vídeo original",
+      "canal": "We Cook Better",
+      "tituloOriginal": "A delicious recipe to eat Tofu for Breakfast! Tofu Toast Without Bread! [Vegan]",
+      "duracao": "4:14"
+    },
+    "baseNutricional": {
+      "tofu_firme": 300,
+      "cebolinha": 15,
+      "cenoura": 30,
+      "levedura_nutricional": 10,
+      "queijo_vegano": 60,
+      "grao_farinha": 24,
+      "leite_vegetal": 130
+    },
+    "notaNutricional": "Açafrão, sal e pimenta não entram. O óleo de fritura ficou de fora. Cebolinha e queijos veganos usam os pesos estimados. Leite vegetal é média sem açúcar, porque a descrição não diz se é soja, aveia ou outro. Três porções; se render só 2, cada uma fica maior."
   },
   {
     "id": "frango-mel-alho",

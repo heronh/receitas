@@ -690,6 +690,78 @@
       },
       "fonte": null,
       "referencia": "Aproximação editorial de açúcar de palma. Não é entrada da TACO."
+    },
+    "tofu_firme": {
+      "nome": "Tofu firme",
+      "por100g": {
+        "kcal": 144,
+        "prot": 17.3,
+        "carb": 2.8,
+        "gord": 8.7,
+        "fibras": 2.3
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de tofu firme (USDA). Não é entrada da TACO. Marcas variam com a prensagem."
+    },
+    "cenoura": {
+      "nome": "Cenoura crua",
+      "por100g": {
+        "kcal": 34,
+        "prot": 1.3,
+        "carb": 7.7,
+        "gord": 0.2,
+        "fibras": 3.2
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de cenoura crua. Não citada como número da TACO."
+    },
+    "cebolinha": {
+      "nome": "Cebolinha",
+      "por100g": {
+        "kcal": 32,
+        "prot": 1.8,
+        "carb": 4.7,
+        "gord": 0.7,
+        "fibras": 2.6
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de cebolinha crua. Não é entrada da TACO."
+    },
+    "levedura_nutricional": {
+      "nome": "Levedura nutricional em flocos",
+      "por100g": {
+        "kcal": 400,
+        "prot": 53,
+        "carb": 33,
+        "gord": 3,
+        "fibras": 20
+      },
+      "fonte": null,
+      "referencia": "Aproximação editorial de levedura nutricional. Rótulos variam; 2 colheres de sopa foram contadas como 10 g."
+    },
+    "leite_vegetal": {
+      "nome": "Leite vegetal sem açúcar",
+      "por100g": {
+        "kcal": 45,
+        "prot": 2.5,
+        "carb": 4.0,
+        "gord": 1.8,
+        "fibras": 0.5
+      },
+      "fonte": null,
+      "referencia": "Média editorial de leite vegetal sem açúcar (soja ou aveia). A descrição não indica a planta."
+    },
+    "queijo_vegano": {
+      "nome": "Queijo vegano (muçarela ou cheddar)",
+      "por100g": {
+        "kcal": 290,
+        "prot": 6,
+        "carb": 22,
+        "gord": 20,
+        "fibras": 1
+      },
+      "fonte": null,
+      "referencia": "Média editorial grosseira de muçarela e cheddar vegetais. Marcas variam muito em gordura e proteína."
     }
   }
 }

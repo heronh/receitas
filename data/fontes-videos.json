@@ -1,7 +1,7 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-10-10",
-  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas.",
+  "consultadoEm": "2026-10-16",
+  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas. Em 16/10/2026, a playlist tem 55 entradas e 53 IDs únicos (dOS-ut_54H0 e ozdbNFy84bY repetidos). UV0YaNJExv0 está na posição 37 e Rr8iPXOKw4U na 51. Legendas desses dois vídeos não vieram; a compilação usa as páginas ligadas na descrição e a torrada de tofu usa a lista da descrição.",
   "videos": [
     {
       "posicao": 1,
@@ -242,10 +242,11 @@
       "canal": "Little BIG kitchen",
       "url": "https://www.youtube.com/watch?v=dOS-ut_54H0",
       "duracao": "0:46",
-      "descricaoConsultada": true
+      "descricaoConsultada": true,
+      "nota": "A playlist repete este vídeo nas posições 26, 27; a ficha usa a primeira."
     },
     {
-      "posicao": 27,
+      "posicao": 28,
       "id": "uEQRL_GLC_w",
       "titulo": "Barrinhas proteicas anti inflamatórias anti oxidantes que ajudam a combater a celulite",
       "canal": "Cleci Receitas",
@@ -254,7 +255,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 28,
+      "posicao": 29,
       "id": "AfhwWdJX7Lg",
       "titulo": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
       "canal": "Przepisy Mimi",
@@ -263,7 +264,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 29,
+      "posicao": 30,
       "id": "lRCLarGbxe0",
       "titulo": "Haferflocken mit Thunfisch sind leckerer als Pizza! Es ist so einfach, dass ich es jeden Tag koche!",
       "canal": "Leicht & lecker",
@@ -273,7 +274,7 @@
       "nota": "A descrição lista os ingredientes sem medida. Na tela: 1 xícara de aveia, 1 xícara de leite, 2 ovos, azeite, gergelim e 3–4 minutos. Legendas da API vieram vazias."
     },
     {
-      "posicao": 30,
+      "posicao": 31,
       "id": "8y3AEMvtq68",
       "titulo": "Just oatmeal and yogurt! This Danish oatmeal cookie recipe is delicious",
       "canal": "wie man alles kocht",
@@ -282,7 +283,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 31,
+      "posicao": 32,
       "id": "C1dBjcTQNqo",
       "titulo": "How to Make Granola Bars at Home (Healthy + Simple)",
       "canal": "The Cooking Foodie",
@@ -291,7 +292,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 32,
+      "posicao": 33,
       "id": "a64-9eoJWoY",
       "titulo": "no bake peanut butter oat bars - just 4 ingredients!",
       "canal": "I Heart Nap Time",
@@ -300,7 +301,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 33,
+      "posicao": 34,
       "id": "A47Ug5c3gIo",
       "titulo": "5 Ingredient Banana Oat Bars. Perfect for busy mornings or as a healthy snack! #oatmeal #easyrecipe",
       "canal": "Chef Savvy",
@@ -309,7 +310,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 34,
+      "posicao": 35,
       "id": "EnDaiQgtYmY",
       "titulo": "Chia Seed Recipe also Great for Diet and Packed with Nutrients – Chia Seed Energy Bars by What Shall",
       "canal": "What Shall I Cook",
@@ -318,7 +319,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 35,
+      "posicao": 36,
       "id": "0A3e0V3nw2A",
       "titulo": "Creamy Mushroom Chicken | Chicken with Creamy Mushroom Sauce Recipe",
       "canal": "The Cooking Foodie",
@@ -327,7 +328,17 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 36,
+      "posicao": 37,
+      "id": "UV0YaNJExv0",
+      "titulo": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
+      "canal": "Clean & Delicious",
+      "url": "https://www.youtube.com/watch?v=UV0YaNJExv0",
+      "duracao": "12:48",
+      "descricaoConsultada": true,
+      "nota": "Compilação (12:48). A descrição lista cinco receitas e os links da autora: egg bake 1:24, panquecas 3:19, alfredo 4:49, flatbread 8:17, torradas 9:48. Medidas tiradas dessas páginas. Legendas não usadas."
+    },
+    {
+      "posicao": 38,
       "id": "mdPveC7HlFM",
       "titulo": "Kein Zucker! Gesunde Kekse ohne Mehl, Zucker und Gluten! Energiedessert für jeden Tag!",
       "canal": "Süß und Gesund",
@@ -336,7 +347,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 37,
+      "posicao": 39,
       "id": "TH9rWEh8okY",
       "titulo": "Easy Cottage Cheese Flatbread or Wraps | 2 Ingredients & High Protein",
       "canal": "The Protein Chef",
@@ -345,7 +356,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 38,
+      "posicao": 40,
       "id": "F5xDn0DueO4",
       "titulo": "ENTRECOSTO MAIS TENRO E SUCULENTO QUE COMI NA VIDA!!",
       "canal": "Paulo Oliveira",
@@ -354,16 +365,17 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 39,
+      "posicao": 41,
       "id": "ozdbNFy84bY",
       "titulo": "Peanut Butter Oat Bars -- Recipe in description👇",
       "canal": "The Simple Homeplace",
       "url": "https://www.youtube.com/watch?v=ozdbNFy84bY",
       "duracao": "0:46",
-      "descricaoConsultada": true
+      "descricaoConsultada": true,
+      "nota": "A playlist repete este vídeo nas posições 41, 42; a ficha usa a primeira."
     },
     {
-      "posicao": 40,
+      "posicao": 43,
       "id": "VX-dMV-HZQQ",
       "titulo": "COTTAGE CHEESE FLATBREAD PIZZA. Pepperoni Keto Pizza, Cottage Cheese Pizza Crust.",
       "canal": "Keto Kitchen",
@@ -372,7 +384,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 41,
+      "posicao": 44,
       "id": "ls2fTESZA88",
       "titulo": "Healthy Chia Seed Energy Bar Recipe",
       "canal": "Healthline",
@@ -388,10 +400,10 @@
       "duracao": "—",
       "descricaoConsultada": true,
       "nota": "Duração não veio na consulta. Título, canal e modo de preparo lidos na descrição em 04/10/2026.",
-      "posicao": 42
+      "posicao": 45
     },
     {
-      "posicao": 43,
+      "posicao": 46,
       "id": "DDzNylsClC4",
       "titulo": "SÓ 2 INGREDIENTES, SEM NENHUMA FARINHA, Substitua o PÃO no Café da Manhã!",
       "canal": "Receitas Low Carb para Diabéticos",
@@ -400,7 +412,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 44,
+      "posicao": 47,
       "id": "O5JihHkvM4w",
       "titulo": "Easy NUT-FREE Granola Bars Your Kid Can Take To School | Inspired by @NYTCooking | Eden Eats",
       "canal": "Eden Eats",
@@ -409,7 +421,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 45,
+      "posicao": 48,
       "id": "VOlIRFtI4XI",
       "titulo": "Brownie de flocons d'avoine cuit : sans sucre, sans farine, sans oeufs ! Recette rapide ♥",
       "canal": "Un jour Une recette",
@@ -419,7 +431,7 @@
       "nota": "Ingredientes da descrição: 45 g de flocos de aveia em pó (sem glúten), 90 g de compota de maçã ou banana, 60 ml de leite vegetal ou leite à escolha, 1/4 colher de chá de fermento, 1 colher de sopa de cacau amargo, pepitas de chocolate sem quantidade. Canal prefere a versão sem ovo. Duração 2:50 (170 s)."
     },
     {
-      "posicao": 46,
+      "posicao": 49,
       "id": "KmiFvWdx01M",
       "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES - Delícia Fácil e Rápido",
       "canal": "Anjo Low Carb Receitas",
@@ -428,7 +440,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 47,
+      "posicao": 50,
       "id": "eCazTN5-Rsc",
       "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
       "canal": "Alle Rezepte",
@@ -437,7 +449,17 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 48,
+      "posicao": 51,
+      "id": "Rr8iPXOKw4U",
+      "titulo": "A delicious recipe to eat Tofu for Breakfast! Tofu Toast Without Bread! [Vegan]",
+      "canal": "We Cook Better",
+      "url": "https://www.youtube.com/watch?v=Rr8iPXOKw4U",
+      "duracao": "4:14",
+      "descricaoConsultada": true,
+      "nota": "Ingredientes e o rendimento de 2–3 porções vêm da descrição. O passo a passo não está na descrição; legendas não vieram. Cebolinha, queijos e o modo de fritar foram estimados."
+    },
+    {
+      "posicao": 52,
       "id": "dRW3VMfNlaY",
       "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
       "canal": "Delicious and easy recipes",
@@ -446,7 +468,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 49,
+      "posicao": 53,
       "id": "BkTFTZw9PSE",
       "titulo": "Peito de pato com mel e Vinho do Porto",
       "canal": "Cozinha de Arquiteto",
@@ -455,7 +477,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 50,
+      "posicao": 54,
       "id": "H1od62HtUDM",
       "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
       "canal": "Mamãe Vida Saudável",
@@ -464,7 +486,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 51,
+      "posicao": 55,
       "id": "RueGO-RTfZI",
       "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
       "canal": "Lu Crosara",

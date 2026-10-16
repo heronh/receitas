@@ -7,19 +7,19 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'js/receitas.js'), 'utf8') + '\nthis.catalogo = RECEITAS;', context);
 const receitas = JSON.parse(JSON.stringify(context.catalogo));
-const playlistOrder = ['gJESkQtV_LA', 'wjae921V70I', '4uWS0sIRSe8', 'qviffFXr_sg', '2MfibVTCvYM', 'zM8yab1Uy4U', 'oLjTJSwSHR8', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
+const playlistOrder = ['gJESkQtV_LA', 'wjae921V70I', '4uWS0sIRSe8', 'qviffFXr_sg', '2MfibVTCvYM', 'zM8yab1Uy4U', 'oLjTJSwSHR8', 'j25LoMkeFWo', 'qwi2Y8isloI', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'Rr8iPXOKw4U', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
 const recentesIds = ['muffins-amendoa-coco', 'crackers-sementes-sem-farinha', 'torta-abobora-aveia-cottage', 'panquecas-aveia-iogurte', 'bolo-aveia-cacau-iogurte'];
 
 test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ricota', () => {
-  assert.equal(receitas.length, 40);
-  assert.equal(new Set(receitas.map(r => r.id)).size, 40);
+  assert.equal(receitas.length, 45);
+  assert.equal(new Set(receitas.map(r => r.id)).size, 45);
   assert.deepEqual(new Set(receitas.map(r => r.videoId)), new Set(playlistOrder));
   const recentes = receitas.filter(r => r.categoria === 'Recentes');
   const outros = receitas.filter(r => r.categoria !== 'Recentes');
   const recentesVideoIds = new Set(recentes.map(r => r.videoId));
   assert.deepEqual(recentes.map(r => r.id), recentesIds);
   assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
-  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-linhaca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia'].includes(r.id)));
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-linhaca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia', 'wrap-cottage-ovos'].includes(r.id)));
   const variacaoLinhaca = receitas.find(r => r.id === 'pao-linhaca').variacoes[0];
   assert.equal(variacaoLinhaca.id, 'paezinhos-linhaca-gergelim');
   assert.equal(variacaoLinhaca.videoId, 'Q_RQlrHsZgk');
@@ -50,6 +50,13 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   assert.equal(torta.videoId, '4uWS0sIRSe8');
   assert.equal(torta.fonte.url, 'https://www.youtube.com/watch?v=4uWS0sIRSe8');
   assert.equal(torta.categoriaBase, 'Doces e lanches');
+  const wrap = receitas.find(r => r.id === 'wrap-cottage-ovos');
+  const variacaoCottage = wrap.variacoes[0];
+  assert.equal(variacaoCottage.id, 'wrap-cottage-pouca-gordura');
+  assert.equal(variacaoCottage.videoId, 'UV0YaNJExv0');
+  assert.equal(variacaoCottage.fonte.url, 'https://www.youtube.com/watch?v=UV0YaNJExv0');
+  assert.equal(receitas.find(r => r.id === 'torrada-tofu-sem-pao').videoId, 'Rr8iPXOKw4U');
+  assert.equal(receitas.find(r => r.id === 'assado-ovos-cottage').categoria, 'Pratos principais');
 });
 
 test('filtro de categoria aceita a categoria da ficha ou a categoriaBase', () => {
