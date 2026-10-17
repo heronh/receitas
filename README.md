@@ -1,6 +1,6 @@
 # Receitas da playlist
 
-Página estática com as 45 receitas da [playlist Receitas](https://www.youtube.com/playlist?list=PLQMMYgYzynIQ) (53 vídeos únicos; receitas parecidas ficam como variação). A ordem segue a playlist consultada em 16/10/2026. Mantém o estilo da página anterior: índice com âncoras, busca, filtros no cabeçalho e listas de compras com marcações salvas no navegador.
+Página estática com as 41 receitas da [playlist Receitas](https://www.youtube.com/playlist?list=PLQMMYgYzynIQ) (49 vídeos únicos; receitas parecidas ficam como variação). A ordem segue a playlist consultada em 17/10/2026. Mantém o estilo da página anterior: índice com âncoras, busca, filtros no cabeçalho e listas de compras com marcações salvas no navegador.
 
 ## Abrir localmente
 
@@ -36,7 +36,7 @@ Outras conversões, tempos e rendimentos estimados estão indicados nas própria
 
 ### Nutrição
 
-Quatro receitas usam valores declarados pelos autores: bombons (por 20 g), crackers (valores por unidade multiplicados por 5), wrap de cottage integral (receita inteira) e pizza (1/6). As demais somam os pesos dos ingredientes divididos pelas porções declaradas. Calorias calculadas são arredondadas a 5 kcal, macros a 0,1 g.
+Receitas com valores declarados pelos autores incluem os crackers (valores por unidade multiplicados por 5), o wrap de cottage integral (receita inteira) e a pizza (1/6). As demais somam os pesos dos ingredientes divididos pelas porções declaradas. Calorias calculadas são arredondadas a 5 kcal, macros a 0,1 g.
 
 A fonte principal é a [TACO, 4ª edição, NEPA/Unicamp](https://nepa.unicamp.br/wp-content/uploads/sites/27/2023/10/taco_4_edicao_ampliada_e_revisada.pdf). Seus registros usados estão identificados pelo número do alimento. Itens sem correspondência adequada usam aproximações editoriais genéricas, explicitadas no JSON, e não são atribuídos à TACO. Não há análise laboratorial nem cálculo de sódio. Marcas, porções, gordura descartada e evaporação alteram os valores. Aves e peixes usam pesos crus; não se desconta a gordura deixada na panela. As exceções e acompanhamentos excluídos aparecem em cada ficha.
 
