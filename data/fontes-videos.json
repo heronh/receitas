@@ -1,10 +1,20 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-10-17",
-  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas. Em 16/10/2026, a playlist tinha 55 entradas e 53 IDs únicos (dOS-ut_54H0 e ozdbNFy84bY repetidos). UV0YaNJExv0 estava na posição 37 e Rr8iPXOKw4U na 51. Legendas desses dois vídeos não vieram; a compilação usa as páginas ligadas na descrição e a torrada de tofu usa a lista da descrição. Em 17/10/2026, a playlist tem 49 IDs únicos, sem repetição. Saíram 4uWS0sIRSe8, qviffFXr_sg, oLjTJSwSHR8 e qwi2Y8isloI.",
+  "consultadoEm": "2026-10-18",
+  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas. Em 16/10/2026, a playlist tinha 55 entradas e 53 IDs únicos (dOS-ut_54H0 e ozdbNFy84bY repetidos). UV0YaNJExv0 estava na posição 37 e Rr8iPXOKw4U na 51. Legendas desses dois vídeos não vieram; a compilação usa as páginas ligadas na descrição e a torrada de tofu usa a lista da descrição. Em 17/10/2026, a playlist tem 49 IDs únicos, sem repetição. Saíram 4uWS0sIRSe8, qviffFXr_sg, oLjTJSwSHR8 e qwi2Y8isloI. Em 18/10/2026, a playlist tem 51 entradas e 49 IDs únicos. Entrou oxGkVRN3U6A na primeira posição. Saiu EnDaiQgtYmY. A ordem relativa dos outros IDs manteve-se; as posições deste ficheiro foram renumeradas a partir de 1.",
   "videos": [
     {
       "posicao": 1,
+      "id": "oxGkVRN3U6A",
+      "titulo": "Ossobuco com Batatinhas no Forno - Guarda a receita !",
+      "canal": "Paulo Oliveira",
+      "url": "https://www.youtube.com/watch?v=oxGkVRN3U6A",
+      "duracao": "—",
+      "descricaoConsultada": true,
+      "nota": "Lista de ingredientes na descrição. O forno (180 °C por 1 h 30 ou 150 °C por 2 h, mais cerca de 30 min destapado) vem da fala. Duração não veio na consulta. Peso das fatias e quantidade de batatinhas não vêm na lista."
+    },
+    {
+      "posicao": 2,
       "id": "gJESkQtV_LA",
       "titulo": "Got Almond Flour & coconut ? Make These Healthy Keto Muffins!",
       "canal": "Healthy Crumbs",
@@ -14,7 +24,7 @@
       "nota": "Descrição com a lista completa. O vídeo mostra 6 forminhas. Legendas da API vieram vazias."
     },
     {
-      "posicao": 2,
+      "posicao": 3,
       "id": "wjae921V70I",
       "titulo": "I Quit Bread! Bake These 0% Flour Seed Crackers Instead",
       "canal": "Sugar Free Baking With Roxy",
@@ -31,10 +41,10 @@
       "duracao": "—",
       "descricaoConsultada": true,
       "nota": "Duração não veio na consulta (o player exigiu login). Título e canal lidos na página do vídeo em 04/10/2026. Descrição: maçã ralada, aveia, gergelim, um toque de mel e frutas vermelhas por cima, sem gramas.",
-      "posicao": 3
+      "posicao": 4
     },
     {
-      "posicao": 4,
+      "posicao": 5,
       "id": "FxgVCAD6KyE",
       "titulo": "Oatmeal Cookies with Apples and Cinnamon: Easy, No Flour, No Butter",
       "canal": "wie man alles kocht",
@@ -50,10 +60,10 @@
       "duracao": "—",
       "descricaoConsultada": true,
       "nota": "Duração não veio na consulta. Título e canal confirmados; ingredientes lidos nas legendas da tela (última aos 5:15).",
-      "posicao": 5
+      "posicao": 6
     },
     {
-      "posicao": 6,
+      "posicao": 7,
       "id": "zM8yab1Uy4U",
       "titulo": "PÃO DE LINHAÇA QUASE TODOS OS DIAS! SAUDÁVEL FÁCIL E FOFINHO! sem glúten!",
       "canal": "Virando a mesa",
@@ -62,7 +72,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 7,
+      "posicao": 8,
       "id": "j25LoMkeFWo",
       "titulo": "Just Oatmeal and apple! Incredibly delicious & HEALTHY! No Sugar! No flour!",
       "canal": "Przepisy Mimi",
@@ -71,7 +81,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 8,
+      "posicao": 9,
       "id": "FbzjVvVyCEM",
       "titulo": "SALGADINHO SAUDÁVEL DE BATATA DOCE COM PARMESÃO SEM GLÚTEN | Cook'n Enjoy 1857",
       "canal": "Cook'n Enjoy",
@@ -80,7 +90,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 9,
+      "posicao": 10,
       "id": "oFDbeSacXGY",
       "titulo": "Ready in 3 minutes! A healthy, protein-rich chia dessert. Sugar-free! Lactose-free!",
       "canal": "Schnelle Rezepte",
@@ -89,7 +99,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 10,
+      "posicao": 11,
       "id": "RAaxxbvzCUg",
       "titulo": "Biscoito Saudável Batata Doce #semleite #semovos #semtrigo",
       "canal": "Susi Derosa",
@@ -98,7 +108,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 11,
+      "posicao": 12,
       "id": "7P_4y4j9cWA",
       "titulo": "Just Oats & Chia Seeds! The Healthiest Snack You'll Make This Week❗️",
       "canal": "Zara Cooks Tasty & Healthy Food",
@@ -107,7 +117,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 12,
+      "posicao": 13,
       "id": "WAwcloRLMY0",
       "titulo": "High Protein Tuna Avocado Spread for Breakfast | Quick & Easy Breakfast for Work",
       "canal": "Chill Chicken",
@@ -116,7 +126,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 13,
+      "posicao": 14,
       "id": "Q_RQlrHsZgk",
       "titulo": "JUST 1 CUP OF FLAXSEED! I LOST WEIGHT BY REPLACING BREAD WITH THESE LITTLE BUNS!",
       "canal": "Virando a Mesa",
@@ -126,7 +136,7 @@
       "nota": "Descrição consultada: 1 xícara de linhaça, 1/4 xícara de gergelim e temperos a gosto."
     },
     {
-      "posicao": 14,
+      "posicao": 15,
       "id": "j1EUg_IfTh8",
       "titulo": "The Ginger Garlic Chicken I Make on My Busiest Days! One Pan, Big Flavor",
       "canal": "Pure Delicious",
@@ -135,7 +145,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 15,
+      "posicao": 16,
       "id": "tApjUXrfQ84",
       "titulo": "Banana Oatmeal Bars (No Sugar)",
       "canal": "Nico's Recipes",
@@ -144,7 +154,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 16,
+      "posicao": 17,
       "id": "VpH7kZchAS4",
       "titulo": "O Segredo para as Ervilhas com Ovos.. poucos fazem assim",
       "canal": "Paulo Oliveira",
@@ -153,7 +163,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 17,
+      "posicao": 18,
       "id": "dupbD0MR6Wo",
       "titulo": "Crispy Chicken in Creamy Garlic Parmesan Sauce 😍 Better Than You Think!",
       "canal": "Alle Rezepte",
@@ -162,7 +172,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 18,
+      "posicao": 19,
       "id": "LZjqqnymUv4",
       "titulo": "Super Crunchy & Clustery Granola Recipe😍 #granola #easyrecipe #granolarecipe",
       "canal": "fitfoodieselma",
@@ -171,7 +181,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 19,
+      "posicao": 20,
       "id": "Yyzdcpqct50",
       "titulo": "How To Make Cottage Cheese Flatbread",
       "canal": "Andrew Gruel",
@@ -180,7 +190,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 20,
+      "posicao": 21,
       "id": "sVPwjoFjM1k",
       "titulo": "Pão de Abacate Sem Glúten",
       "canal": "SIMPLES E NATURAL 85",
@@ -189,7 +199,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 21,
+      "posicao": 22,
       "id": "b2xbwfPU4IQ",
       "titulo": "Oatmeal bread with Greek yogurt for diabetics! Sugar free, in 5 minutes!",
       "canal": "Fantastische Rezepte",
@@ -198,7 +208,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 22,
+      "posicao": 23,
       "id": "dOS-ut_54H0",
       "titulo": "The Secret to Crunchy Granola? One Egg White.",
       "canal": "Little BIG kitchen",
@@ -208,7 +218,7 @@
       "nota": "Em 16/10/2026 a playlist repetia este vídeo; em 17/10/2026 aparece uma vez."
     },
     {
-      "posicao": 23,
+      "posicao": 24,
       "id": "uEQRL_GLC_w",
       "titulo": "Barrinhas proteicas anti inflamatórias anti oxidantes que ajudam a combater a celulite",
       "canal": "Cleci Receitas",
@@ -217,7 +227,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 24,
+      "posicao": 25,
       "id": "AfhwWdJX7Lg",
       "titulo": "Płatki owsiane, kakao i banan! Jem je prawie codziennie",
       "canal": "Przepisy Mimi",
@@ -226,7 +236,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 25,
+      "posicao": 26,
       "id": "lRCLarGbxe0",
       "titulo": "Haferflocken mit Thunfisch sind leckerer als Pizza! Es ist so einfach, dass ich es jeden Tag koche!",
       "canal": "Leicht & lecker",
@@ -236,7 +246,7 @@
       "nota": "A descrição lista os ingredientes sem medida. Na tela: 1 xícara de aveia, 1 xícara de leite, 2 ovos, azeite, gergelim e 3–4 minutos. Legendas da API vieram vazias."
     },
     {
-      "posicao": 26,
+      "posicao": 27,
       "id": "8y3AEMvtq68",
       "titulo": "Just oatmeal and yogurt! This Danish oatmeal cookie recipe is delicious",
       "canal": "wie man alles kocht",
@@ -245,7 +255,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 27,
+      "posicao": 28,
       "id": "C1dBjcTQNqo",
       "titulo": "How to Make Granola Bars at Home (Healthy + Simple)",
       "canal": "The Cooking Foodie",
@@ -254,7 +264,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 28,
+      "posicao": 29,
       "id": "a64-9eoJWoY",
       "titulo": "no bake peanut butter oat bars - just 4 ingredients!",
       "canal": "I Heart Nap Time",
@@ -263,21 +273,12 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 29,
+      "posicao": 30,
       "id": "A47Ug5c3gIo",
       "titulo": "5 Ingredient Banana Oat Bars. Perfect for busy mornings or as a healthy snack! #oatmeal #easyrecipe",
       "canal": "Chef Savvy",
       "url": "https://www.youtube.com/watch?v=A47Ug5c3gIo",
       "duracao": "0:18",
-      "descricaoConsultada": true
-    },
-    {
-      "posicao": 30,
-      "id": "EnDaiQgtYmY",
-      "titulo": "Chia Seed Recipe also Great for Diet and Packed with Nutrients – Chia Seed Energy Bars by What Shall",
-      "canal": "What Shall I Cook",
-      "url": "https://www.youtube.com/watch?v=EnDaiQgtYmY",
-      "duracao": "0:57",
       "descricaoConsultada": true
     },
     {

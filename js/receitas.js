@@ -4,6 +4,115 @@ const CATEGORIAS = ["Recentes", "Pratos principais", "Entradas e pastas", "Pães
 
 const RECEITAS = [
   {
+    "id": "ossobuco-batatinhas-forno",
+    "videoId": "oxGkVRN3U6A",
+    "titulo": "Ossobuco com batatinhas no forno",
+    "categoria": "Recentes",
+    "categoriaBase": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-pork.jpg",
+    "destaque": "Ossobuco selado na banha e na farinha, com vinho tinto, polpa de tomate e batatinhas, assado coberto até a carne ficar tenra.",
+    "porcoes": 4,
+    "porcao": "1 fatia com molho e batatinhas",
+    "rendimento": "4 fatias",
+    "tempo": "Cerca de 2 h 30 min a 3 h (selagem, forno coberto e cerca de 30 minutos destapado)",
+    "ingredientes": [
+      {
+        "titulo": "Carne",
+        "itens": [
+          "4 fatias de ossobuco, com cerca de 2 dedos de espessura (peso não informado; cerca de 300 g cada — estimativa)",
+          "100 g de farinha de trigo, para panar a carne",
+          "1–2 colheres de banha",
+          "Sal e pimenta a gosto"
+        ]
+      },
+      {
+        "titulo": "Hortifrúti",
+        "itens": [
+          "2 cebolas médias (cerca de 150 g cada — estimativa)",
+          "2 cenouras médias (cerca de 100 g cada — estimativa)",
+          "1 cabeça de alho (cerca de 40 g de dentes — estimativa)",
+          "2 talos de aipo",
+          "Batatinhas para assar (quantidade não informada; cerca de 600 g para 4 porções — estimativa)"
+        ]
+      },
+      {
+        "titulo": "Molho",
+        "itens": [
+          "2 colheres de polpa de tomate",
+          "500 ml de vinho tinto",
+          "500 ml de caldo de carne ou água"
+        ]
+      }
+    ],
+    "preparo": [
+      "Tempere as fatias de ossobuco com sal e pimenta a gosto dos dois lados e passe na farinha de trigo.",
+      "Aqueça a banha e sele a carne sem mexer, até caramelizar. Vire e sele o outro lado. Se a membrana enrolar, faça uns cortes para a fatia ficar plana. Reserve.",
+      "Na mesma panela, junte a cebola em fatias finas, a cenoura picada miúdo e o aipo bem picado, incluindo as folhas. Deixe caramelizar. Acrescente o alho picado e a polpa de tomate e deixe reduzir.",
+      "Desglace com o vinho tinto. Junte um pouco de sal e deixe ferver 1–2 minutos.",
+      "Passe a base para um recipiente de barro, coloque o ossobuco e os sucos da selagem e acrescente o caldo de carne ou a água. Disponha as batatinhas no molho e cubra com papel alumínio.",
+      "Leve ao forno pré-aquecido a 180 °C durante 1 h 30, ou a 150 °C durante 2 h. Destape e deixe mais cerca de 30 minutos para dourar.",
+      "Sirva cada fatia com as batatinhas e bastante molho. Se quiser, retire o tutano com uma colher de café e junte à carne."
+    ],
+    "dicas": [
+      "Sal e pimenta ficam a gosto, como na descrição, sem conversão em gramas. As 1–2 colheres de banha e as 2 colheres de polpa de tomate também ficam sem tamanho de colher: a descrição não o indica.",
+      "A farinha faz a crosta e ajuda a encorpar o molho. A banha, segundo o autor, deixa o molho mais estável na selagem.",
+      "A quantidade de batatinhas não vem na lista. Os 600 g são estimativa para acompanhar as 4 fatias."
+    ],
+    "conservacao": {
+      "geladeira": "Até 3 dias, já cozido, em pote fechado (aprox.).",
+      "congelador": "Até 2 meses, em porções; descongele na geladeira e reaqueça até o centro bem quente."
+    },
+    "proveniencia": {
+      "nota": "Lista da descrição: 4 fatias de ossobuco com cerca de 2 dedos de espessura, 2 cebolas médias, 2 cenouras médias, 1 cabeça de alho, 2 talos de aipo, 2 colheres de polpa de tomate, 100 g de farinha de trigo para panar, 500 ml de vinho tinto, 500 ml de caldo de carne ou água, 1–2 colheres de banha, sal e pimenta a gosto, batatinhas para assar. A descrição escreve «2 cebola média» e «500ml ml». O forno (180 °C por 1 h 30 ou 150 °C por 2 h, coberto, e mais cerca de 30 min destapado), os cortes na membrana, as folhas de aipo e o tutano vêm da fala. Peso das fatias, gramas das hortaliças e quantidade de batatinhas são estimativa. O tamanho das colheres de banha e de polpa não foi convertido."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=oxGkVRN3U6A",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Paulo Oliveira",
+      "tituloOriginal": "Ossobuco com Batatinhas no Forno - Guarda a receita !",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Carne",
+        "itens": [
+          "4 fatias de ossobuco, com cerca de 2 dedos de espessura (peso não informado; cerca de 300 g cada — estimativa)",
+          "100 g de farinha de trigo, para panar a carne",
+          "1–2 colheres de banha",
+          "Sal e pimenta a gosto"
+        ]
+      },
+      {
+        "secao": "Hortifrúti",
+        "itens": [
+          "2 cebolas médias (cerca de 150 g cada — estimativa)",
+          "2 cenouras médias (cerca de 100 g cada — estimativa)",
+          "1 cabeça de alho (cerca de 40 g de dentes — estimativa)",
+          "2 talos de aipo",
+          "Batatinhas para assar (quantidade não informada; cerca de 600 g para 4 porções — estimativa)"
+        ]
+      },
+      {
+        "secao": "Molho",
+        "itens": [
+          "2 colheres de polpa de tomate",
+          "500 ml de vinho tinto",
+          "500 ml de caldo de carne ou água"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 150,
+      "prot": 5.1,
+      "carb": 31.7,
+      "gord": 0.5,
+      "fibras": 4.3,
+      "origem": "estimativa",
+      "nota": "Ossobuco, banha, aipo, polpa de tomate, vinho tinto, caldo, batata, sal e pimenta sem chave em nutrientes.json — fora do cálculo. A estimativa não representa o prato. Cebolas 2 × 150 g, cenouras 2 × 100 g e alho 40 g são estimativas. A farinha entra com os 100 g da descrição, para panar."
+    }
+  },
+  {
     "id": "muffins-amendoa-coco",
     "videoId": "gJESkQtV_LA",
     "titulo": "Muffins de amêndoa e coco",
@@ -2461,69 +2570,6 @@ const RECEITAS = [
           "fibras": 3.5,
           "origem": "estimativa",
           "nota": "Conversões de xícara estimadas. Tahine, cânhamo, coco, tâmaras e chocolate da cobertura fora da tabela. Três claras ≈ 99 g como ovo. Maple 1/2 xícara ≈ 160 g."
-        }
-      },
-      {
-        "id": "barras-chia-quinoa",
-        "videoId": "EnDaiQgtYmY",
-        "titulo": "Barras de energia com chia e quinoa",
-        "descricao": "Barras com aveia, quinoa, linhaça, chia, frutas secas, mel e pasta de amêndoa.",
-        "rendimento": "Cerca de 9–12 barras em forma 20×20 cm (estimativa)",
-        "porcoes": 9,
-        "porcao": "1 barra",
-        "ingredientes": [
-          {
-            "titulo": "Secos",
-            "itens": [
-              "1½ xícara de aveia em flocos (aprox. 135 g; estimativa)",
-              "1/2 xícara de quinoa",
-              "1/4 xícara de farinha de linhaça (aprox. 35 g; estimativa)",
-              "3 colheres de sopa de chia (aprox. 30 g; estimativa)",
-              "1/2 xícara de frutas secas (cranberries, passas ou tâmaras picadas; aprox. 60 g)",
-              "1 clara de ovo grande",
-              "1/4 colher de chá de sal",
-              "1 colher de chá de canela"
-            ]
-          },
-          {
-            "titulo": "Úmidos",
-            "itens": [
-              "1/2 xícara de mel (aprox. 170 g; estimativa)",
-              "1/2 xícara de pasta de amêndoa"
-            ]
-          }
-        ],
-        "preparo": [
-          "Preaqueça o forno a 163 °C (325 °F). Unte ou forre uma forma 20×20 cm (8×8 pol.).",
-          "Misture aveia, quinoa, linhaça, chia, frutas secas e a clara.",
-          "Em panela em fogo médio, aqueça mel, pasta de amêndoa, sal e canela até ficar liso, mexendo sempre.",
-          "Despeje sobre os secos e misture até cobrir. Presse firmemente na forma.",
-          "Asse 23–25 minutos até as bordas dourarem. Espere esfriar por completo antes de cortar."
-        ],
-        "dicas": [
-          "Barras ficam mastigáveis e crocantes; boas como lanche energético.",
-          "Deixe esfriar totalmente na forma para não esfarelar."
-        ],
-        "conservacao": {
-          "ambiente": "Até 5 dias em pote hermético, em local seco (aprox.).",
-          "geladeira": "Até 2 semanas em pote fechado (aprox.).",
-          "congelador": "Até 2 meses, separadas por papel; descongele na geladeira."
-        },
-        "fonte": {
-          "url": "https://www.youtube.com/watch?v=EnDaiQgtYmY",
-          "texto": "Assistir ao vídeo original",
-          "canal": "What Shall I Cook",
-          "tituloOriginal": "Chia Seed Recipe also Great for Diet and Packed with Nutrients – Chia Seed Energy Bars by What Shall",
-          "duracao": "0:57"
-        },
-        "nutricao": {
-          "kcal": 180,
-          "prot": 3.7,
-          "carb": 34.5,
-          "gord": 4.0,
-          "fibras": 4.2,
-          "origem": "estimativa",
-          "nota": "Quinoa e pasta de amêndoa sem chave local. Frutas secas contadas como cranberry. Clara ≈ 33 g."
         }
       },
       {
