@@ -108,6 +108,38 @@
   const htmlLista = (itens, classe = "ingredientes") =>
     `<ul class="${classe}">${itens.map((i) => `<li>${escapar(i)}</li>`).join("")}</ul>`;
 
+  const LIMITE_URL_IA = 6000;
+
+  const textoIngredientesIa = (grupos) =>
+    (grupos || [])
+      .map((g) => [g.titulo, ...(g.itens || []).map((item) => `- ${item}`)].filter(Boolean).join("\n"))
+      .filter(Boolean)
+      .join("\n");
+
+  const textoPreparoIa = (passos) =>
+    (passos || []).map((passo, indice) => `${indice + 1}. ${passo}`).join("\n");
+
+  const textoPerguntaIa = (receita, incluirPreparo) => {
+    const blocos = [
+      "Tenho uma dúvida sobre esta receita:",
+      receita.titulo,
+      ["Ingredientes:", textoIngredientesIa(receita.ingredientes)].join("\n"),
+    ];
+    if (incluirPreparo) {
+      const preparo = textoPreparoIa(receita.preparo);
+      if (preparo) blocos.push(["Preparo:", preparo].join("\n"));
+    }
+    blocos.push("Minha dúvida:");
+    return blocos.join("\n\n");
+  };
+
+  const urlPerguntaIa = (receita) => {
+    const base = "https://chatgpt.com/?q=";
+    const completa = base + encodeURIComponent(textoPerguntaIa(receita, true));
+    if (completa.length <= LIMITE_URL_IA) return completa;
+    return base + encodeURIComponent(textoPerguntaIa(receita, false));
+  };
+
   const htmlIngredientes = (grupos) =>
     grupos
       .map(
@@ -195,6 +227,9 @@
       <span>${escapar(r.fonte.canal)}</span>
       ${r.fonteComplementar ? `<a href="${escapar(r.fonteComplementar.url)}" target="_blank" rel="noopener noreferrer">${escapar(r.fonteComplementar.texto)} ↗</a>` : ""}
     </div>
+    <p class="receita__ia">
+      <a class="botao" data-ia href="${escapar(urlPerguntaIa(r))}" target="_blank" rel="noopener">Perguntar à IA sobre esta receita</a>
+    </p>
     ${r.rendimento ? `<p class="receita__rendimento"><strong>Rendimento:</strong> ${escapar(r.rendimento)}</p>` : ""}
     ${r.tempo ? `<p class="receita__rendimento"><strong>Tempo:</strong> ${escapar(r.tempo)}</p>` : ""}
     <p class="receita__origem"><strong>Sobre esta receita:</strong> ${escapar(r.proveniencia.nota)}</p>

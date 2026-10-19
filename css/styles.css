@@ -406,6 +406,14 @@ main {
 }
 
 .receita__fontes { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 16px; font-size: 0.85rem; color: var(--texto-suave); }
+.receita__ia { margin: 14px 0 0; }
+.receita__ia .botao {
+  max-width: 100%;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+}
 .botao--video { color: var(--destaque); border-color: var(--destaque); text-decoration: none; }
 .receita__origem { margin: 16px 0 0; padding: 12px 14px; background: var(--superficie-2); border: 1px solid var(--borda); border-radius: var(--raio-p); color: var(--texto-suave); font-size: 0.88rem; }
 .receita__origem strong { color: var(--texto); }
@@ -776,6 +784,7 @@ main {
   .autor__titulo { font-size: 1.22rem; }
   .autor__frase { font-size: 0.95rem; }
   .apresentacao { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .receita__ia .botao { width: 100%; }
   .compras__topo { flex-wrap: wrap; }
   .nutricao--5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }

@@ -35,6 +35,18 @@ const server = http.createServer((req, res) => {
   try {
     await page.goto(url);
     assert.equal(await page.locator('[data-receita]').count(), 42);
+    assert.equal(await page.locator('a[data-ia]').count(), 42);
+    const perguntaIa = page.locator('#pao-linhaca a[data-ia]');
+    assert.equal(await perguntaIa.innerText(), 'Perguntar à IA sobre esta receita');
+    assert.equal(await perguntaIa.getAttribute('target'), '_blank');
+    assert.equal(await perguntaIa.getAttribute('rel'), 'noopener');
+    const hrefIa = await perguntaIa.getAttribute('href');
+    assert.ok(hrefIa.startsWith('https://chatgpt.com/?q='));
+    const pergunta = decodeURIComponent(hrefIa.slice('https://chatgpt.com/?q='.length));
+    assert.ok(pergunta.startsWith('Tenho uma dúvida sobre esta receita:\n'));
+    assert.ok(pergunta.includes('Pão de linhaça'));
+    assert.ok(pergunta.endsWith('Minha dúvida:'));
+    assert.ok(hrefIa.length <= 6000);
     assert.equal(await page.locator('[data-card]').count(), 42);
     assert.equal(await page.locator('#contagem').innerText(), '42 receitas');
     await page.locator('.card[href="#aveia-assada-maca"]').click();
@@ -119,7 +131,7 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Tab');
     assert.equal(await page.evaluate(() => document.activeElement.textContent), 'Todas');
     assert.deepEqual(errors, []);
-    console.log('PASS: 42 âncoras; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
+    console.log('PASS: 42 âncoras; pergunta à IA; filtros; busca sem acentos; estado vazio; link direto; compras persistentes; copiar/compartilhar/limpar; armazenamento inválido; 320/390/768/1280px; modo escuro; teclado; nenhum erro de página.');
     console.log(`Capturas: ${output}`);
   } finally {
     await browser.close();
