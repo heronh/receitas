@@ -197,6 +197,22 @@ button {
 
 /* Índice */
 
+.autor {
+  padding: 2px 0 8px;
+}
+
+.autor__titulo {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.autor__frase {
+  margin: 6px 0 0;
+  max-width: 40rem;
+  color: var(--texto-suave);
+}
+
 .apresentacao {
   display: flex;
   align-items: center;
@@ -695,6 +711,16 @@ main {
   color: var(--texto-suave);
 }
 
+.rodape__assinatura {
+  margin: 16px auto 0;
+  padding-top: 14px;
+  max-width: 28rem;
+  border-top: 1px solid var(--borda);
+  color: var(--texto);
+  font-weight: 650;
+  line-height: 1.4;
+}
+
 .voltar {
   position: fixed;
   right: 16px;
@@ -747,6 +773,8 @@ main {
 }
 
 @media (max-width: 639px) {
+  .autor__titulo { font-size: 1.22rem; }
+  .autor__frase { font-size: 0.95rem; }
   .apresentacao { align-items: flex-start; flex-direction: column; gap: 12px; }
   .compras__topo { flex-wrap: wrap; }
   .nutricao--5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
