@@ -113,6 +113,92 @@ const RECEITAS = [
     }
   },
   {
+    "id": "trufas-grao-de-bico",
+    "videoId": "4YvlIVMbmJo",
+    "titulo": "Trufas de grão-de-bico",
+    "categoria": "Recentes",
+    "categoriaBase": "Doces e lanches",
+    "tags": [
+      "Vegana"
+    ],
+    "icone": "imagens/receita-icon-nuts.jpg",
+    "destaque": "Trufas sem forno de grão-de-bico cozido, manteiga de castanha-de-caju e agave, banhas em chocolate amargo com óleo de coco. O título fala em 3 ingredientes; a descrição lista 5.",
+    "porcoes": 18,
+    "porcao": "1 trufa (estimativa)",
+    "rendimento": "Cerca de 18 trufas (estimativa; a descrição não informa o rendimento)",
+    "tempo": "Cerca de 20 minutos de preparo e tempo na geladeira para firmar (estimativa). Sem forno.",
+    "ingredientes": [
+      {
+        "titulo": "Pasta",
+        "itens": [
+          "1 1/2 xícara de grão-de-bico cozido (240 g)",
+          "1/2 xícara de manteiga de castanha-de-caju (120 g)",
+          "1 colher de sopa de xarope de agave"
+        ]
+      },
+      {
+        "titulo": "Cobertura",
+        "itens": [
+          "1 barra de chocolate amargo (150 g)",
+          "1 colher de sopa de óleo de coco"
+        ]
+      }
+    ],
+    "preparo": [
+      "Amasse ou bata o grão-de-bico cozido com a manteiga de castanha-de-caju e o xarope de agave até a pasta ficar homogênea.",
+      "Modele bolinhas.",
+      "Derreta o chocolate amargo com o óleo de coco.",
+      "Banhe as bolinhas e deixe o chocolate firmar na geladeira. Sem forno."
+    ],
+    "dicas": [
+      "O título anuncia 3 ingredientes. A descrição lista cinco: a pasta leva grão-de-bico, manteiga de caju e agave; a cobertura leva chocolate e óleo de coco.",
+      "O player pediu login, então o passo a passo não foi lido na fala nem nas legendas. Os passos usam só esses ingredientes.",
+      "Confira no rótulo se o chocolate amargo não leva leite. O canal apresenta a receita como vegana; a barra pode variar.",
+      "As colheres de óleo de coco e de agave ficam sem gramas: a descrição não dá o peso."
+    ],
+    "conservacao": {
+      "ambiente": "Não deixe mais de 2 horas fora da geladeira (prazo aproximado): o grão-de-bico cozido é perecível e o chocolate amolece no calor.",
+      "geladeira": "Até 4 dias em pote fechado (aprox.).",
+      "congelador": "Até 2 meses, separadas para não grudar. Descongele na geladeira."
+    },
+    "proveniencia": {
+      "nota": "Ingredientes da descrição de 4YvlIVMbmJo: 1 1/2 xícara de grão-de-bico cozido (240 g), 1/2 xícara de manteiga de castanha-de-caju (120 g), 1 barra de chocolate amargo (150 g), 1 colher de sopa de óleo de coco e 1 colher de sopa de xarope de agave. A descrição diz que não vai ao forno e não traz o passo a passo. O player pediu login; legendas e fala não foram lidas. A separação entre pasta e cobertura não foi vista no vídeo. Rendimento (~18) e tempo são estimativa. Não é variação da bolacha de grão-de-bico nem das barras de aveia: a base é grão cozido, em bolinha, sem forno."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=4YvlIVMbmJo",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Selesta",
+      "tituloOriginal": "These Chickpea Truffles Are So Delicious! A Protein Bomb with 3 Ingredients!",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Pasta",
+        "itens": [
+          "1 1/2 xícara de grão-de-bico cozido (240 g)",
+          "1/2 xícara de manteiga de castanha-de-caju (120 g)",
+          "1 colher de sopa de xarope de agave"
+        ]
+      },
+      {
+        "secao": "Cobertura",
+        "itens": [
+          "1 barra de chocolate amargo (150 g)",
+          "1 colher de sopa de óleo de coco"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 80,
+      "prot": 1.6,
+      "carb": 7.1,
+      "gord": 5.6,
+      "fibras": 0.7,
+      "origem": "estimativa",
+      "nota": "A estimativa não representa a trufa. Grão-de-bico cozido (240 g) não usa a chave grao_farinha, que é grão cru moído. Óleo de coco e xarope de agave não estão na tabela. A manteiga de castanha-de-caju (120 g) foi contada como castanha-de-caju torrada. Chocolate meio amargo, 150 g. Cerca de 18 porções, estimativa."
+    }
+  },
+  {
     "id": "muffins-amendoa-coco",
     "videoId": "gJESkQtV_LA",
     "titulo": "Muffins de amêndoa e coco",

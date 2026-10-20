@@ -7,12 +7,12 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'js/receitas.js'), 'utf8') + '\nthis.catalogo = RECEITAS;', context);
 const receitas = JSON.parse(JSON.stringify(context.catalogo));
-const playlistOrder = ['oxGkVRN3U6A', 'gJESkQtV_LA', 'wjae921V70I', '2MfibVTCvYM', 'zM8yab1Uy4U', 'j25LoMkeFWo', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'Rr8iPXOKw4U', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
-const recentesIds = ['ossobuco-batatinhas-forno', 'muffins-amendoa-coco', 'crackers-sementes-sem-farinha', 'bolo-aveia-cacau-iogurte'];
+const playlistOrder = ['oxGkVRN3U6A', '4YvlIVMbmJo', 'gJESkQtV_LA', 'wjae921V70I', '2MfibVTCvYM', 'zM8yab1Uy4U', 'j25LoMkeFWo', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'Rr8iPXOKw4U', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
+const recentesIds = ['ossobuco-batatinhas-forno', 'trufas-grao-de-bico', 'muffins-amendoa-coco', 'crackers-sementes-sem-farinha', 'bolo-aveia-cacau-iogurte'];
 
 test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ricota', () => {
-  assert.equal(receitas.length, 42);
-  assert.equal(new Set(receitas.map(r => r.id)).size, 42);
+  assert.equal(receitas.length, 43);
+  assert.equal(new Set(receitas.map(r => r.id)).size, 43);
   assert.deepEqual(new Set(receitas.map(r => r.videoId)), new Set(playlistOrder));
   const recentes = receitas.filter(r => r.categoria === 'Recentes');
   const outros = receitas.filter(r => r.categoria !== 'Recentes');

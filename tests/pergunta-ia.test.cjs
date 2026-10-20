@@ -34,7 +34,7 @@ const decodificar = (url) => {
 test('cada ficha tem o botão que abre a pergunta no ChatGPT', () => {
   assert.match(app, /<a class="botao" data-ia href="\$\{escapar\(urlPerguntaIa\(r\)\)\}" target="_blank" rel="noopener">Perguntar à IA sobre esta receita<\/a>/);
   assert.equal(LIMITE_URL_IA, 6000);
-  assert.equal(receitas.length, 42);
+  assert.equal(receitas.length, 43);
 
   let cortadas = 0;
   for (const receita of receitas) {
