@@ -1499,6 +1499,96 @@ const RECEITAS = [
     }
   },
   {
+    "id": "sobremesa-grao-de-bico",
+    "videoId": "1DrWHW_hBHg",
+    "titulo": "Sobremesa de grão-de-bico e cacau",
+    "categoria": "Doces e lanches",
+    "tags": [
+      "Vegana",
+      "Sem glúten"
+    ],
+    "icone": "imagens/receita-icon-yogurt-berries.jpg",
+    "destaque": "Creme de grão-de-bico seco demolhado, batido, coado e cozido com cacau, agave e azeite. Sem forno. O título diz sem açúcar; a descrição leva xarope de agave.",
+    "porcoes": 4,
+    "porcao": "1 porção (cerca de 1/4 da receita; estimativa)",
+    "rendimento": "Cerca de 4 porções (estimativa; a descrição não informa o rendimento)",
+    "tempo": "Demolho de véspera, cerca de 20 minutos de preparo e no mínimo 3 horas na geladeira. Sem forno.",
+    "ingredientes": [
+      {
+        "titulo": "Grão-de-bico",
+        "itens": [
+          "3/4 xícara de grão-de-bico seco (150 g)",
+          "Água: 3 xícaras (700 ml)",
+          "1 colher de chá de sal"
+        ]
+      },
+      {
+        "titulo": "Creme",
+        "itens": [
+          "4 colheres de sopa de xarope de agave",
+          "3 colheres de sopa de cacau em pó (cerca de 21 g; estimativa)",
+          "2 colheres de sopa de azeite (cerca de 26 g; estimativa)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Deixe o grão-de-bico seco de molho de um dia para o outro. Escorra e enxágue bem.",
+      "Bata o grão com a água e o sal até ficar completamente liso. Passe por uma peneira fina.",
+      "Junte o xarope de agave, o cacau e o azeite ao líquido coado.",
+      "Leve ao fogo e cozinhe em fervura branda por 10 minutos.",
+      "Leve à geladeira por pelo menos 3 horas, até firmar."
+    ],
+    "dicas": [
+      "O título anuncia sobremesa sem açúcar. A descrição adoça com 4 colheres de sopa de xarope de agave, então a ficha não leva a etiqueta de sem açúcar.",
+      "A descrição não numera o passo a passo. O agave, o cacau e o azeite aparecem depois de bater e coar; entram no líquido coado, antes dos 10 minutos de cozimento.",
+      "Mexa enquanto cozinha para o cacau não agarrar no fundo. A descrição não fala em mexer.",
+      "O peso do cacau (cerca de 21 g) segue a conversão já usada no brownie, de cerca de 7 g por colher de sopa. O azeite fica em cerca de 13 g por colher de sopa. A descrição não dá esses pesos.",
+      "Parte do grão fica na peneira. A descrição não diz o que fazer com esse resíduo; não entra na sobremesa.",
+      "Não é variação das trufas de grão-de-bico do mesmo canal: lá o grão já vem cozido, vira bolinha e leva manteiga de caju, chocolate em barra e óleo de coco. Aqui o grão seco é batido com água, coado e cozido com cacau e azeite."
+    ],
+    "conservacao": {
+      "ambiente": "Não deixe mais de 2 horas fora da geladeira (prazo aproximado): o grão cozido é perecível e a sobremesa só firma no frio.",
+      "geladeira": "Até 4 dias em pote fechado (aprox.). A descrição pede pelo menos 3 horas na geladeira antes de servir.",
+      "congelador": "Até 1 mês, em porções (aprox.). A textura pode soltar água ao descongelar; volte à geladeira."
+    },
+    "proveniencia": {
+      "nota": "Descrição da página de 1DrWHW_hBHg: 3/4 xícara de grão-de-bico seco (150 g / 5,3 oz), demolho de um dia para o outro, enxágue, 3 xícaras de água (700 ml / 24 fl oz), 1 colher de chá de sal, bater até ficar completamente liso e coar em peneira fina, 4 colheres de sopa de xarope de agave, 3 colheres de sopa de cacau, 2 colheres de sopa de azeite, 10 minutos de cozimento e pelo menos 3 horas de geladeira. A descrição não informa rendimento, forma nem o que fazer com o resíduo da peneira. As 4 porções, os cerca de 20 minutos de preparo, os 21 g de cacau e os 26 g de azeite são estimativa. Duração, legendas e fala não foram lidas: o HTML direto e a API do player responderam 403. Não é variação de trufas-grao-de-bico (4YvlIVMbmJo): a base, o método e o formato são outros."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=1DrWHW_hBHg",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Selesta",
+      "tituloOriginal": "This Chickpea Dessert Melts in Your Mouth! No Sugar & No Oven!",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Grão-de-bico",
+        "itens": [
+          "3/4 xícara de grão-de-bico seco (150 g)",
+          "1 colher de chá de sal"
+        ]
+      },
+      {
+        "secao": "Creme",
+        "itens": [
+          "4 colheres de sopa de xarope de agave",
+          "3 colheres de sopa de cacau em pó (cerca de 21 g; estimativa)",
+          "2 colheres de sopa de azeite (cerca de 26 g; estimativa)"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 205,
+      "prot": 9.0,
+      "carb": 24.8,
+      "gord": 9.2,
+      "fibras": 6.6,
+      "origem": "estimativa",
+      "nota": "Grão-de-bico seco, 150 g, na chave grao_farinha (grão cru). A peneira descarta parte dos sólidos; o cálculo usa os 150 g que entram e por isso superestima a porção servida. Cacau 3 colheres de sopa ≈ 21 g e azeite 2 colheres de sopa ≈ 26 g são estimativas. Xarope de agave, sal e água não estão na tabela. Cerca de 4 porções, estimativa."
+    }
+  },
+  {
     "id": "ervilhas-ovos",
     "videoId": "VpH7kZchAS4",
     "titulo": "Ervilhas com ovos",
