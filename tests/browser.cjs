@@ -36,7 +36,7 @@ const server = http.createServer((req, res) => {
     await page.goto(url);
     assert.equal(await page.locator('[data-receita]').count(), 43);
     assert.equal(await page.locator('a[data-ia]').count(), 43);
-    const perguntaIa = page.locator('#pao-linhaca a[data-ia]');
+    const perguntaIa = page.locator('#paezinhos-linhaca-gergelim a[data-ia]');
     assert.equal(await perguntaIa.innerText(), 'Perguntar à IA sobre esta receita');
     assert.equal(await perguntaIa.getAttribute('target'), '_blank');
     assert.equal(await perguntaIa.getAttribute('rel'), 'noopener');
@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
     assert.ok(hrefIa.startsWith('https://chatgpt.com/?q='));
     const pergunta = decodeURIComponent(hrefIa.slice('https://chatgpt.com/?q='.length));
     assert.ok(pergunta.startsWith('Tenho uma dúvida sobre esta receita:\n'));
-    assert.ok(pergunta.includes('Pão de linhaça'));
+    assert.ok(pergunta.includes('Pãezinhos de linhaça'));
     assert.ok(pergunta.endsWith('Minha dúvida:'));
     assert.ok(hrefIa.length <= 6000);
     assert.equal(await page.locator('[data-card]').count(), 43);
@@ -62,10 +62,10 @@ const server = http.createServer((req, res) => {
     assert.ok(await page.locator('[data-card="trufas-grao-de-bico"]').isVisible());
     assert.ok(await page.locator('[data-card="bolo-aveia-cacau-iogurte"]').isVisible());
     assert.equal(await page.locator('[data-card="torta-abobora-aveia-cottage"]').count(), 0);
-    assert.equal(await page.locator('[data-card="pao-linhaca"]:visible').count(), 0);
+    assert.equal(await page.locator('[data-card="paezinhos-linhaca-gergelim"]:visible').count(), 0);
     await page.getByRole('button', { name: 'Pães e wraps', exact: true }).click();
-    assert.ok(await page.locator('[data-card="pao-linhaca"]').isVisible());
-    assert.ok(await page.locator('[data-receita="pao-linhaca"]').isVisible());
+    assert.ok(await page.locator('[data-card="paezinhos-linhaca-gergelim"]').isVisible());
+    assert.ok(await page.locator('[data-receita="paezinhos-linhaca-gergelim"]').isVisible());
     await page.getByRole('button', { name: 'Todas', exact: true }).click();
     const anchors = await page.locator('.card').evaluateAll(nodes => nodes.map(n => n.getAttribute('href')));
     for (const anchor of anchors) {
@@ -90,7 +90,7 @@ const server = http.createServer((req, res) => {
     await page.getByRole('button', { name: 'Vegana', exact: true }).click();
     assert.equal(await page.locator('[data-card]:visible').count(), 8);
     await page.getByRole('button', { name: 'Todas', exact: true }).click();
-    const compras = page.locator('[data-compras="pao-linhaca"]');
+    const compras = page.locator('[data-compras="paezinhos-linhaca-gergelim"]');
     const first = compras.locator('input[type=checkbox]').first();
     const marked = await first.getAttribute('data-item');
     await first.check();
@@ -106,21 +106,21 @@ const server = http.createServer((req, res) => {
     await page.evaluate(() => Object.defineProperty(navigator, 'share', { value: undefined, configurable: true }));
     await compras.getByRole('button', { name: 'Compartilhar', exact: true }).click();
     assert.equal(await page.locator('#aviso').innerText(), 'Marque os itens que quer copiar');
-    await page.evaluate(() => { localStorage.setItem('receitas:compras:v1', '{"pao-linhaca":42}'); location.hash = '#%E0%A4%A'; });
+    await page.evaluate(() => { localStorage.setItem('receitas:compras:v1', '{"paezinhos-linhaca-gergelim":42}'); location.hash = '#%E0%A4%A'; });
     await page.reload();
     assert.equal(await page.locator('[data-receita]').count(), 43);
     const ids = await page.locator('[id]').evaluateAll(nodes => nodes.map(n => n.id));
     assert.equal(new Set(ids).size, ids.length, 'IDs duplicados');
     await page.evaluate(() => { history.replaceState(null, '', '/'); scrollTo(0, 0); });
     await page.screenshot({ path: path.join(output, 'desktop.png') });
-    await page.locator('.card[href="#pao-linhaca"]').click();
+    await page.locator('.card[href="#paezinhos-linhaca-gergelim"]').click();
     await page.screenshot({ path: path.join(output, 'receita-desktop.png') });
     for (const width of [320, 390, 768]) {
       await page.setViewportSize({ width, height: 844 });
       await page.evaluate(() => scrollTo(0, 0));
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `overflow em ${width}px`);
       await page.screenshot({ path: path.join(output, `largura-${width}.png`) });
-      await page.locator('.card[href="#pao-linhaca"]').click();
+      await page.locator('.card[href="#paezinhos-linhaca-gergelim"]').click();
       await page.screenshot({ path: path.join(output, `receita-${width}.png`) });
       assert.ok(await page.evaluate(() => [...document.images].every(i => !i.complete || i.naturalWidth > 0)), 'imagem quebrada');
     }

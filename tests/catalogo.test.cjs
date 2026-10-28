@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'js/receitas.js'), 'utf8') + '\nthis.catalogo = RECEITAS;', context);
 const receitas = JSON.parse(JSON.stringify(context.catalogo));
-const playlistOrder = ['oxGkVRN3U6A', '4YvlIVMbmJo', 'gJESkQtV_LA', '2MfibVTCvYM', 'zM8yab1Uy4U', 'j25LoMkeFWo', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'j1EUg_IfTh8', 'tApjUXrfQ84', '1DrWHW_hBHg', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'Rr8iPXOKw4U', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
+const playlistOrder = ['oxGkVRN3U6A', '4YvlIVMbmJo', 'gJESkQtV_LA', '2MfibVTCvYM', 'j25LoMkeFWo', 'FbzjVvVyCEM', 'oFDbeSacXGY', '7P_4y4j9cWA', 'WAwcloRLMY0', 'Q_RQlrHsZgk', 'j1EUg_IfTh8', 'tApjUXrfQ84', '1DrWHW_hBHg', 'VpH7kZchAS4', 'dupbD0MR6Wo', 'LZjqqnymUv4', 'Yyzdcpqct50', 'sVPwjoFjM1k', 'b2xbwfPU4IQ', 'uEQRL_GLC_w', 'AfhwWdJX7Lg', 'lRCLarGbxe0', '8y3AEMvtq68', 'C1dBjcTQNqo', '0A3e0V3nw2A', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'UV0YaNJExv0', 'mdPveC7HlFM', 'TH9rWEh8okY', 'F5xDn0DueO4', 'ozdbNFy84bY', 'VX-dMV-HZQQ', 'TmHXy8hkBgw', 'VOlIRFtI4XI', 'KmiFvWdx01M', 'eCazTN5-Rsc', 'Rr8iPXOKw4U', 'dRW3VMfNlaY', 'BkTFTZw9PSE', 'H1od62HtUDM', 'RueGO-RTfZI'];
 const recentesIds = ['ossobuco-batatinhas-forno', 'trufas-grao-de-bico', 'muffins-amendoa-coco', 'bolo-aveia-cacau-iogurte'];
 
 test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ricota', () => {
@@ -19,12 +19,15 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   const recentesVideoIds = new Set(recentes.map(r => r.videoId));
   assert.deepEqual(recentes.map(r => r.id), recentesIds);
   assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
-  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-linhaca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia', 'wrap-cottage-ovos'].includes(r.id)));
-  const variacaoLinhaca = receitas.find(r => r.id === 'pao-linhaca').variacoes[0];
-  assert.equal(variacaoLinhaca.id, 'paezinhos-linhaca-gergelim');
-  assert.equal(variacaoLinhaca.videoId, 'Q_RQlrHsZgk');
-  assert.equal(variacaoLinhaca.fonte.url, 'https://www.youtube.com/watch?v=Q_RQlrHsZgk');
-  assert.ok(variacaoLinhaca.ingredientes.length && variacaoLinhaca.preparo.length >= 3 && variacaoLinhaca.nutricao?.origem === 'estimativa');
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia', 'wrap-cottage-ovos'].includes(r.id)));
+  const paezinhos = receitas.find(r => r.id === 'paezinhos-linhaca-gergelim');
+  assert.equal(paezinhos.videoId, 'Q_RQlrHsZgk');
+  assert.equal(paezinhos.fonte.url, 'https://www.youtube.com/watch?v=Q_RQlrHsZgk');
+  assert.equal(paezinhos.categoria, 'Pães e wraps');
+  assert.ok(!paezinhos.categoriaBase);
+  assert.ok(!paezinhos.variacoes);
+  assert.ok(paezinhos.ingredientes.length && paezinhos.preparo.length >= 3 && paezinhos.nutricao?.origem === 'estimativa');
+  assert.ok(!receitas.some(r => r.id === 'pao-linhaca' || r.videoId === 'zM8yab1Uy4U' || r.variacoes?.some(v => v.id === 'paezinhos-linhaca-gergelim' || v.videoId === 'zM8yab1Uy4U')));
   const variacaoAveia = receitas.find(r => r.id === 'aveia-assada-maca').variacoes[0];
   assert.equal(variacaoAveia.id, 'cookies-aveia-maca-canela');
   assert.equal(variacaoAveia.videoId, 'FxgVCAD6KyE');
@@ -44,8 +47,8 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   assert.ok(recentes.every(r => r.categoriaBase));
   assert.equal(receitas.find(r => r.id === 'pao-ricota-ovo').categoria, 'Pães e wraps');
   assert.ok(!receitas.find(r => r.id === 'pao-ricota-ovo').categoriaBase);
-  assert.equal(receitas.find(r => r.id === 'pao-linhaca').categoria, 'Pães e wraps');
-  assert.ok(!receitas.find(r => r.id === 'pao-linhaca').categoriaBase);
+  assert.equal(receitas.find(r => r.id === 'paezinhos-linhaca-gergelim').categoria, 'Pães e wraps');
+  assert.ok(!receitas.find(r => r.id === 'paezinhos-linhaca-gergelim').categoriaBase);
   const bolo = receitas.find(r => r.id === 'bolo-aveia-cacau-iogurte');
   assert.equal(bolo.videoId, '2MfibVTCvYM');
   assert.equal(bolo.fonte.url, 'https://www.youtube.com/watch?v=2MfibVTCvYM');
@@ -70,7 +73,7 @@ test('filtro de categoria aceita a categoria da ficha ou a categoriaBase', () =>
   assert.equal(bolo.categoriaBase, 'Doces e lanches');
   const aceita = (r, valor) => r.categoria === valor || r.categoriaBase === valor;
   assert.ok(aceita(bolo, 'Recentes') && aceita(bolo, 'Doces e lanches'));
-  const pao = receitas.find(r => r.id === 'pao-linhaca');
+  const pao = receitas.find(r => r.id === 'paezinhos-linhaca-gergelim');
   assert.equal(pao.categoria, 'Pães e wraps');
   assert.ok(aceita(pao, 'Pães e wraps'));
   const categorias = ['Recentes', 'Pratos principais', 'Entradas e pastas', 'Pães e wraps', 'Biscoitos e crackers', 'Doces e lanches'];
