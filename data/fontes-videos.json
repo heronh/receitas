@@ -1,7 +1,7 @@
 {
   "playlist": "https://www.youtube.com/playlist?list=PLQMMYgYzynIQ",
-  "consultadoEm": "2026-10-28",
-  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas. Em 16/10/2026, a playlist tinha 55 entradas e 53 IDs únicos (dOS-ut_54H0 e ozdbNFy84bY repetidos). UV0YaNJExv0 estava na posição 37 e Rr8iPXOKw4U na 51. Legendas desses dois vídeos não vieram; a compilação usa as páginas ligadas na descrição e a torrada de tofu usa a lista da descrição. Em 17/10/2026, a playlist tem 49 IDs únicos, sem repetição. Saíram 4uWS0sIRSe8, qviffFXr_sg, oLjTJSwSHR8 e qwi2Y8isloI. Em 18/10/2026, a playlist tem 51 entradas e 49 IDs únicos. Entrou oxGkVRN3U6A na primeira posição. Saiu EnDaiQgtYmY. A ordem relativa dos outros IDs manteve-se; as posições deste ficheiro foram renumeradas a partir de 1. Em 20/10/2026, a playlist tinha 52 entradas e 50 IDs únicos. Entrou 4YvlIVMbmJo na segunda posição, logo após oxGkVRN3U6A. Nenhum vídeo saiu. As posições seguintes foram renumeradas. Em 21/10/2026, a playlist tem 50 entradas e 49 IDs únicos. Saiu dOS-ut_54H0. Nenhum vídeo entrou. As posições seguintes foram renumeradas. Em 25/10/2026, a playlist tem 50 entradas e 50 IDs únicos. Entrou 1DrWHW_hBHg na posição 18. Nenhum vídeo saiu. As posições a partir da antiga 18 foram renumeradas. A descrição da página do vídeo foi a fonte dos ingredientes; o HTML direto e a API do player responderam 403, então duração, legendas e fala não foram lidas. Em 28/10/2026, a playlist tem 49 vídeos (48 visíveis e 1 oculto ou indisponível) e 49 IDs únicos. Saiu wjae921V70I. Nenhum vídeo entrou. As posições a partir da antiga 5 foram renumeradas. zM8yab1Uy4U permanece, sem confirmação de que saiu. Ainda em 28/10/2026, confirmou-se a saída do vídeo oculto zM8yab1Uy4U. A playlist fica com 48 IDs únicos. Nenhum vídeo entrou. As posições a partir da antiga 8 foram renumeradas.",
+  "consultadoEm": "2026-10-31",
+  "legendas": "Solicitadas em 11 vídeos; respostas vazias. Não usadas como fonte. Em 08/10/2026, as legendas dos 3 vídeos novos também vieram vazias. Em 09/10/2026, a descrição do vídeo novo VOlIRFtI4XI foi a fonte dos ingredientes; legendas não usadas. Em 10/10/2026, a descrição do vídeo novo 4uWS0sIRSe8 foi a fonte dos ingredientes; legendas não usadas. Em 16/10/2026, a playlist tinha 55 entradas e 53 IDs únicos (dOS-ut_54H0 e ozdbNFy84bY repetidos). UV0YaNJExv0 estava na posição 37 e Rr8iPXOKw4U na 51. Legendas desses dois vídeos não vieram; a compilação usa as páginas ligadas na descrição e a torrada de tofu usa a lista da descrição. Em 17/10/2026, a playlist tem 49 IDs únicos, sem repetição. Saíram 4uWS0sIRSe8, qviffFXr_sg, oLjTJSwSHR8 e qwi2Y8isloI. Em 18/10/2026, a playlist tem 51 entradas e 49 IDs únicos. Entrou oxGkVRN3U6A na primeira posição. Saiu EnDaiQgtYmY. A ordem relativa dos outros IDs manteve-se; as posições deste ficheiro foram renumeradas a partir de 1. Em 20/10/2026, a playlist tinha 52 entradas e 50 IDs únicos. Entrou 4YvlIVMbmJo na segunda posição, logo após oxGkVRN3U6A. Nenhum vídeo saiu. As posições seguintes foram renumeradas. Em 21/10/2026, a playlist tem 50 entradas e 49 IDs únicos. Saiu dOS-ut_54H0. Nenhum vídeo entrou. As posições seguintes foram renumeradas. Em 25/10/2026, a playlist tem 50 entradas e 50 IDs únicos. Entrou 1DrWHW_hBHg na posição 18. Nenhum vídeo saiu. As posições a partir da antiga 18 foram renumeradas. A descrição da página do vídeo foi a fonte dos ingredientes; o HTML direto e a API do player responderam 403, então duração, legendas e fala não foram lidas. Em 28/10/2026, a playlist tem 49 vídeos (48 visíveis e 1 oculto ou indisponível) e 49 IDs únicos. Saiu wjae921V70I. Nenhum vídeo entrou. As posições a partir da antiga 5 foram renumeradas. zM8yab1Uy4U permanece, sem confirmação de que saiu. Ainda em 28/10/2026, confirmou-se a saída do vídeo oculto zM8yab1Uy4U. A playlist fica com 48 IDs únicos. Nenhum vídeo entrou. As posições a partir da antiga 8 foram renumeradas. Em 31/10/2026, a playlist tem 49 IDs únicos. Entrou pf2wxaAhOlQ na posição 30. Nenhum vídeo saiu. As posições a partir da antiga 30 foram renumeradas. A descrição da página foi a fonte da lista de ingredientes; a fala da página confirma o método. O player pediu login, então duração e legendas com tempo não foram lidas.",
   "videos": [
     {
       "posicao": 1,
@@ -274,6 +274,16 @@
     },
     {
       "posicao": 30,
+      "id": "pf2wxaAhOlQ",
+      "titulo": "Bife à Cervejeira Perfeito O Segredo dos Chefs! Tu Fazes Assim?",
+      "canal": "Paulo Oliveira",
+      "url": "https://www.youtube.com/watch?v=pf2wxaAhOlQ",
+      "duracao": "—",
+      "descricaoConsultada": true,
+      "nota": "Lista de ingredientes na descrição, para 2 pessoas. A fala confirma o método (frigideira que não seja antiaderente, descanso da carne, molho na base, ovo opcional e um fio de água se o molho engrossar). Na fala o autor deita uma cerveja e menciona duas folhas de louro; a lista escrita traz 200 ml e 1 folha. O player pediu login; duração e legendas com tempo não foram lidas. O peso dos bifes não vem na lista."
+    },
+    {
+      "posicao": 31,
       "id": "0A3e0V3nw2A",
       "titulo": "Creamy Mushroom Chicken | Chicken with Creamy Mushroom Sauce Recipe",
       "canal": "The Cooking Foodie",
@@ -282,7 +292,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 31,
+      "posicao": 32,
       "id": "UV0YaNJExv0",
       "titulo": "COTTAGE CHEESE RECIPES | easy, healthy protein-packed!",
       "canal": "Clean & Delicious",
@@ -292,7 +302,7 @@
       "nota": "Compilação (12:48). A descrição lista cinco receitas e os links da autora: egg bake 1:24, panquecas 3:19, alfredo 4:49, flatbread 8:17, torradas 9:48. Medidas tiradas dessas páginas. Legendas não usadas."
     },
     {
-      "posicao": 32,
+      "posicao": 33,
       "id": "mdPveC7HlFM",
       "titulo": "Kein Zucker! Gesunde Kekse ohne Mehl, Zucker und Gluten! Energiedessert für jeden Tag!",
       "canal": "Süß und Gesund",
@@ -301,7 +311,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 33,
+      "posicao": 34,
       "id": "TH9rWEh8okY",
       "titulo": "Easy Cottage Cheese Flatbread or Wraps | 2 Ingredients & High Protein",
       "canal": "The Protein Chef",
@@ -310,7 +320,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 34,
+      "posicao": 35,
       "id": "F5xDn0DueO4",
       "titulo": "ENTRECOSTO MAIS TENRO E SUCULENTO QUE COMI NA VIDA!!",
       "canal": "Paulo Oliveira",
@@ -319,7 +329,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 35,
+      "posicao": 36,
       "id": "ozdbNFy84bY",
       "titulo": "Peanut Butter Oat Bars -- Recipe in description👇",
       "canal": "The Simple Homeplace",
@@ -329,7 +339,7 @@
       "nota": "Em 16/10/2026 a playlist repetia este vídeo; em 17/10/2026 aparece uma vez."
     },
     {
-      "posicao": 36,
+      "posicao": 37,
       "id": "VX-dMV-HZQQ",
       "titulo": "COTTAGE CHEESE FLATBREAD PIZZA. Pepperoni Keto Pizza, Cottage Cheese Pizza Crust.",
       "canal": "Keto Kitchen",
@@ -338,7 +348,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 37,
+      "posicao": 38,
       "id": "ls2fTESZA88",
       "titulo": "Healthy Chia Seed Energy Bar Recipe",
       "canal": "Healthline",
@@ -354,10 +364,10 @@
       "duracao": "—",
       "descricaoConsultada": true,
       "nota": "Duração não veio na consulta. Título, canal e modo de preparo lidos na descrição em 04/10/2026.",
-      "posicao": 38
+      "posicao": 39
     },
     {
-      "posicao": 39,
+      "posicao": 40,
       "id": "DDzNylsClC4",
       "titulo": "SÓ 2 INGREDIENTES, SEM NENHUMA FARINHA, Substitua o PÃO no Café da Manhã!",
       "canal": "Receitas Low Carb para Diabéticos",
@@ -366,7 +376,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 40,
+      "posicao": 41,
       "id": "O5JihHkvM4w",
       "titulo": "Easy NUT-FREE Granola Bars Your Kid Can Take To School | Inspired by @NYTCooking | Eden Eats",
       "canal": "Eden Eats",
@@ -375,7 +385,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 41,
+      "posicao": 42,
       "id": "VOlIRFtI4XI",
       "titulo": "Brownie de flocons d'avoine cuit : sans sucre, sans farine, sans oeufs ! Recette rapide ♥",
       "canal": "Un jour Une recette",
@@ -385,7 +395,7 @@
       "nota": "Ingredientes da descrição: 45 g de flocos de aveia em pó (sem glúten), 90 g de compota de maçã ou banana, 60 ml de leite vegetal ou leite à escolha, 1/4 colher de chá de fermento, 1 colher de sopa de cacau amargo, pepitas de chocolate sem quantidade. Canal prefere a versão sem ovo. Duração 2:50 (170 s)."
     },
     {
-      "posicao": 42,
+      "posicao": 43,
       "id": "KmiFvWdx01M",
       "titulo": "Não coma pão, misture ovo cru com ricota, Só 2 INGREDIENTES - Delícia Fácil e Rápido",
       "canal": "Anjo Low Carb Receitas",
@@ -394,7 +404,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 43,
+      "posicao": 44,
       "id": "eCazTN5-Rsc",
       "titulo": "Ich habe noch nie so leckeren Fisch gegessen! Delikat, das auf der Zunge zergeht!",
       "canal": "Alle Rezepte",
@@ -403,7 +413,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 44,
+      "posicao": 45,
       "id": "Rr8iPXOKw4U",
       "titulo": "A delicious recipe to eat Tofu for Breakfast! Tofu Toast Without Bread! [Vegan]",
       "canal": "We Cook Better",
@@ -413,7 +423,7 @@
       "nota": "Ingredientes e o rendimento de 2–3 porções vêm da descrição. O passo a passo não está na descrição; legendas não vieram. Cebolinha, queijos e o modo de fritar foram estimados."
     },
     {
-      "posicao": 45,
+      "posicao": 46,
       "id": "dRW3VMfNlaY",
       "titulo": "Honey garlic chicken ! Dinner ready in 15 minutes",
       "canal": "Delicious and easy recipes",
@@ -422,7 +432,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 46,
+      "posicao": 47,
       "id": "BkTFTZw9PSE",
       "titulo": "Peito de pato com mel e Vinho do Porto",
       "canal": "Cozinha de Arquiteto",
@@ -431,7 +441,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 47,
+      "posicao": 48,
       "id": "H1od62HtUDM",
       "titulo": "HAMBÚRGUER SAUDÁVEL DE QUINOA - fácil de preparar",
       "canal": "Mamãe Vida Saudável",
@@ -440,7 +450,7 @@
       "descricaoConsultada": true
     },
     {
-      "posicao": 48,
+      "posicao": 49,
       "id": "RueGO-RTfZI",
       "titulo": "Receitas Funcionais - Bolacha de Grão de bico",
       "canal": "Lu Crosara",

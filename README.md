@@ -1,6 +1,6 @@
 # Receitas da playlist
 
-Página estática com as 43 receitas da [playlist Receitas](https://www.youtube.com/playlist?list=PLQMMYgYzynIQ) (48 vídeos únicos; receitas parecidas ficam como variação). A ordem segue a playlist consultada em 28/10/2026. Mantém o estilo da página anterior: índice com âncoras, busca, filtros no cabeçalho e listas de compras com marcações salvas no navegador.
+Página estática com as 44 receitas da [playlist Receitas](https://www.youtube.com/playlist?list=PLQMMYgYzynIQ) (49 vídeos únicos; receitas parecidas ficam como variação). A ordem segue a playlist consultada em 31/10/2026. Mantém o estilo da página anterior: índice com âncoras, busca, filtros no cabeçalho e listas de compras com marcações salvas no navegador.
 
 ## Abrir localmente
 

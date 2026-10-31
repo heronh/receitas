@@ -416,6 +416,112 @@ const RECEITAS = [
     }
   },
   {
+    "id": "bife-a-cervejeira",
+    "videoId": "pf2wxaAhOlQ",
+    "titulo": "Bife à cervejeira",
+    "categoria": "Recentes",
+    "categoriaBase": "Pratos principais",
+    "tags": [],
+    "icone": "imagens/receita-icon-pork.jpg",
+    "destaque": "Bifes de vaca selados numa frigideira que não é antiaderente, com molho de cerveja, alho, louro, mostarda, molho inglês e natas.",
+    "porcoes": 2,
+    "porcao": "1 bife com molho",
+    "rendimento": "2 bifes (para 2 pessoas, como na descrição)",
+    "tempo": "Cerca de 20 minutos (estimativa; a descrição não indica tempo)",
+    "ingredientes": [
+      {
+        "titulo": "Carne",
+        "itens": [
+          "2 bifes de vaca (alcatra, vazia ou lombo), cerca de 200 g cada (peso não informado — estimativa)"
+        ]
+      },
+      {
+        "titulo": "Molho",
+        "itens": [
+          "3 dentes de alho esmagados",
+          "1 folha de louro",
+          "1 colher de sopa de manteiga",
+          "Azeite q.b.",
+          "200 ml de cerveja",
+          "1 colher de sopa de mostarda",
+          "1 colher de sopa de molho inglês",
+          "100 ml de natas",
+          "Sal e pimenta-preta q.b."
+        ]
+      },
+      {
+        "titulo": "Opcional",
+        "itens": [
+          "1 ovo estrelado por bife (opcional)"
+        ]
+      }
+    ],
+    "preparo": [
+      "Tempere os bifes com sal e pimenta-preta q.b. dos dois lados. Esmague os dentes de alho e corte a manteiga em cubos.",
+      "Aqueça bem uma frigideira que não seja antiaderente. Junte um fio de azeite no centro, sele os bifes até dourar e vire para selar o outro lado. Retire e deixe descansar.",
+      "Na mesma frigideira, deglaceie com a cerveja. Junte o alho e a folha de louro e deixe cozinhar um pouco.",
+      "Acrescente o molho inglês e a mostarda e misture. Junte as natas e a manteiga em cubos. Se o molho engrossar demais, um fio de água. Deixe reduzir até ficar cremoso e mais escuro. Prove e acerte o sal.",
+      "Sirva o molho por baixo e por cima do bife. Se quiser, ponha um ovo estrelado em cada bife e tempere com um pouco de sal e pimenta. O ponto mostrado na fala é mal passado, com crosta por fora."
+    ],
+    "dicas": [
+      "A frigideira não deve ser antiaderente. A fala explica que os resíduos da selagem é que fazem o molho de cerveja.",
+      "A lista escrita, para 2 pessoas, pede 200 ml de cerveja e 1 folha de louro. Na fala, o autor deita uma cerveja e menciona duas folhas de louro. A ficha segue a lista.",
+      "O ovo estrelado é opcional. A descrição marca «1 ovo estrelado por bife (opcional)» e a fala trata o ovo como extra, não como o modo mais tradicional.",
+      "Azeite, sal e pimenta ficam q.b., como na descrição, sem conversão em gramas. O peso dos bifes não vem na lista."
+    ],
+    "conservacao": {
+      "geladeira": "Até 2 dias, já cozido, em pote fechado (aprox.). Com ovo estrelado, o ovo perde o ponto ao reaquecer.",
+      "congelador": "Até 1 mês, sem o ovo (aprox.). As natas podem separar. Descongele na geladeira e reaqueça em fogo baixo, sem ferver."
+    },
+    "proveniencia": {
+      "nota": "Lista da descrição, para 2 pessoas: 2 bifes de vaca (alcatra, vazia ou lombo), 3 dentes de alho esmagados, 1 folha de louro, 1 colher de sopa de manteiga, azeite qb, 200 ml de cerveja, 1 colher de sopa de mostarda, 1 colher de sopa de molho inglês, 100 ml de natas, sal e pimenta-preta q.b., 1 ovo estrelado por bife (opcional). A descrição escreve «Azeite qb». A fala confirma a frigideira que não é antiaderente, a selagem dos dois lados, o descanso, o deglace com cerveja, alho e louro, molho inglês, mostarda, natas, manteiga em cubos, um fio de água se o molho engrossar, o molho na base e o ovo temperado com um pouco de sal e pimenta. Na fala o autor deita uma cerveja e menciona duas folhas de louro; a ficha fica com 200 ml e 1 folha, da lista. O peso dos bifes (cerca de 200 g cada), os cerca de 20 minutos, os 15 g da colher de manteiga, os 9 g dos 3 dentes de alho e os 100 g das natas (100 ml) são estimativa. Duração e legendas com tempo não foram lidas: o player pediu login."
+    },
+    "fonte": {
+      "url": "https://www.youtube.com/watch?v=pf2wxaAhOlQ",
+      "texto": "Assistir ao vídeo original",
+      "canal": "Paulo Oliveira",
+      "tituloOriginal": "Bife à Cervejeira Perfeito O Segredo dos Chefs! Tu Fazes Assim?",
+      "duracao": "—"
+    },
+    "compras": [
+      {
+        "secao": "Carne",
+        "itens": [
+          "2 bifes de vaca (alcatra, vazia ou lombo), cerca de 200 g cada (peso não informado — estimativa)"
+        ]
+      },
+      {
+        "secao": "Molho",
+        "itens": [
+          "3 dentes de alho esmagados",
+          "1 folha de louro",
+          "1 colher de sopa de manteiga",
+          "Azeite q.b.",
+          "200 ml de cerveja",
+          "1 colher de sopa de mostarda",
+          "1 colher de sopa de molho inglês",
+          "100 ml de natas",
+          "Sal e pimenta-preta q.b."
+        ]
+      },
+      {
+        "secao": "Opcional",
+        "itens": [
+          "1 ovo estrelado por bife (opcional)"
+        ]
+      }
+    ],
+    "nutricao": {
+      "kcal": 170,
+      "prot": 1.1,
+      "carb": 3.3,
+      "gord": 17.4,
+      "fibras": 0.2,
+      "origem": "estimativa",
+      "nota": "Bife, cerveja, mostarda, molho inglês, louro, azeite, sal e pimenta sem chave em nutrientes.json — fora do cálculo. A estimativa não representa o prato: falta a carne. Alho 3 dentes ≈ 9 g, manteiga 1 colher de sopa ≈ 15 g e natas 100 ml ≈ 100 g na chave creme (creme de leite) são estimativas. O ovo opcional não entra."
+    }
+  },
+  {
     "id": "aveia-assada-maca",
     "videoId": "j25LoMkeFWo",
     "titulo": "Biscoitos de aveia, maçã e nozes",
