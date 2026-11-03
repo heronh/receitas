@@ -19,7 +19,7 @@ test('uma ficha por vídeo, na ordem da playlist, com variações de aveia e ric
   const recentesVideoIds = new Set(recentes.map(r => r.videoId));
   assert.deepEqual(recentes.map(r => r.id), recentesIds);
   assert.deepEqual(outros.map(r => r.videoId), playlistOrder.filter(v => !recentesVideoIds.has(v)));
-  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia', 'wrap-cottage-ovos'].includes(r.id)));
+  assert.ok(receitas.every(r => !r.variacoes?.length || ['aveia-assada-maca', 'pao-ricota-ovo', 'salgadinho-batata-doce', 'granola-crocante', 'barras-granola', 'barras-banana-aveia', 'barras-pasta-amendoim-aveia', 'wrap-cottage-ovos', 'sobremesa-grao-de-bico'].includes(r.id)));
   const paezinhos = receitas.find(r => r.id === 'paezinhos-linhaca-gergelim');
   assert.equal(paezinhos.videoId, 'Q_RQlrHsZgk');
   assert.equal(paezinhos.fonte.url, 'https://www.youtube.com/watch?v=Q_RQlrHsZgk');

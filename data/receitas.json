@@ -1216,7 +1216,87 @@
       "cacau": 21,
       "azeite": 26
     },
-    "notaNutricional": "Grão-de-bico seco, 150 g, na chave grao_farinha (grão cru). A peneira descarta parte dos sólidos; o cálculo usa os 150 g que entram e por isso superestima a porção servida. Cacau 3 colheres de sopa ≈ 21 g e azeite 2 colheres de sopa ≈ 26 g são estimativas. Xarope de agave, sal e água não estão na tabela. Cerca de 4 porções, estimativa."
+    "notaNutricional": "Grão-de-bico seco, 150 g, na chave grao_farinha (grão cru). A peneira descarta parte dos sólidos; o cálculo usa os 150 g que entram e por isso superestima a porção servida. Cacau 3 colheres de sopa ≈ 21 g e azeite 2 colheres de sopa ≈ 26 g são estimativas. Xarope de agave, sal e água não estão na tabela. Cerca de 4 porções, estimativa.",
+    "variacoes": [
+      {
+        "id": "sobremesa-grao-de-bico-abobora",
+        "videoId": "fEm-T-PXYvU",
+        "titulo": "Sobremesa de grão-de-bico e abóbora",
+        "descricao": "O mesmo creme do canal, com abóbora no lugar do cacau e do azeite. A polpa do grão e a outra metade do purê vão ao forno, em crackers. Porção estimada: 1/4 do creme e 1/4 dos crackers.",
+        "rendimento": "Creme para cerca de 4 porções (estimativa; a descrição não informa o rendimento) e crackers com a polpa (número de discos não informado)",
+        "porcoes": 4,
+        "porcao": "1/4 do creme e 1/4 dos crackers (estimativa)",
+        "ingredientes": [
+          {
+            "titulo": "Creme",
+            "itens": [
+              "1 xícara de grão-de-bico seco (200 g)",
+              "Água: 3⅓ xícaras (800 ml)",
+              "Metade do purê de abóbora (cerca de 150 g)",
+              "1 colher de sopa de xarope de agave (opcional)"
+            ]
+          },
+          {
+            "titulo": "Abóbora",
+            "itens": [
+              "1 abóbora pequena (cerca de 500 g), descascada, assada até ficar macia e amassada"
+            ]
+          },
+          {
+            "titulo": "Crackers",
+            "itens": [
+              "Polpa do grão-de-bico reservada depois de bater",
+              "A outra metade do purê de abóbora (cerca de 150 g)",
+              "2 colheres de sopa de sementes de linhaça (cerca de 20 g; estimativa)",
+              "1 colher de sopa de azeite (cerca de 13 g; estimativa)",
+              "1 colher de sopa de gergelim (cerca de 10 g; estimativa)",
+              "Uma pitada de sal"
+            ]
+          },
+          {
+            "titulo": "Para finalizar",
+            "itens": [
+              "Leite de coco em pó para polvilhar (quantidade não informada)"
+            ]
+          }
+        ],
+        "preparo": [
+          "Deixe o grão-de-bico seco de molho de um dia para o outro. Escorra e enxágue bem.",
+          "Bata o grão com a água até ficar liso. Reserve a polpa.",
+          "Descasque a abóbora e asse até ficar macia. A tela não diz temperatura nem tempo. Amasse bem.",
+          "Junte ao líquido metade do purê (cerca de 150 g) e, se quiser, o xarope de agave. Cozinhe 10 minutos.",
+          "Leve à geladeira por pelo menos 3 horas, até firmar. Se quiser, polvilhe leite de coco em pó.",
+          "Misture a polpa reservada com a outra metade do purê, a linhaça, o azeite, o gergelim e a pitada de sal.",
+          "Com as mãos molhadas, modele círculos finos. Quanto mais finos, mais crocantes. Asse a 160 °C (320 °F) por 35 minutos."
+        ],
+        "dicas": [
+          "É variação da sobremesa de grão-de-bico e cacau do mesmo canal: a base é o grão seco batido com água, cozido 10 minutos e firmado na geladeira. Aqui o cacau e o azeite do creme saem; entra a abóbora. A polpa, que na outra ficha fica de fora, vira crackers.",
+          "O título da coleção fala em sem açúcar e sem farinha. Esta versão não leva farinha. O agave é opcional e está na descrição, então a ficha não usa a etiqueta de sem açúcar.",
+          "A descrição escreve «2 tbsp flax seeds» duas vezes. A tela lista a linhaça uma vez. A ficha fica com 2 colheres de sopa.",
+          "A pitada de sal fica como está, sem conversão em gramas. O leite de coco em pó não tem quantidade e não entra na lista escrita."
+        ],
+        "conservacao": {
+          "ambiente": "O creme não deve ficar mais de 2 horas fora da geladeira (aprox.): o grão cozido é perecível e só firma no frio. Os crackers, se ficarem bem secos, aguentam até 3 dias em pote fechado em local fresco (aprox.).",
+          "geladeira": "Creme até 4 dias em pote fechado (aprox.). A página pede pelo menos 3 horas na geladeira antes de servir. Crackers úmidos, até 3 dias.",
+          "congelador": "Creme até 1 mês, em porções (aprox.); a textura pode soltar água. Crackers assados até 1 mês, separados por papel. Volte tudo à geladeira."
+        },
+        "fonte": {
+          "url": "https://www.youtube.com/watch?v=fEm-T-PXYvU",
+          "texto": "Assistir ao vídeo original",
+          "canal": "Selesta",
+          "tituloOriginal": "Chickpea Dessert That Will Shock You! Just Add Pumpkin! So Delicious!",
+          "duracao": "8:20"
+        },
+        "baseNutricional": {
+          "grao_farinha": 200,
+          "abobora": 300,
+          "linhaca": 20,
+          "azeite": 13,
+          "gergelim": 10
+        },
+        "notaNutricional": "A divisão por 4 reparte o creme e os crackers juntos; não é só uma tigela do creme. Grão-de-bico seco, 200 g, na chave grao_farinha: a polpa sai do creme e entra nos crackers, então os 200 g continuam na comida. Abóbora, 300 g, soma as duas metades de purê (cerca de 150 g cada); a chave é abóbora cabotian crua e o purê é assado. A abóbora inteira da tela, cerca de 500 g, inclui o que se perde ao descascar e ao assar. Linhaça 2 colheres de sopa ≈ 20 g, azeite 1 colher de sopa ≈ 13 g e gergelim 1 colher de sopa ≈ 10 g são estimativas. Agave, sal, água e leite de coco em pó não entram: o agave não está na tabela e o pó não tem quantidade."
+      }
+    ]
   },
   {
     "id": "ervilhas-ovos",
